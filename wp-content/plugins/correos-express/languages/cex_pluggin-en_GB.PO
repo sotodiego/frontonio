@@ -1,0 +1,2659 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2022-03-08 13:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#: class_correosexpress.php:185
+#, php-format
+msgid ""
+"Correos Express requiere que WooCommerce este instalado y activo. Puedes "
+"descargar %s aqu&iacute;."
+msgstr ""
+"Correos Express requires WooCommerce to be installed and active. You can "
+"download %s here."
+
+#: class_correosexpress.php:357
+msgid "CEX Opciones"
+msgstr "CEX Options"
+
+#: class_correosexpress.php:389
+msgid "CEX Ajustes"
+msgstr "CEX Settings"
+
+#: class_correosexpress.php:390
+msgid "Ajustes"
+msgstr "Settings"
+
+#: class_correosexpress.php:401
+msgid "CEX Utilidades"
+msgstr "CEX Utilities"
+
+#: class_correosexpress.php:402 views/templates/utilidades.php:26
+msgid "Utilidades"
+msgstr "Utilities"
+
+#: class_correosexpress.php:436 class_correosexpress.php:479
+msgid "En curso cex"
+msgstr "Sending Cex"
+
+#: class_correosexpress.php:441
+#, php-format
+msgid "En curso cex <span class=\"count\">(%s)</span>"
+msgid_plural "En curso cex <span class=\"count\">(%s)</span>"
+msgstr[0] "Sending Cex <span class=\"count\">(%s)</span>"
+msgstr[1] "Sending Cex <span class=\"count\">(%s)</span>"
+
+#: class_correosexpress.php:444 class_correosexpress.php:485
+msgid "Anulado cex"
+msgstr "Cancelled Cex"
+
+#: class_correosexpress.php:449
+#, php-format
+msgid "Anulado cex <span class=\"count\">(%s)</span>"
+msgid_plural "Anulado cex <span class=\"count\">(%s)</span>"
+msgstr[0] "Cancelled Cex <span class=\"count\">(%s)</span>"
+msgstr[1] "Cancelled Cex <span class=\"count\">(%s)</span>"
+
+#: class_correosexpress.php:452 class_correosexpress.php:488
+msgid "Devuelto cex"
+msgstr "Returned Cex"
+
+#: class_correosexpress.php:457
+#, php-format
+msgid "Devuelto cex <span class=\"count\">(%s)</span>"
+msgid_plural "Entregado cex <span class=\"count\">(%s)</span>"
+msgstr[0] "Returned Cex <span class=\"count\">(%s)</span>"
+msgstr[1] "Returned Cex <span class=\"count\">(%s)</span>"
+
+#: class_correosexpress.php:460 class_correosexpress.php:482
+msgid "Entregado cex"
+msgstr "Delivered Cex"
+
+#: class_correosexpress.php:465
+#, php-format
+msgid "Entregado cex <span class=\"count\">(%s)</span>"
+msgid_plural "Entregado cex <span class=\"count\">(%s)</span>"
+msgstr[0] "Delivered Cex <span class=\"count\">(%s)</span>"
+msgstr[1] "Delivered Cex <span class=\"count\">(%s)</span>"
+
+#: class_correosexpress.php:516
+msgid "Registro Env&iacute;o Correos Express"
+msgstr "Correos Express shipping registration"
+
+#: class_correosexpress.php:527
+msgid "Hist&oacute;rico Env&iacute;o Correos Express"
+msgstr "Correos Express historical shipping"
+
+#: class_correosexpress.php:545
+msgid "Manual interactivo Grabaci&oacute;n del pedido"
+msgstr "Shipment record interactive manual"
+
+#: class_correosexpress.php:551 views/templates/formulario_ajustes.php:34
+#: views/templates/formulario_ajustes.php:58
+#: views/templates/formulario_ajustes.php:76 views/templates/utilidades.php:45
+#: views/templates/utilidades.php:63 views/templates/utilidades.php:81
+msgid "Activar / Desactivar"
+msgstr "Enable / Disable"
+
+#: class_correosexpress.php:555 views/templates/formulario_ajustes.php:29
+#: views/templates/formulario_ajustes.php:36
+#: views/templates/formulario_ajustes.php:61
+#: views/templates/formulario_ajustes.php:79 views/templates/utilidades.php:49
+#: views/templates/utilidades.php:67 views/templates/utilidades.php:85
+msgid "Manual interactivo"
+msgstr "Interactive manual"
+
+#: class_correosexpress.php:757
+msgid "tarea cex"
+msgstr "task cex"
+
+#: class_correosexpress.php:827
+msgid "Oficina"
+msgstr "Office"
+
+#: class_correosexpress.php:940 views/templates/formulario_ajustes.php:119
+#: views/templates/formulario_ajustes.php:124
+#: views/templates/formulario_ajustes.php:171
+#: views/templates/formulario_ajustes.php:2647
+msgid "C&oacute;digo cliente"
+msgstr "Client Code"
+
+#: class_correosexpress.php:941
+msgid "C&oacute;digo solicitante"
+msgstr "Applicant code"
+
+#: class_correosexpress.php:988
+msgid "No hay c&oacute;digos de cliente disponibles"
+msgstr "No codes available"
+
+#: class_correosexpress.php:1038 class_correosexpress.php:1044
+msgid "Crear c&oacute;digo de cliente"
+msgstr "Create client code"
+
+#: class_correosexpress.php:1039
+#, php-format
+msgid "El c&oacute;digo %s se ha agregado correctamente"
+msgstr "The code %s has been added successfully"
+
+#: class_correosexpress.php:1045
+#, php-format
+msgid "El c&oacute;digo %s no se ha podido crear"
+msgstr "The code %s couldn't be created"
+
+#: class_correosexpress.php:1087 class_correosexpress.php:1095
+#: views/templates/formulario_ajustes.php:2599
+msgid "Actualizar c&oacute;digo de cliente"
+msgstr "Update client code"
+
+#: class_correosexpress.php:1089
+#, php-format
+msgid "El c&oacute;digo de cliente %s se ha actualizado correctamente"
+msgstr "The client code %s has been updated successfully"
+
+#: class_correosexpress.php:1097
+#, php-format
+msgid "El c&oacute;digo de cliente %s no ha sido actualizado"
+msgstr "The client code %s couldn't be created"
+
+#: class_correosexpress.php:1134 class_correosexpress.php:1140
+msgid "Borrar c&oacute;digo de cliente"
+msgstr "Delete client code"
+
+#: class_correosexpress.php:1135
+msgid ""
+"El c&oacute;digo de cliente y los remitentes asociados han sido borrado "
+"correctamente"
+msgstr "The client code and associated senders have been successfully deleted"
+
+#: class_correosexpress.php:1141
+msgid "El c&oacute;digo no podido ser borrado"
+msgstr "The client code couldn't be deleted"
+
+#: class_correosexpress.php:1192 views/templates/formulario_ajustes.php:374
+msgid "No hay remitentes dados de alta"
+msgstr "No senders registered"
+
+#: class_correosexpress.php:1208
+msgid "Seleccionar remitente por defecto "
+msgstr "Select default sender "
+
+#: class_correosexpress.php:1233 views/templates/template_order.php:979
+#: woocommerce/checkout/review-order.php:296
+msgid "Nombre"
+msgstr "Name"
+
+#: class_correosexpress.php:1234
+msgid "Cod. Cli."
+msgstr "Cli. Cod."
+
+#: class_correosexpress.php:1235 views/templates/template_order.php:103
+#: views/templates/template_order.php:978
+#: woocommerce/checkout/review-order.php:295
+msgid "Direcci&oacute;n"
+msgstr "Address"
+
+#: class_correosexpress.php:1236 views/templates/template_order.php:977
+#: woocommerce/checkout/review-order.php:294
+msgid "CP"
+msgstr "ZIP"
+
+#: class_correosexpress.php:1237 views/templates/template_order.php:112
+msgid "Ciudad"
+msgstr "City"
+
+#: class_correosexpress.php:1238 views/templates/formulario_ajustes.php:238
+#: views/templates/formulario_ajustes.php:2709
+msgid "Pa&iacute;s"
+msgstr "Country"
+
+#: class_correosexpress.php:1239
+msgid "Contacto"
+msgstr "Contact"
+
+#: class_correosexpress.php:1240 views/templates/formulario_ajustes.php:252
+#: views/templates/formulario_ajustes.php:257
+#: views/templates/formulario_ajustes.php:2720
+#: views/templates/formulario_ajustes.php:2725
+#: views/templates/template_order.php:123
+msgid "Tel&eacute;fono"
+msgstr "Phone"
+
+#: class_correosexpress.php:1241
+msgid "Email"
+msgstr "Email"
+
+#: class_correosexpress.php:1242 views/templates/formulario_ajustes.php:283
+#: views/templates/formulario_ajustes.php:2742
+msgid "Desde"
+msgstr "From"
+
+#: class_correosexpress.php:1243 views/templates/formulario_ajustes.php:311
+#: views/templates/formulario_ajustes.php:2770
+msgid "Hasta"
+msgstr "To"
+
+#: class_correosexpress.php:1342 class_correosexpress.php:1349
+msgid "Crear remitente"
+msgstr "Create sender"
+
+#: class_correosexpress.php:1343
+#, php-format
+msgid "El remitente  %s se ha agregado correctamente"
+msgstr "The sender %s was added successfully"
+
+#: class_correosexpress.php:1350
+#, php-format
+msgid "El remitente  %s no se ha podido crear"
+msgstr "The sender %s couldn't be created"
+
+#: class_correosexpress.php:1434 class_correosexpress.php:1441
+#: views/templates/formulario_ajustes.php:2635
+msgid "Actualizar remitente"
+msgstr "Update sender"
+
+#: class_correosexpress.php:1436
+#, php-format
+msgid "Los datos de %s se han actualizado correctamente"
+msgstr "The data from %s has been updated successfully"
+
+#: class_correosexpress.php:1442
+#, php-format
+msgid "Los datos de  %s no ha sido actualizado"
+msgstr "The data from %s couldn't be updated"
+
+#: class_correosexpress.php:1476 class_correosexpress.php:1482
+#: class_correosexpress.php:1489 class_correosexpress.php:1496
+msgid "Borrar remitente"
+msgstr "Delete sender"
+
+#: class_correosexpress.php:1477
+msgid ""
+"El remitente ha sido borrado correctamente. Ahora no tiene remitentes por "
+"defecto"
+msgstr ""
+"The sender has been successfully deleted. Now it has no default senders"
+
+#: class_correosexpress.php:1483 class_correosexpress.php:1490
+msgid "El remitente ha sido borrado correctamente"
+msgstr "The sender was deleted"
+
+#: class_correosexpress.php:1497
+msgid "El remitente no ha podido ser borrado"
+msgstr "The sender couldn't be deleted"
+
+#: class_correosexpress.php:1523 class_correosexpress.php:1529
+msgid "Actualizar remitente defecto"
+msgstr "Update default sender"
+
+#: class_correosexpress.php:1524
+msgid "El remitente por defecto se ha actualizado correctamente"
+msgstr "The default sender has been updated"
+
+#: class_correosexpress.php:1530
+msgid "El remitente por defecto no es v&aacute;lido"
+msgstr "The default sender is invalid"
+
+#: class_correosexpress.php:1536 class_correosexpress.php:1713
+#: class_correosexpress.php:1732 class_correosexpress.php:1742
+#: class_correosexpress.php:1766 class_correosexpress.php:1804
+#: class_correosexpress.php:1810 class_correosexpress.php:1817
+#: class_correosexpress.php:1879 class_correosexpress.php:1885
+msgid "Actualizar configuraci&oacute;n de usuario"
+msgstr "Update user settings"
+
+#: class_correosexpress.php:1537
+msgid "No se ha podido establecer el remitente por defecto"
+msgstr "Default sender couldn't be saved"
+
+#: class_correosexpress.php:1658 class_correosexpress.php:1664
+#: class_correosexpress.php:1671 class_correosexpress.php:1692
+msgid "Actualizar datos del usuario"
+msgstr "Update user settings"
+
+#: class_correosexpress.php:1659 class_correosexpress.php:1805
+#: class_correosexpress.php:1880 class_correosexpress.php:2261
+msgid "Los datos se han actualizado correctamente"
+msgstr "The data has been updated successfully"
+
+#: class_correosexpress.php:1665 class_correosexpress.php:1811
+#: class_correosexpress.php:1886
+msgid "Los datos no han sido modificados"
+msgstr "The data couldn't be updated"
+
+#: class_correosexpress.php:1672
+msgid "Los datos no han sido guardados"
+msgstr "The data has not been saved"
+
+#: class_correosexpress.php:1693
+msgid "Logo para las etiquetas guardado"
+msgstr "Logo for labels saved"
+
+#: class_correosexpress.php:1714 views/templates/formulario_ajustes.php:1221
+msgid "El logo es demasiado grande, debe ser menor de 400 kB"
+msgstr "The logo is too large, it must be less than 400 kB"
+
+#: class_correosexpress.php:1733
+msgid "Formato Inv&aacute;lido (JPG/PNG)"
+msgstr "Invalid format (JPG/PNG)"
+
+#: class_correosexpress.php:1743
+msgid "Es obligatorio subir un archivo"
+msgstr "Upload a file is required"
+
+#: class_correosexpress.php:1767
+msgid "Imagen eliminada"
+msgstr "Deleted image"
+
+#: class_correosexpress.php:1818
+msgid "N&uacute;mero de bultos no permitido"
+msgstr "Package number not allowed"
+
+#: class_correosexpress.php:1984 class_correosexpress.php:1990
+#: views/templates/formulario_ajustes.php:988
+msgid "Guardar productos"
+msgstr "Save products"
+
+#: class_correosexpress.php:1985
+msgid "Los productos se han actualizado correctamente"
+msgstr "The products has been updated successfully"
+
+#: class_correosexpress.php:1991
+msgid "Los productos no se han actualizado"
+msgstr "The products couldn't be updated"
+
+#: class_correosexpress.php:2014
+msgid "Selecciona un estado"
+msgstr "Select Status"
+
+#: class_correosexpress.php:2044 class_correosexpress.php:2090
+#: class_correosexpress.php:3776
+msgid "No hay productos CEX activos"
+msgstr "There aren't active CEX products"
+
+#: class_correosexpress.php:2048 class_correosexpress.php:2094
+msgid "No corresponde a productos CEX"
+msgstr "It doesn't correspond to any CEX products"
+
+#: class_correosexpress.php:2124
+msgid "Las zonas se listan por <strong>orden de preferencia de uso.</strong>"
+msgstr "The zones are listed by <strong> order of preference of use.</strong>"
+
+#: class_correosexpress.php:2125
+msgid ""
+"Si hay varias zonas con un valor de 0 en el orden, el orden de preferencia "
+"es de arriba a abajo."
+msgstr ""
+"If there are several zones with a value of 0 in the order, the order of "
+"preference is from top to bottom."
+
+#: class_correosexpress.php:2142
+msgid "Orden:"
+msgstr "Order:"
+
+#: class_correosexpress.php:2142 class_correosexpress.php:2194
+msgid "Zona:"
+msgstr "Zone:"
+
+#: class_correosexpress.php:2166
+msgid "Orden: Otras zonas"
+msgstr "Order: Other zones"
+
+#: class_correosexpress.php:2166
+msgid "Zona: Otras zonas"
+msgstr "Zone: Other zones"
+
+#: class_correosexpress.php:2194
+msgid "Orden: Extra"
+msgstr "Order: Extra"
+
+#: class_correosexpress.php:2198
+msgid "Transportistas Advanced Free Shipping"
+msgstr "Advanced Free Shipping Carriers"
+
+#: class_correosexpress.php:2260 class_correosexpress.php:2266
+msgid "Guardar zonas de env&iacute;o y transportistas"
+msgstr "Save shipping zones and carriers"
+
+#: class_correosexpress.php:2267
+msgid "Los datos no se han actualizado"
+msgstr "The data couldn't be updated"
+
+#: class_correosexpress.php:2288 views/templates/formulario_ajustes.php:564
+msgid "Ninguno"
+msgstr "None"
+
+#: class_correosexpress.php:2647
+msgid "La recogida ser&aacute; autom&aacute;tica"
+msgstr "The pickup will be automatic"
+
+#: class_correosexpress.php:2655
+msgid ""
+"Error [PSDBE] al guardar la recogida, referencia duplicada en la BD [SAVED]. "
+"Cambie la referencia y vuelva a intentarlo "
+msgstr ""
+"Error [PSDBE] when saving the collection, duplicate reference in the BD "
+"[SAVED]. Change the reference and try again "
+
+#: class_correosexpress.php:2696 class_correosexpress.php:2791
+#: class_correosexpress.php:2884 class_correosexpress.php:2978
+msgid "Ya puede hacer seguimiento de su pedido con referencia "
+msgstr "You can now follow your order with reference "
+
+#: class_correosexpress.php:2697 class_correosexpress.php:2792
+#: class_correosexpress.php:2885 class_correosexpress.php:2979
+msgid "aqui"
+msgstr "here"
+
+#: class_correosexpress.php:2706 class_correosexpress.php:2804
+msgid ""
+"Error [PSDBE] al guardar el env&iacute;o, referencia duplicada en la BD "
+"[SAVED]. Cambie la referencia y vuelva a intentarlo "
+msgstr ""
+"Error [PSDBE] when saving the shipment, duplicate reference in the BD "
+"[SAVED]. Change the reference and try again "
+
+#: class_correosexpress.php:2901 class_correosexpress.php:3005
+msgid "Modificada relaci&ooacute;n transportista, se asigna PAQ 24"
+msgstr "Carrier relationship modified, PAQ 24 assigned"
+
+#: class_correosexpress.php:2910 class_correosexpress.php:3014
+msgid "Modificados productos configurados, se asigna y a&ntilde;ade PAQ 24"
+msgstr "Configured products modified, PAQ 24 added and assigned"
+
+#: class_correosexpress.php:2924 class_correosexpress.php:3028
+msgid ""
+"Error [PSDBE] al guardar el envio, referencia duplicada en la BD [SAVED]. "
+"Cambie la referencia y vuelva a intentarlo "
+msgstr ""
+"Error [PSDBE] when saving the shipment, duplicate reference in the BD "
+"[SAVED]. Change the reference and try again"
+
+#: class_correosexpress.php:2990
+msgid "Error no hay guardado ningún remitente por defecto"
+msgstr "Save default sender"
+
+#: class_correosexpress.php:3937 class_correosexpress.php:3951
+msgid "Seguimiento"
+msgstr "Tracking"
+
+#: class_correosexpress.php:3938 class_correosexpress.php:3952
+msgid "Fecha"
+msgstr "Date"
+
+#: class_correosexpress.php:3939 class_correosexpress.php:3953
+msgid "Ref.Pedido"
+msgstr "Order Ref"
+
+#: class_correosexpress.php:3940 class_correosexpress.php:3954
+msgid "Tipo"
+msgstr "Type"
+
+#: class_correosexpress.php:3941 class_correosexpress.php:3955
+msgid "Identificador"
+msgstr "Identificator"
+
+#: class_correosexpress.php:3942 class_correosexpress.php:3956
+msgid "Recogida desde"
+msgstr "Pickup from"
+
+#: class_correosexpress.php:3943 class_correosexpress.php:3957
+msgid "Fecha de Recogida"
+msgstr "date of pick-up"
+
+#: class_correosexpress.php:3944 class_correosexpress.php:3958
+msgid "Hora Recogida desde"
+msgstr "pick-up time from"
+
+#: class_correosexpress.php:3945 class_correosexpress.php:3959
+msgid "Hora Recogida hasta"
+msgstr "pick-up time to"
+
+#: class_correosexpress.php:3946 class_correosexpress.php:3960
+msgid "Estado"
+msgstr "Status"
+
+#: class_correosexpress.php:3947 class_correosexpress.php:3961
+msgid "Acciones"
+msgstr "Actions"
+
+#: class_correosexpress.php:3972
+msgid "Correos Express"
+msgstr "CorreosExpress"
+
+#: class_correosexpress.php:3982
+msgid "Eliminar seguimiento"
+msgstr "Remove tracking"
+
+#: class_correosexpress.php:4111
+msgid "No configurado"
+msgstr "Not configured"
+
+#: class_correosexpress.php:4112
+msgid "No hay m&eacute;todos mapeados"
+msgstr "No methods mapped"
+
+#: class_correosexpress.php:4394 lib/rest.php:1384
+msgid "La recogida "
+msgstr "Pick-up"
+
+#: class_correosexpress.php:4409
+msgid "La grabacion con numero: "
+msgstr "recording with number:"
+
+#: lib/rest.php:1028 lib/rest.php:1036 lib/rest.php:1052
+msgid "Error Validar Credenciales"
+msgstr "Validate Credentials"
+
+#: lib/rest.php:1029 lib/rest.php:1053
+msgid "Servicio temporalmente no disponible, inténtelo más tarde"
+msgstr "Service temporarily unavailable, please try again later"
+
+#: lib/rest.php:1030 lib/rest.php:1038 lib/rest.php:1054
+msgid "error"
+msgstr "error"
+
+#: lib/rest.php:1037
+msgid "Las credenciales son incorrectas"
+msgstr "The credentials are wrong"
+
+#: lib/rest.php:1044
+msgid "Credenciales correctas"
+msgstr "Correct credentials"
+
+#: lib/rest.php:1045
+msgid "Guarde sus credenciales en un lugar seguro"
+msgstr "Keep your credentials in a safe place"
+
+#: lib/rest.php:1046
+msgid "success"
+msgstr "success"
+
+#: lib/rest.php:1257
+msgid "La petición con referencia: "
+msgstr "The request with reference:"
+
+#: lib/rest.php:1258
+msgid " ha sido borrada correctamente"
+msgstr " has been deleted successfully"
+
+#: views/templates/formulario_ajustes.php:16
+msgid "Configuraci&oacute;n"
+msgstr "Configuration"
+
+#: views/templates/formulario_ajustes.php:42
+msgid "Soporte Rápido"
+msgstr "Quick Support"
+
+#: views/templates/formulario_ajustes.php:52
+msgid "Manual Edici&oacute;n C&oacute;digo Cliente"
+msgstr "Manual for edit customer code"
+
+#: views/templates/formulario_ajustes.php:70
+msgid "Manual Edici&oacute;n Remitente"
+msgstr "Edit sender manual"
+
+#: views/templates/formulario_ajustes.php:100
+msgid "GESTIONAR C&Oacute;DIGOS DE CLIENTE"
+msgstr "MANAGE CUSTOMER CODES"
+
+#: views/templates/formulario_ajustes.php:131
+msgid "A&ntilde;adir c&oacute;digos"
+msgstr "Add codes"
+
+#: views/templates/formulario_ajustes.php:153
+msgid "REMITENTES"
+msgstr "SENDERS"
+
+#: views/templates/formulario_ajustes.php:184
+#: views/templates/formulario_ajustes.php:189
+#: views/templates/formulario_ajustes.php:2657
+#: views/templates/formulario_ajustes.php:2661
+#: views/templates/template_order.php:28 views/templates/template_order.php:30
+msgid "Nombre remitente"
+msgstr "Sender name"
+
+#: views/templates/formulario_ajustes.php:195
+#: views/templates/formulario_ajustes.php:199
+#: views/templates/formulario_ajustes.php:2667
+#: views/templates/formulario_ajustes.php:2671
+#: views/templates/template_order.php:33 views/templates/template_order.php:35
+#: views/templates/template_order.php:96 views/templates/template_order.php:98
+msgid "Persona contacto"
+msgstr "Contact"
+
+#: views/templates/formulario_ajustes.php:205
+#: views/templates/formulario_ajustes.php:210
+#: views/templates/formulario_ajustes.php:2677
+#: views/templates/formulario_ajustes.php:2681
+#: views/templates/template_order.php:38 views/templates/template_order.php:40
+msgid "Direcci&oacute;n recogida"
+msgstr "Pickup address"
+
+#: views/templates/formulario_ajustes.php:216
+#: views/templates/formulario_ajustes.php:220
+#: views/templates/formulario_ajustes.php:2687
+#: views/templates/formulario_ajustes.php:2691
+#: views/templates/template_order.php:50 views/templates/template_order.php:310
+#: views/templates/template_order.php:980
+#: woocommerce/checkout/review-order.php:244
+#: woocommerce/checkout/review-order.php:297
+msgid "Poblaci&oacute;n"
+msgstr "City"
+
+#: views/templates/formulario_ajustes.php:227
+#: views/templates/formulario_ajustes.php:232
+#: views/templates/formulario_ajustes.php:2697
+#: views/templates/formulario_ajustes.php:2701
+#: views/templates/template_order.php:306
+#: woocommerce/checkout/review-order.php:241
+msgid "C&oacute;digo Postal"
+msgstr "ZIP Code"
+
+#: views/templates/formulario_ajustes.php:242
+#: views/templates/formulario_ajustes.php:2713
+msgid "España"
+msgstr "Spain"
+
+#: views/templates/formulario_ajustes.php:245
+#: views/templates/formulario_ajustes.php:2714
+msgid "Portugal"
+msgstr "Portugal"
+
+#: views/templates/formulario_ajustes.php:263
+#: views/templates/formulario_ajustes.php:268
+#: views/templates/formulario_ajustes.php:2731
+#: views/templates/formulario_ajustes.php:2735
+msgid "Correo electr&oacute;nico"
+msgstr "Email"
+
+#: views/templates/formulario_ajustes.php:275
+msgid ""
+"Para guardar los datos del remitente, primero hay que a&ntilde;adir un "
+"c&oacute;digo de cliente."
+msgstr "To save the sender's data, you must first add a client code."
+
+#: views/templates/formulario_ajustes.php:289
+#: views/templates/formulario_ajustes.php:317
+#: views/templates/formulario_ajustes.php:2748
+#: views/templates/formulario_ajustes.php:2776
+msgid "Hora"
+msgstr "Hour"
+
+#: views/templates/formulario_ajustes.php:297
+#: views/templates/formulario_ajustes.php:326
+#: views/templates/formulario_ajustes.php:2756
+#: views/templates/formulario_ajustes.php:2784
+msgid "Minutos"
+msgstr "Minutes"
+
+#: views/templates/formulario_ajustes.php:342
+msgid "Necesitas  tener códigos de remitente"
+msgstr "You need to have sender codes"
+
+#: views/templates/formulario_ajustes.php:344
+#: views/templates/formulario_ajustes.php:2617
+#: views/templates/formulario_ajustes.php:2802
+msgid "Guardar"
+msgstr "Save"
+
+#: views/templates/formulario_ajustes.php:349
+msgid "Cancelar"
+msgstr "Cancel"
+
+#: views/templates/formulario_ajustes.php:367
+msgid "Remitente por defecto"
+msgstr "Default sender"
+
+#: views/templates/formulario_ajustes.php:384
+msgid "Guardar Remitente por defecto"
+msgstr "Save default sender"
+
+#: views/templates/formulario_ajustes.php:400
+msgid "CONFIGURACI&Oacute;N DE USUARIO"
+msgstr "USER CONFIGURATION"
+
+#: views/templates/formulario_ajustes.php:417
+#: views/templates/formulario_ajustes.php:421
+msgid "Usuario"
+msgstr "User"
+
+#: views/templates/formulario_ajustes.php:430
+#: views/templates/formulario_ajustes.php:434
+msgid "Password"
+msgstr "Password"
+
+#: views/templates/formulario_ajustes.php:444
+msgid "Guardar Credenciales"
+msgstr "Save Credentials"
+
+#: views/templates/formulario_ajustes.php:446
+msgid "Editar Credenciales"
+msgstr "Edit Credentials"
+
+#: views/templates/formulario_ajustes.php:513
+msgid "Bultos por defecto"
+msgstr "Default package"
+
+#: views/templates/formulario_ajustes.php:517
+#: views/templates/template_order.php:217
+msgid "N&uacute;mero de bultos por defecto"
+msgstr "Number of packages by default"
+
+#: views/templates/formulario_ajustes.php:525
+msgid "Tipo de etiqueta por defecto"
+msgstr "Default label type"
+
+#: views/templates/formulario_ajustes.php:529
+#: views/templates/template_order.php:261 views/templates/utilidades.php:200
+#: views/templates/utilidades.php:302
+msgid "Adhesiva"
+msgstr "Sticky"
+
+#: views/templates/formulario_ajustes.php:531
+#: views/templates/utilidades.php:202 views/templates/utilidades.php:304
+msgid "Medio Folio"
+msgstr "Half-sheet"
+
+#: views/templates/formulario_ajustes.php:534
+#: views/templates/template_order.php:263 views/templates/utilidades.php:307
+msgid "T&eacute;rmica"
+msgstr "Thermic"
+
+#: views/templates/formulario_ajustes.php:543
+msgid "Datos de env&iacute;o para la etiqueta"
+msgstr "Shipping data for the label"
+
+#: views/templates/formulario_ajustes.php:548
+msgid "Env&iacute;o"
+msgstr "Shipping"
+
+#: views/templates/formulario_ajustes.php:551
+msgid "Facturaci&oacute;n"
+msgstr "Billing"
+
+#: views/templates/formulario_ajustes.php:560
+msgid "M&eacute;todo de pago contrareembolso"
+msgstr "Payment method for cash on delivery"
+
+#: views/templates/formulario_ajustes.php:567
+msgid "Pagos por cheque"
+msgstr "Payments by bank draft"
+
+#: views/templates/formulario_ajustes.php:569
+msgid "Pagos por transferencia bancaria"
+msgstr "Payments by bank transfer"
+
+#: views/templates/formulario_ajustes.php:590
+msgid "Activar la generación de archivos de log"
+msgstr "Enable the generation of log files"
+
+#: views/templates/formulario_ajustes.php:608
+msgid "Activar enlace de seguimiento en el historial de compras del cliente"
+msgstr "Enable tracking link in customer's purchase history"
+
+#: views/templates/formulario_ajustes.php:627
+msgid "Texto alternativo del remitente"
+msgstr "Alternative sender text"
+
+#: views/templates/formulario_ajustes.php:634
+msgid "Texto alternativo etiqueta"
+msgstr "Alternative text label"
+
+#: views/templates/formulario_ajustes.php:638
+msgid "texto alternativo"
+msgstr "Alternative text"
+
+#: views/templates/formulario_ajustes.php:656
+#: views/templates/formulario_ajustes.php:657
+msgid "Activar peso por defecto"
+msgstr "Enable default weight"
+
+#: views/templates/formulario_ajustes.php:664
+msgid "Peso por defecto "
+msgstr "Default weight "
+
+#: views/templates/formulario_ajustes.php:682
+msgid "Información legal pertinente a mostrar"
+msgstr "Relevant legal information to show"
+
+#: views/templates/formulario_ajustes.php:688
+msgid "Acepto alterar la referencia de los productos en los envios."
+msgstr "I agree to alter the reference of the products in the shipments."
+
+#: views/templates/formulario_ajustes.php:689
+msgid "Acepto alterar la referencia de los productos en los envios"
+msgstr "I agree to alter the reference of the products in the shipments"
+
+#: views/templates/formulario_ajustes.php:696
+msgid "Datos a mostrar en etiqueta"
+msgstr "Data to show on label"
+
+#: views/templates/formulario_ajustes.php:701
+#: views/templates/utilidades.php:438 views/templates/utilidades.php:474
+#: views/templates/utilidades.php:886 views/templates/utilidades.php:900
+#: views/templates/utilidades.php:1271 views/templates/utilidades.php:1279
+#: views/templates/utilidades.php:1327 views/templates/utilidades.php:1335
+msgid "ID"
+msgstr "ID"
+
+#: views/templates/formulario_ajustes.php:702
+msgid "NOMBRE"
+msgstr "NAME"
+
+#: views/templates/formulario_ajustes.php:703
+msgid "VAC&Iacute;O"
+msgstr "EMPTY"
+
+#: views/templates/formulario_ajustes.php:704
+msgid "SKU"
+msgstr "SKU"
+
+#: views/templates/formulario_ajustes.php:717
+msgid "Referencias para las ordenes"
+msgstr "References for orders"
+
+#: views/templates/formulario_ajustes.php:738
+#: views/templates/formulario_ajustes.php:739
+msgid "Cambiar Logo de las Etiquetas"
+msgstr "Change Label Logo"
+
+#: views/templates/formulario_ajustes.php:755
+msgid "Cambiar Imagen"
+msgstr "Change image"
+
+#: views/templates/formulario_ajustes.php:758
+msgid "Eliminar Imagen"
+msgstr "Delete image"
+
+#: views/templates/formulario_ajustes.php:773
+msgid "Guardar datos de cliente"
+msgstr "Save client data"
+
+#: views/templates/formulario_ajustes.php:789
+msgid "OPCIONES CRON"
+msgstr "CRON OPTIONS"
+
+#: views/templates/formulario_ajustes.php:815
+#: views/templates/formulario_ajustes.php:816
+msgid "Activar cambio de estado de la orden tras grabaci&oacute;n"
+msgstr "Activate change of order state after recording"
+
+#: views/templates/formulario_ajustes.php:826
+msgid "Estado del pedido tras la grabaci&oacute;n"
+msgstr "Order status after recording"
+
+#: views/templates/formulario_ajustes.php:850
+msgid "Activar tracking autom&aacute;tico"
+msgstr "Enable shipping tracking"
+
+#: views/templates/formulario_ajustes.php:867
+msgid "Activar cambio de estado de la orden"
+msgstr "Enable change of the order status"
+
+#: views/templates/formulario_ajustes.php:877
+msgid "Estado en curso"
+msgstr "Sending status"
+
+#: views/templates/formulario_ajustes.php:889
+msgid "Estado Entregado"
+msgstr "Delivered status"
+
+#: views/templates/formulario_ajustes.php:901
+msgid "Estado Anulado"
+msgstr "Cancelled status"
+
+#: views/templates/formulario_ajustes.php:913
+msgid "Estado Devuelto"
+msgstr "Returned status"
+
+#: views/templates/formulario_ajustes.php:926
+msgid "Tiempo de Actualización de los Estados"
+msgstr "States Update Time"
+
+#: views/templates/formulario_ajustes.php:931
+msgid ""
+"El tiempo seleccionado determina con que frecuencia se actualizan los "
+"estados de los pedidos."
+msgstr "The selected time determines how often the order statuses are updated."
+
+#: views/templates/formulario_ajustes.php:937
+msgid "Descarga de informes:"
+msgstr "Download reports:"
+
+#: views/templates/formulario_ajustes.php:938
+msgid "Cron"
+msgstr "Cron"
+
+#: views/templates/formulario_ajustes.php:939
+msgid "Órdenes"
+msgstr "Orders"
+
+#: views/templates/formulario_ajustes.php:940
+msgid "Respuesta WS"
+msgstr "WS response"
+
+#: views/templates/formulario_ajustes.php:949
+msgid "Guardar configuraci&oacute;n Cron"
+msgstr "Save Cron settings"
+
+#: views/templates/formulario_ajustes.php:965
+msgid "PRODUCTOS CEX"
+msgstr "CEX PRODUCTS"
+
+#: views/templates/formulario_ajustes.php:1003
+msgid "RELACIONAR ZONAS DE ENV&Iacute;O Y TRANSPORTISTAS"
+msgstr "ASSOCIATE SHIPPING ZONES AND CARRIERS"
+
+#: views/templates/formulario_ajustes.php:1008
+msgid "Hacer click para ver el manual de esta secci&oacute;n"
+msgstr "Click to see the manual of this section"
+
+#: views/templates/formulario_ajustes.php:1021
+msgid "Guardar relaciones de transportistas"
+msgstr "Save carriers relationships"
+
+#: views/templates/formulario_ajustes.php:1037
+msgid "SOPORTE"
+msgstr "SUPPORT"
+
+#: views/templates/formulario_ajustes.php:1042
+msgid "Hacer click para ver el manual de esta sección"
+msgstr "Click to see the manual of this section"
+
+#: views/templates/formulario_ajustes.php:1051
+msgid "Descarga de informes de las bases de datos:"
+msgstr "Download reports from databases:"
+
+#: views/templates/formulario_ajustes.php:1054
+msgid "Savedships"
+msgstr "Savedships"
+
+#: views/templates/formulario_ajustes.php:1055
+msgid "History"
+msgstr "History"
+
+#: views/templates/formulario_ajustes.php:1056
+msgid "Migrations"
+msgstr "Migrations"
+
+#: views/templates/formulario_ajustes.php:1059
+msgid "Descargar"
+msgstr "Download"
+
+#: views/templates/formulario_ajustes.php:1066
+msgid "Ejecutar actualizaciones"
+msgstr "Run updates"
+
+#: views/templates/formulario_ajustes.php:1086
+msgid ""
+"Este es la secci&oacute;n de configuraci&oacute;n para m&oacute;dulo de "
+"correos express. Es la parte mas importante de nuestro m&oacute;dulo y su "
+"correcto funcionamiento depende de ella."
+msgstr ""
+"This is the configuration section for express mail module. It is the most "
+"important part of our module and its correct functioning depends on it."
+
+#: views/templates/formulario_ajustes.php:1088
+msgid ""
+"Gesti&oacute;n de c&oacute;digo de cliente, un c&oacute;digo activo por "
+"tienda. El c&oacute;digo de cliente activo se determina mediante el "
+"“Remitente por defecto”."
+msgstr ""
+"Management of client code, one active code per store. The active client code "
+"is determined by the \"Default sender\"."
+
+#: views/templates/formulario_ajustes.php:1090
+msgid ""
+"Gesti&oacute;n de remitentes, podr&aacute;s tener todos los que quieras. La "
+"tienda tendr&aacute; solo uno activo, que se determinar&aacute; con el "
+"“Remitente por defecto”."
+msgstr ""
+"Management of senders, you can have as many as you want. The store will have "
+"only one active, which will be determined with the \"Default sender\"."
+
+#: views/templates/formulario_ajustes.php:1091
+msgid "Configuraci&oacute;n de usuario de la tienda."
+msgstr "User configuration of the shop."
+
+#: views/templates/formulario_ajustes.php:1093
+msgid ""
+"Este apartado nos permitir&aacute; configurar los cambios de estado "
+"autom&aacute;ticos para nuestros pedidos."
+msgstr ""
+"This section will allow us to configure the automatic status changes for our "
+"orders."
+
+#: views/templates/formulario_ajustes.php:1095
+msgid ""
+"Listado de los productos que tiene a su disposici&oacute;n Correos Express."
+msgstr "List of products available to Correos Express."
+
+#: views/templates/formulario_ajustes.php:1097
+msgid ""
+"Apartado en el que vincularemos los transportistas con nuestros productos."
+msgstr "Section in which we will link the carriers with our products."
+
+#: views/templates/formulario_ajustes.php:1101
+msgid ""
+"Apartado en el que guardamos las credenciales facilitadas por Correos "
+"Express. En caso de no disponer de él, pongase en contacto con Correos "
+"Express"
+msgstr ""
+"Credential provided by Correos Express. If you don't have it, contact "
+"Correos Express."
+
+#: views/templates/formulario_ajustes.php:1103
+msgid ""
+"Credencial facilitada por Correos Express. En caso de no disponer de ella, "
+"pongase en contacto con Correos Express."
+msgstr ""
+"Credential provided by Correos Express. If you don't have it, contact "
+"Correos Express."
+
+#: views/templates/formulario_ajustes.php:1104
+msgid "URL del web service de env&iacute;o."
+msgstr "Web service sending URL."
+
+#: views/templates/formulario_ajustes.php:1105
+msgid "URL del web service de recogida."
+msgstr "Web service pickup URL."
+
+#: views/templates/formulario_ajustes.php:1106
+msgid "URL del web service de seguimiento de env&iacute;o."
+msgstr "Web service tracking URL."
+
+#: views/templates/formulario_ajustes.php:1108
+msgid ""
+"Cantidad de bultos predeterminados para cada env&iacute;o, este valor "
+"podr&aacute; ser modificado m&aacute;s adelante en el detalle del pedido."
+msgstr ""
+"Quantity of predetermined packages for each shipment, this value can be "
+"modified later in the detail of the order."
+
+#: views/templates/formulario_ajustes.php:1109
+msgid "A elegir entre: Adhesiva, medio folio y t&eacute;rmica."
+msgstr "To chose between: Sticky, half page y thermic."
+
+#: views/templates/formulario_ajustes.php:1111
+msgid ""
+"La informaci&oacute;n de los clientes de la etiqueta se obtiene de una de "
+"las dos direcciones de una orden"
+msgstr ""
+"The customer information of the label is obtained from one of the two "
+"directions of an order"
+
+#: views/templates/formulario_ajustes.php:1113
+msgid ""
+"Seleccione el m&eacute;todo de pago contra reembolso en caso de que se "
+"utilice esta modalidad en caso contrario seleccione “Ninguno”."
+msgstr ""
+"Select the method of payment on delivery in case this method is used "
+"otherwise select \"None\"."
+
+#: views/templates/formulario_ajustes.php:1115
+msgid ""
+"Esta opci&oacute;n permite activar el enlace de seguimiento, en la "
+"secci&oacute;n pedidos."
+msgstr ""
+"This option allows activating the tracking link, in the orders section."
+
+#: views/templates/formulario_ajustes.php:1117
+msgid ""
+"Si marca esta opci&oacute;n, las etiquetas se generar&aacute;n sin remitente."
+msgstr ""
+"If you activate this option the labels will be generated without sender."
+
+#: views/templates/formulario_ajustes.php:1119
+msgid ""
+"Cantidad de kilos predeterminados para cada env&iacute;o, este valor "
+"podr&aacute; ser modificado m&aacute;s adelante en el detalle del pedido."
+msgstr ""
+"Quantity of predetermined kg for each shipment, this value can be modified "
+"later in the detail of the order."
+
+#: views/templates/formulario_ajustes.php:1121
+msgid "Datos a mostrar en la etiqueta."
+msgstr "Data to show on label"
+
+#: views/templates/formulario_ajustes.php:1123
+msgid "Referencias para las órdenes."
+msgstr "References for orders"
+
+#: views/templates/formulario_ajustes.php:1125
+msgid "Cambiar el logo que aparece en las etiquetas."
+msgstr "Change Label Logo"
+
+#: views/templates/formulario_ajustes.php:1127
+msgid "Bot&oacute;n para guardar nuestra configuraci&oacute;n de usuario."
+msgstr "Button to save our user configuration."
+
+#: views/templates/formulario_ajustes.php:1131
+#: views/templates/formulario_ajustes.php:1139
+msgid ""
+"Codigo entregado por Correos Express, consta de 9 d&iacute;gitos. En caso de "
+"no disponer de &eacute;l, pongase en contacto con Correos Express."
+msgstr ""
+"Code delivered by Correos Express, consists of 9 digits. If you don't have "
+"it, contact Correos Express."
+
+#: views/templates/formulario_ajustes.php:1133
+msgid ""
+"Tabla en la que se nos muestran nuestros c&oacute;digos de cliente, asi como "
+"los botones de borrado y modificaci&oacute;n del mismo."
+msgstr ""
+"Table in which we are shown our client codes, as well as the buttons for "
+"deleting and modifying it."
+
+#: views/templates/formulario_ajustes.php:1135
+#: views/templates/formulario_ajustes.php:1141
+msgid "Desde aqu&iacute; guardaremos nuestro c&oacute;digo de cliente."
+msgstr "From here we will save our client code."
+
+#: views/templates/formulario_ajustes.php:1143
+msgid ""
+"Desde aqu&iacute; cerraremos la edici&oacute;n de nuestro c&oacute;digo de "
+"cliente, sin guardar."
+msgstr ""
+"From here we will close the edition of our client code, without saving."
+
+#: views/templates/formulario_ajustes.php:1147
+msgid ""
+"Selecci&oacute;n del remitente por defecto, ir&aacute; asociado a la tienda "
+"en la que se encuentre y solo a ella. Este ser&aacute; el remitente que "
+"utilizar&aacute; la tienda en los pedidos. Es un campo obligatorio."
+msgstr ""
+"Selection of the sender by default, it will be associated with the store in "
+"which it is located and only with it. This will be the sender that the store "
+"will use in the orders. It is a mandatory field."
+
+#: views/templates/formulario_ajustes.php:1149
+msgid "Bot&oacute;n mediante el que guardaremos nuestro remitente por defecto."
+msgstr "Button that we will use to save the default sender."
+
+#: views/templates/formulario_ajustes.php:1151
+#: views/templates/formulario_ajustes.php:1170
+msgid ""
+"C&oacute;digo de cliente que se asociar&aacute; al remitente, no se puede "
+"cambiar de c&oacute;digo asociado una vez se genere el remitente."
+msgstr ""
+"Client code that are associated with the sender, can not change associated "
+"code once the sender is generated."
+
+#: views/templates/formulario_ajustes.php:1153
+msgid "Datos personales del remitente."
+msgstr "Alternative sender text"
+
+#: views/templates/formulario_ajustes.php:1155
+msgid "Intervalo de horas para la recogida."
+msgstr "Interval of hours for collection."
+
+#: views/templates/formulario_ajustes.php:1157
+#: views/templates/formulario_ajustes.php:1172
+msgid "Hora desde la que est&aacute; disponible para la recogida."
+msgstr "Time from which it is available for pickup."
+
+#: views/templates/formulario_ajustes.php:1159
+#: views/templates/formulario_ajustes.php:1174
+msgid "Hora hasta la que est&aacute; disponible para la recogida."
+msgstr "Time until which is available for pickup."
+
+#: views/templates/formulario_ajustes.php:1161
+#: views/templates/formulario_ajustes.php:1175
+msgid "Debe haber un m&iacute;nimo de dos horas de diferencia."
+msgstr "There must be a minimum of two hours apart."
+
+#: views/templates/formulario_ajustes.php:1163
+msgid "Bot&oacute;n desde el que guardaremos el remitente creado."
+msgstr "Button from which we will save the created sender."
+
+#: views/templates/formulario_ajustes.php:1164
+msgid "Reiniciaremos el formulario."
+msgstr "We will reset the form."
+
+#: views/templates/formulario_ajustes.php:1166
+msgid "Tabla que muestra todos los remitentes creados para la tienda en curso."
+msgstr "Table showing all the senders created for the store in progress."
+
+#: views/templates/formulario_ajustes.php:1177
+msgid "Bot&oacute;n desde el que guardaremos los cambios del remitente."
+msgstr "Button from which we will save the changes to the sender."
+
+#: views/templates/formulario_ajustes.php:1178
+msgid "Cerrar el formulario, sin guardar."
+msgstr "Close the form, without saving."
+
+#: views/templates/formulario_ajustes.php:1182
+msgid ""
+"Listado de los productos que tiene a su disposici&oacute;n Correos Express. "
+"Marque &uacute;nicamente los productos pactados con su comercial. Si se "
+"selecciona alg&uacute;n producto no contratado, se producir&aacute; un error "
+"al grabar el env&iacute;o."
+msgstr ""
+"List of products available to Correos Express. Mark only the products agreed "
+"with your commercial. If a non-contracted product is selected, an error will "
+"occur when recording the shipment."
+
+#: views/templates/formulario_ajustes.php:1184
+msgid ""
+"Guardaremos los productos seleccionados, para posteriormente asignarlos a "
+"los transportistas."
+msgstr ""
+"We will save the selected products, to later assign them to the carriers."
+
+#: views/templates/formulario_ajustes.php:1188
+msgid ""
+"En este formulario se relacionan los transportistas con los productos de "
+"Correos Express contratados."
+msgstr ""
+"In this form the carriers are related to the products of Correos Express "
+"contracted."
+
+#: views/templates/formulario_ajustes.php:1190
+msgid ""
+"Listado de productos seleccionados en la secci&oacute;n “Productos Cex”."
+msgstr "List of selected products in Products Cex."
+
+#: views/templates/formulario_ajustes.php:1192
+msgid ""
+"Los transportistas/m&eacute;todos de env&iacute;o son aquellos configurados "
+"en la secci&oacute;n “Env&iacute;o” de Woocommerce."
+msgstr ""
+"The carriers / shipping methods are those configured in the \"Shipping\" "
+"section of Woocommerce."
+
+#: views/templates/formulario_ajustes.php:1194
+msgid ""
+"La relaci&oacute;n entre ambos es 1:1, es decir un transportista esta "
+"asociado a un producto. Si se cambia el producto asociado a un "
+"transportista, se modificar&aacute; todo el hist&oacute;rico de pedidos "
+"relacionado con &eacute;l."
+msgstr ""
+"The relationship between the two is 1: 1, ie a carrier is associated with a "
+"product. If the product associated with a carrier is changed, the entire "
+"order history related to it will be modified."
+
+#: views/templates/formulario_ajustes.php:1196
+msgid ""
+"Guardaremos la configuraci&oacute;n de transportistas para utilizarlos en "
+"nuestra tienda."
+msgstr "We will save the transporters configuration to use them in our store."
+
+#: views/templates/formulario_ajustes.php:1200
+msgid ""
+"En este formulario nos encargamos de configurar el CRON, el cual se encarga "
+"de modificar el estado del pedido autom&aacute;ticamente cuando se cumplan "
+"las condiciones dadas."
+msgstr ""
+"In this form we take care of configuring the CRON which is responsible for "
+"modifying the order status automatically when the given conditions are met."
+
+#: views/templates/formulario_ajustes.php:1202
+msgid ""
+"Al activar esta opci&oacute;n, el pedido cambiar&aacute; al estado "
+"seleccionado tras la grabaci&oacute;n y obtenci&oacute;n del n&uacute;mero "
+"de env&iacute;o."
+msgstr ""
+"When activating this option, the order will change to the selected state "
+"after recording and obtaining the shipping number."
+
+#: views/templates/formulario_ajustes.php:1204
+msgid ""
+"Al activar el tracking autom&aacute;tico de pedidos, la tienda "
+"consultar&aacute; de forma peri&oacute;dica en que estado se encuentra el "
+"pedido y lo mostrar&aacute; en la tabla de hist&oacute;rico en la "
+"administraci&oacute;n de las ordenes."
+msgstr ""
+"When activating the automatic tracking of orders, the store will "
+"periodically consult in which state the order is and will show it in the "
+"table of history in the administration of the orders."
+
+#: views/templates/formulario_ajustes.php:1206
+msgid ""
+"Si se activa, actualizar&aacute; el estado de la orden en funci&oacute;n del "
+"CRON y la selecci&oacute;n de estados realizada."
+msgstr ""
+"If activated, it will update the status of the order based on the CRON and "
+"the state selection made."
+
+#: views/templates/formulario_ajustes.php:1208
+msgid "Guardaremos la configuraci&oacute;n de nuestro Cron."
+msgstr "We will save yhe configuration of our Cron."
+
+#: views/templates/formulario_ajustes.php:1211
+msgid " Descargar el log de la última ejecución del cron."
+msgstr "Download the log of the last execution of the cron."
+
+#: views/templates/formulario_ajustes.php:1213
+msgid "Descargar el log de la última petición al WS."
+msgstr "Download the log of the last request to the WS."
+
+#: views/templates/formulario_ajustes.php:1215
+msgid "Descargar el log de la última respuesta del WS."
+msgstr "Download the log of the last WS response."
+
+#: views/templates/formulario_ajustes.php:1217
+#: views/templates/formulario_ajustes.php:1417
+msgid "C&oacute;digo de cliente invalido"
+msgstr "Invalid customer code"
+
+#: views/templates/formulario_ajustes.php:1218
+#: views/templates/formulario_ajustes.php:1418
+msgid "El c&oacute;digo de cliente debe tener 9 d&iacute;gitos"
+msgstr "The customer code must be 9 digits"
+
+#: views/templates/formulario_ajustes.php:1220
+msgid "Imagen logo demasiado grande"
+msgstr "Logo image too large"
+
+#: views/templates/formulario_ajustes.php:1224
+#: views/templates/formulario_ajustes.php:1225
+msgid ""
+"En esta sección se pueden descargar los informes para el soporte con Corres "
+"Express."
+msgstr ""
+"In this section you can download the reports for support with Corres Express."
+
+#: views/templates/formulario_ajustes.php:1226
+msgid ""
+"Descarga los últimos registros de la base de datos histórico, saveships y "
+"migrations con la información de las últimas peticiones y respuestas del WS."
+msgstr ""
+"Download the latest records of the historical database, saveships and "
+"migrations with the information of the last requests and responses of the WS."
+
+#: views/templates/formulario_ajustes.php:1228
+msgid "Guardar Producto"
+msgstr "Save product"
+
+#: views/templates/formulario_ajustes.php:1229
+msgid "Debe seleccionar algún producto para continuar"
+msgstr "You must select a product to continue"
+
+#: views/templates/formulario_ajustes.php:1231
+msgid "Debe seleccionar algún producto para configurar los transportistas"
+msgstr "You must select a product to configure the carriers"
+
+#: views/templates/formulario_ajustes.php:1326
+msgid "Esta opción activa/desactiva el seguimiento de los pedidos"
+msgstr ""
+"This option allows activating the tracking link, in the orders section."
+
+#: views/templates/formulario_ajustes.php:1330
+msgid ""
+"Esta opción determina si cuando el pedido se actualiza a medida que pasa por "
+"los diferentes estados de seguimiento"
+msgstr ""
+"This option determines whether when the order is updated as it passes "
+"through the different tracking states"
+
+#: views/templates/formulario_ajustes.php:1343
+msgid "Error de Código de Cliente"
+msgstr "Client Code Error"
+
+#: views/templates/formulario_ajustes.php:1344
+msgid "El número de dígitos no corresponden con ningún Código Cliente"
+msgstr "The number of digits does not match any Client Code"
+
+#: views/templates/formulario_ajustes.php:1428
+#: views/templates/formulario_ajustes.php:1667
+msgid "Confirma el borrado"
+msgstr "Confirm deletion"
+
+#: views/templates/formulario_ajustes.php:1429
+msgid ""
+"¿Estas seguro de borrar el c&oacute;digo de cliente y sus remitentes "
+"asociados?"
+msgstr "Are you sure to delete the client code and its associated senders?"
+
+#: views/templates/formulario_ajustes.php:1668
+msgid "¿Estas seguro de borrar el remitente?"
+msgstr "Are you sure you want to delete the sender?"
+
+#: views/templates/formulario_ajustes.php:2608
+msgid "C&oacute;digo Cliente"
+msgstr "Client Code"
+
+#: views/templates/formulario_ajustes.php:2620
+#: views/templates/formulario_ajustes.php:2805
+msgid "Cerrar"
+msgstr "Close"
+
+#: views/templates/formulario_ajustes.php:2816
+#: views/templates/formulario_inicial.php:364
+#: views/templates/template_order.php:1412 views/templates/utilidades.php:1475
+msgid "NO TIENES ACCESO A ESTA SECCI&Oacute;N"
+msgstr "YOU DON'T HAVE ACCESS TO THIS SECTION"
+
+#: views/templates/formulario_inicial.php:18
+msgid "Las mejores soluciones de transporte urgente para tus clientes online"
+msgstr "The best solutions for urgent deliveries for your online customers"
+
+#: views/templates/formulario_inicial.php:28
+msgid "ENTREGA EN OFICINA DE CORREOS"
+msgstr "DELIVERY IN POST OFFICE"
+
+#: views/templates/formulario_inicial.php:29
+msgid "Correos Express ofrece, en exclusiva y "
+msgstr "Correos Express offers, exclusively and "
+
+#: views/templates/formulario_inicial.php:30
+msgid "sin coste adicional"
+msgstr "without aditional costs"
+
+#: views/templates/formulario_inicial.php:30
+msgid ",el servicio de entrega en oficina de Correos."
+msgstr ", the delivery in Post office service."
+
+#: views/templates/formulario_inicial.php:32
+msgid "Servicio gratuito incluido en tu env&iacute;o PAQ24H"
+msgstr "Free service included in the Paq 24h"
+
+#: views/templates/formulario_inicial.php:43
+msgid "AH&Oacute;RRALES ESPERAS CON LA ENTREGA FLEXIBLE"
+msgstr "SAVE THEM WAIT WITH FLEXIBLE DELIVERY"
+
+#: views/templates/formulario_inicial.php:45
+msgid ""
+"Ahora tu cliente destinatario ya puede elegir cuando recibir sus compras si "
+"la franja horaria propuesta no le conviene"
+msgstr ""
+"Now your target customer can now choose when to receive their purchases if "
+"the proposed time slot does not suit them"
+
+#: views/templates/formulario_inicial.php:56
+msgid "MINIMIZA LAS INCIDENCIAS."
+msgstr "MINIMIZE INCIDENTS."
+
+#: views/templates/formulario_inicial.php:57
+msgid "Localizaci&oacute;n inmediata del destinatario, en caso de ausencia"
+msgstr "Immediate location of the consignee in case of absence"
+
+#: views/templates/formulario_inicial.php:68
+msgid "ELIMINA INCERTIDUMBRE."
+msgstr "GET RID OF UNCERTAINTY."
+
+#: views/templates/formulario_inicial.php:69
+msgid ""
+"Si no est&aacute;n en casa, contactamos con ellos para una segunda entrega. "
+"Gesti&oacute;n proactiva de incidencias."
+msgstr ""
+"If they are not at home, we contact them for a second delivery. Proactive "
+"incident management."
+
+#: views/templates/formulario_inicial.php:80
+msgid "REG&Aacute;LALES TRANQUILIDAD."
+msgstr "TRANQUILLITY AS A GIFT."
+
+#: views/templates/formulario_inicial.php:81
+msgid "Avisamos a tus clientes del estado de su env&iacute;o, v&iacute;a SMS."
+msgstr "We notify your customers of the status of your shipment, by SMS."
+
+#: views/templates/formulario_inicial.php:91
+msgid "ENTREGA CUANTO ANTES."
+msgstr "SATURDAY DELIVERY."
+
+#: views/templates/formulario_inicial.php:93
+msgid ""
+"Porque hay cosas que no pueden esperar, entregamos tu pedido en s&aacute;"
+"bado."
+msgstr ""
+"Because there are things that can not wait, we deliver your order on "
+"Saturday."
+
+#: views/templates/formulario_inicial.php:101
+#, fuzzy
+#| msgid ""
+#| "Hola,<br/>¿Eres cliente<br/> de <span class='CEX-text-blue'>Correos</"
+#| "span> <span class='CEX-text-red'>Express</span>?"
+msgid ""
+"Hola,<br/>¿Eres cliente<br/> de <span class='CEX-text-blue'>Correos</span> "
+"<span class='CEX-text-blue'>Express</span>?"
+msgstr ""
+"Hello, <br/> Are you a client <br/> of <span class = 'CEX-text-blue'> "
+"Correos </span> <span class = 'CEX-text-red'> Express </span>?"
+
+#: views/templates/formulario_inicial.php:106
+msgid "S&iacute;, configurar mi m&oacute;dulo"
+msgstr "Yes, Configure my module"
+
+#: views/templates/formulario_inicial.php:111
+msgid "Soy Nuevo, ¡Llamadme!"
+msgstr "I'm New, Please Call me!"
+
+#: views/templates/formulario_inicial.php:114
+msgid ""
+"D&eacute;janos tus datos y te llamamos con una oferta de servicios "
+"espec&iacute;fica para ti."
+msgstr ""
+"Leave us your information and we will call you with a specific service offer "
+"for you."
+
+#: views/templates/formulario_inicial.php:116
+msgid "¡Sin compromiso!"
+msgstr "Without obligation!"
+
+#: views/templates/formulario_inicial.php:122
+msgid "Nombre:"
+msgstr "First name:"
+
+#: views/templates/formulario_inicial.php:126
+msgid "Tel&eacute;fono de contacto *"
+msgstr "Contact Phone *"
+
+#: views/templates/formulario_inicial.php:132
+msgid "Correo electr&oacute;nico *"
+msgstr "Email *"
+
+#: views/templates/formulario_inicial.php:147
+msgid "Los campos con "
+msgstr "Fields with "
+
+#: views/templates/formulario_inicial.php:149
+msgid " son requeridos."
+msgstr " are required."
+
+#: views/templates/formulario_inicial.php:159
+msgid ""
+"He le&iacute;do y acepto la <a target=\"_blank\" href=\"https://www."
+"correosexpress.com/web/correosexpress/politica-de-proteccion-de-datos"
+"\">pol&iacute;tica de privacidad</a> la <a href=\"https://www.correosexpress."
+"com/web/correosexpress/politica-de-proteccion-de-datos\" target=\"_blank"
+"\">pol&iacute;tica de protecci&oacute;n de datos</a> y el <span id=\"data-"
+"show\" class=\"text-uppercase\" onclick=\"jQuery('#CEX-gdpr-info').toggle();"
+"\"><strong>Detalle legal del formulario</strong></span>"
+msgstr ""
+"I have read and accept the <a target=\"_blank\" href=\"https://www."
+"correosexpress.com/web/correosexpress/politica-de-proteccion-de-datos"
+"\">privacy policy</a> the <a href=\"https://www.correosexpress.com/web/"
+"correosexpress/politica-de-proteccion-de-datos\" target=\"_blank\">data "
+"protection policy</a> and the <span id=\"data-show\" class=\"text-uppercase"
+"\"\" onclick=\"jQuery('#CEX-gdpr-info').toggle();\"><strong>Legal detail of "
+"the form</strong></span>"
+
+#: views/templates/formulario_inicial.php:165
+msgid "Informaci&oacute;n b&aacute;sica sobre protecci&oacute;n de datos"
+msgstr "Basic information about data protection"
+
+#: views/templates/formulario_inicial.php:168
+msgid "Responsable:"
+msgstr "Responsible:"
+
+#: views/templates/formulario_inicial.php:169
+msgid "CORREOS EXPRESS S.L."
+msgstr "CORREOS EXPRESS S.L."
+
+#: views/templates/formulario_inicial.php:170
+msgid "Finalidad:"
+msgstr "Purpose:"
+
+#: views/templates/formulario_inicial.php:171
+msgid "Comercial"
+msgstr "Commercial"
+
+#: views/templates/formulario_inicial.php:172
+msgid "Legitimaci&oacute;n:"
+msgstr "Legitimation:"
+
+#: views/templates/formulario_inicial.php:173
+msgid "Consentimiento del interesado"
+msgstr "Consent of the interested party"
+
+#: views/templates/formulario_inicial.php:174
+msgid "Destinatarios:"
+msgstr "Recipients:"
+
+#: views/templates/formulario_inicial.php:175
+msgid "Encargados del tratamiento."
+msgstr "Managers of the treatment."
+
+#: views/templates/formulario_inicial.php:176
+msgid "Derechos del Interesado:"
+msgstr "Rights of the Stakeholder:"
+
+#: views/templates/formulario_inicial.php:177
+msgid ""
+"Acceso, rectificaci&oacute;n, supresi&oacute;n, cancelaci&oacute;n, "
+"limitaci&oacute;n y portabilidad de los datos."
+msgstr ""
+"Access, rectification, deletion, cancellation, limitation and portability of "
+"the data."
+
+#: views/templates/formulario_inicial.php:184
+#: views/templates/formulario_inicial.php:185
+msgid "ENVIAR"
+msgstr "SEND"
+
+#: views/templates/formulario_inicial.php:220
+#: views/templates/template_order.php:1152
+msgid "Confirma la operaci&oacute;n"
+msgstr "Confirm the operation"
+
+#: views/templates/formulario_inicial.php:221
+msgid "¿Est&aacute;s seguro querer que le visite un comercial?"
+msgstr "Are you sure you want to visit a sales representative?"
+
+#: views/templates/formulario_inicial.php:253
+#: views/templates/formulario_inicial.php:254
+#: views/templates/formulario_inicial.php:263
+#: views/templates/formulario_inicial.php:264
+msgid "LA PETICIÓN HA SIDO CURSADA"
+msgstr "THE PETITION HAS BEEN CURSED"
+
+#: views/templates/formulario_inicial.php:257
+#: views/templates/formulario_inicial.php:258
+#: views/templates/formulario_inicial.php:266
+#: views/templates/formulario_inicial.php:267
+msgid "EN ESTOS MOMENTOS NO SE HA PODIDO CURSAR LA PETICIÓN"
+msgstr "IN THESE MOMENTS THE PETITION HAS NOT BEEN ABLE TO COURAGE"
+
+#: views/templates/template_history.php:105
+msgid "Confirma la operación"
+msgstr "Confirm the operation"
+
+#: views/templates/template_history.php:106
+msgid "¿Borrar datos?"
+msgstr "Delete data?"
+
+#: views/templates/template_history.php:167
+msgid "Borrado"
+msgstr "Delete"
+
+#: views/templates/template_history.php:180 views/templates/utilidades.php:557
+#: views/templates/utilidades.php:666
+msgid "Procesando..."
+msgstr "Processing..."
+
+#: views/templates/template_history.php:181 views/templates/utilidades.php:558
+#: views/templates/utilidades.php:667
+msgid "Mostrar _MENU_ registros"
+msgstr "Show _MENU_ entries"
+
+#: views/templates/template_history.php:182 views/templates/utilidades.php:559
+#: views/templates/utilidades.php:668
+msgid "No se encontraron resultados"
+msgstr "No matching records found"
+
+#: views/templates/template_history.php:183 views/templates/utilidades.php:560
+#: views/templates/utilidades.php:669
+msgid "Ningún dato disponible en esta tabla"
+msgstr "No data available in table"
+
+#: views/templates/template_history.php:184 views/templates/utilidades.php:561
+#: views/templates/utilidades.php:670
+msgid ""
+"Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros"
+msgstr ""
+"Showing records from _START_ to _END_ out of a total of _TOTAL_ records"
+
+#: views/templates/template_history.php:185 views/templates/utilidades.php:562
+#: views/templates/utilidades.php:671
+msgid "Mostrando registros del 0 al 0 de un total de 0 registros"
+msgstr "Showing 0 to 0 of 0 entries"
+
+#: views/templates/template_history.php:186 views/templates/utilidades.php:563
+#: views/templates/utilidades.php:672
+msgid "(filtrado de un total de _MAX_ registros)"
+msgstr "(filtered from _MAX_ total entries)"
+
+#: views/templates/template_history.php:188 views/templates/utilidades.php:565
+#: views/templates/utilidades.php:674
+msgid "Buscar:"
+msgstr "Search:"
+
+#: views/templates/template_history.php:191 views/templates/utilidades.php:568
+#: views/templates/utilidades.php:677
+msgid "Cargando..."
+msgstr "Loading..."
+
+#: views/templates/template_history.php:193 views/templates/utilidades.php:570
+#: views/templates/utilidades.php:679
+msgid "Primero"
+msgstr "First"
+
+#: views/templates/template_history.php:194 views/templates/utilidades.php:571
+#: views/templates/utilidades.php:680
+msgid "Último"
+msgstr "Last"
+
+#: views/templates/template_history.php:195 views/templates/utilidades.php:572
+#: views/templates/utilidades.php:681
+msgid "Siguiente"
+msgstr "Next"
+
+#: views/templates/template_history.php:196 views/templates/utilidades.php:573
+#: views/templates/utilidades.php:682
+msgid "Anterior"
+msgstr "Previous"
+
+#: views/templates/template_history.php:199 views/templates/utilidades.php:576
+#: views/templates/utilidades.php:685
+msgid ": Activar para ordenar la columna de manera ascendente"
+msgstr ": activate to sort column ascending"
+
+#: views/templates/template_history.php:200 views/templates/utilidades.php:577
+#: views/templates/utilidades.php:686
+msgid ": Activar para ordenar la columna de manera descendente"
+msgstr ": activate to sort column descending"
+
+#: views/templates/template_history.php:206 views/templates/utilidades.php:583
+#: views/templates/utilidades.php:692
+msgid "Mostrar/Ocultar columnas"
+msgstr "Show/Hide columns"
+
+#: views/templates/template_history.php:210 views/templates/utilidades.php:587
+#: views/templates/utilidades.php:696
+msgid "Exportar a excel"
+msgstr "Export to excel"
+
+#: views/templates/template_history.php:217 views/templates/utilidades.php:594
+#: views/templates/utilidades.php:703
+msgid "Exportar a csv"
+msgstr "Export to csv"
+
+#: views/templates/template_history.php:224 views/templates/utilidades.php:601
+#: views/templates/utilidades.php:710
+msgid "Exportar a pdf"
+msgstr "Export to pdf"
+
+#: views/templates/template_order.php:14
+msgid "Intercambiar los datos con los del destinatario"
+msgstr "Exchange the data with the receiver data"
+
+#: views/templates/template_order.php:17
+msgid "Copiar datos remitente"
+msgstr "Copy sender data"
+
+#: views/templates/template_order.php:20
+msgid "Remitentes"
+msgstr "Senders"
+
+#: views/templates/template_order.php:23
+msgid "Seleccione un remitente"
+msgstr "Select a sender"
+
+#: views/templates/template_order.php:43
+msgid "C&oacute;digo postal recogida"
+msgstr "Pick up ZIP"
+
+#: views/templates/template_order.php:48
+msgid "Poblaci&oacute;n recogida"
+msgstr "Pick up city"
+
+#: views/templates/template_order.php:53
+msgid "Pa&iacute;s recogida"
+msgstr "Pick up country"
+
+#: views/templates/template_order.php:55 views/templates/template_order.php:118
+msgid "Seleccione un pa&iacute;s"
+msgstr "Select a country"
+
+#: views/templates/template_order.php:59
+msgid "Tel&eacute;fono remitente"
+msgstr "Sender phone"
+
+#: views/templates/template_order.php:61
+msgid "612345789"
+msgstr "612345789"
+
+#: views/templates/template_order.php:64
+msgid "Email remitente"
+msgstr "Sender email"
+
+#: views/templates/template_order.php:70 views/templates/template_order.php:73
+msgid "Observaciones recogida"
+msgstr "Collection observations"
+
+#: views/templates/template_order.php:77
+msgid "Intercambiar los datos con los del remitente"
+msgstr "Exchange the data with the sender data"
+
+#: views/templates/template_order.php:80
+msgid "Es una devoluci&oacute;n"
+msgstr "It's a devolution"
+
+#: views/templates/template_order.php:84
+msgid "Direcci&oacute;n de destino"
+msgstr "Receiver address"
+
+#: views/templates/template_order.php:87
+msgid "Seleccione una direcci&oacute;n de destino"
+msgstr "Select a delivery address"
+
+#: views/templates/template_order.php:91 views/templates/template_order.php:93
+msgid "Nombre destinatario"
+msgstr "Receiver name"
+
+#: views/templates/template_order.php:101
+msgid "Direcci&oacute;n destino"
+msgstr "Delivery address"
+
+#: views/templates/template_order.php:106
+msgid "C&oacute;digo postal destino"
+msgstr "Delivery ZIP"
+
+#: views/templates/template_order.php:108
+msgid "C&oacute;digo postal"
+msgstr "ZIP"
+
+#: views/templates/template_order.php:111
+msgid "Poblaci&oacute;n destino"
+msgstr "Delivery city"
+
+#: views/templates/template_order.php:116
+msgid "Pa&iacute;s destino"
+msgstr "Delivery country"
+
+#: views/templates/template_order.php:122
+msgid "Tel&eacute;fono destinatario"
+msgstr "Delivery phone"
+
+#: views/templates/template_order.php:139
+msgid "Email destinatario"
+msgstr "Delivey email"
+
+#: views/templates/template_order.php:141
+msgid "email@email.com"
+msgstr "email@email.com"
+
+#: views/templates/template_order.php:145
+#: views/templates/template_order.php:148
+msgid "Observaciones entrega"
+msgstr "Delivery observations"
+
+#: views/templates/template_order.php:156
+msgid "Datos del env&iacute;o"
+msgstr "Delivery data"
+
+#: views/templates/template_order.php:159
+msgid "C&oacute;digo cliente de facturaci&oacute;n"
+msgstr "Invoice client code"
+
+#: views/templates/template_order.php:164
+#: views/templates/template_order.php:166
+msgid "Referencia de env&iacute;o"
+msgstr "Shipping reference"
+
+#: views/templates/template_order.php:169
+msgid "C&oacute;digo AT"
+msgstr "AT Code"
+
+#: views/templates/template_order.php:171
+#: views/templates/template_order.php:365
+msgid "Env&iacute;os con origen y/o destino Portugal"
+msgstr "Shipments with origin and / or destination Portugal"
+
+#: views/templates/template_order.php:174
+#: views/templates/template_order.php:176
+msgid "Descripci&oacute;n referencia(1)"
+msgstr "Reference description (1)"
+
+#: views/templates/template_order.php:179
+#: views/templates/template_order.php:181
+msgid "Descripci&oacute;n referencia(2)"
+msgstr "Reference description (2)"
+
+#: views/templates/template_order.php:184
+msgid "Fecha de grabaci&oacute;n"
+msgstr "Recording date"
+
+#: views/templates/template_order.php:194
+msgid "Recogida desde(h:m)"
+msgstr "Pickup from(h:m)"
+
+#: views/templates/template_order.php:197
+msgid "Recogida hasta(h:m)"
+msgstr "Pickup to(h:m)"
+
+#: views/templates/template_order.php:216
+msgid "Bultos"
+msgstr "Packages"
+
+#: views/templates/template_order.php:220
+msgid "Peso por defecto"
+msgstr "Default weight"
+
+#: views/templates/template_order.php:223
+msgid "KG"
+msgstr "KG"
+
+#: views/templates/template_order.php:229
+msgid "Contrareembolso"
+msgstr "Cash on delivery"
+
+#: views/templates/template_order.php:232
+msgid "Valor contrareembolso"
+msgstr "Cash on delivery value"
+
+#: views/templates/template_order.php:236
+msgid "Valor asegurado"
+msgstr "Insured value"
+
+#: views/templates/template_order.php:241
+msgid "Modalidad de env&iacute;o"
+msgstr "Shipping method"
+
+#: views/templates/template_order.php:244
+msgid "Seleccione una modalidad de env&iacute;o"
+msgstr "Select a shipping method"
+
+#: views/templates/template_order.php:249
+msgid "Entrega s&aacute;bado"
+msgstr "Delivery on saturday"
+
+#: views/templates/template_order.php:258 views/templates/utilidades.php:195
+#: views/templates/utilidades.php:297
+msgid "Tipo de etiqueta"
+msgstr "Label type"
+
+#: views/templates/template_order.php:260
+msgid "Seleccione el tipo de Etiqueta"
+msgstr "Select the label type"
+
+#: views/templates/template_order.php:262
+msgid "Medio folio"
+msgstr "Half page"
+
+#: views/templates/template_order.php:267
+msgid "Posici&oacute;n de etiqueta"
+msgstr "Label position"
+
+#: views/templates/template_order.php:269
+msgid "Seleccione la posici&oacute;n de la Etiqueta"
+msgstr "Select label position"
+
+#: views/templates/template_order.php:276
+msgid "Grabar Recogida"
+msgstr "Record Collection"
+
+#: views/templates/template_order.php:280
+msgid "Grabar Env&iacute;o"
+msgstr "Record Shipment"
+
+#: views/templates/template_order.php:287
+msgid "Entrega en oficinas de correos"
+msgstr "Delivery at post office"
+
+#: views/templates/template_order.php:289
+msgid ""
+"*El servicio de entrega en oficinas no se puede realizar con importe de "
+"reembolso."
+msgstr "* The delivery service in offices can not be done with refund amount."
+
+#: views/templates/template_order.php:290
+msgid "C&oacute;digo de Oficina: "
+msgstr "Office code: "
+
+#: views/templates/template_order.php:294
+msgid "BUSCADOR OFICINAS"
+msgstr "OFFICE FINDER"
+
+#: views/templates/template_order.php:303
+msgid "Buscador"
+msgstr "Search"
+
+#: views/templates/template_order.php:318
+#: woocommerce/checkout/review-order.php:250
+msgid "Buscar oficinas"
+msgstr "Find Office"
+
+#: views/templates/template_order.php:345
+msgid "Secci&oacute;n de datos referente al remitente."
+msgstr "Data section referring to the sender."
+
+#: views/templates/template_order.php:346
+msgid "Secci&oacute;n de datos referente al destinatario."
+msgstr "Data section referring to the receiver."
+
+#: views/templates/template_order.php:347
+msgid "Informaci&oacute;n extra sobre el pedido."
+msgstr "Extra information about the order."
+
+#: views/templates/template_order.php:350
+msgid ""
+"Desplegable con el listado de remitentes de la tienda en curso. Siempre "
+"vendr&aacute; seleccionado nuestro “Remitente por defecto”, pudiendo "
+"cambiarlo cuando se desee."
+msgstr ""
+"Deployable with the list of senders of the store in progress. Our \"default "
+"sender\" will always be selected, being able to change it whenever you want."
+
+#: views/templates/template_order.php:351
+msgid ""
+"Utilidad que nos permite rellenar autom&aacute;ticamente la secci&oacute;n "
+"remitente con los datos del remitente seleccionado en el apartado inferior."
+msgstr ""
+"Utility that allows us to automatically fill in the sender section with the "
+"data of the sender selected in the lower section."
+
+#: views/templates/template_order.php:352
+msgid "Resto de campos con informaci&oacute;n del remitente."
+msgstr "Other fields with information of the sender."
+
+#: views/templates/template_order.php:353
+msgid ""
+"Campo para indicar cualquier detalle de inter&eacute;s, sobre la recogida "
+"del pedido."
+msgstr ""
+"Field to indicate any detail of interest, about the collection of the order."
+
+#: views/templates/template_order.php:356
+msgid ""
+"Utilidad que nos permite copiar los datos del remitente al destinatario, en "
+"caso de que sea una devoluci&oacute;n."
+msgstr ""
+"Utility that allows us to copy the data from the sender to the recipient, in "
+"case it is a return."
+
+#: views/templates/template_order.php:357
+msgid "Resto de campos con informaci&oacute;n del destinatario."
+msgstr "Rest of fields with information of the recipient."
+
+#: views/templates/template_order.php:358
+msgid ""
+"Campo para indicar cualquier detalle de inter&eacute;s, sobre la entrega del "
+"pedido."
+msgstr ""
+"Field to indicate any detail of interest, about the delivery of the order."
+
+#: views/templates/template_order.php:361
+msgid "C&oacute;digo de cliente sobre el que se graba el env&iacute;o."
+msgstr "Customer code on which the shipment is recorded."
+
+#: views/templates/template_order.php:362
+msgid "Fecha marcada para la entrega del pedido."
+msgstr "Date marked for the delivery of the order."
+
+#: views/templates/template_order.php:363
+msgid "Horario en el que se realizar&aacute; la recogida"
+msgstr "Schedule in which the collection will be made"
+
+#: views/templates/template_order.php:364
+msgid "C&oacute;digo de referencia del env&iacute;o."
+msgstr "Shipping reference code."
+
+#: views/templates/template_order.php:366
+msgid ""
+"Pa&iacute;s de destino del pedido, el CP del destinatario debe pertenecer al "
+"pa&iacute;s seleccionado."
+msgstr ""
+"Destination country of the order, the ZIP of the recipient must belong to "
+"the selected country."
+
+#: views/templates/template_order.php:367
+msgid "Utilidad que nos permite cobrar un importe contrareembolso."
+msgstr "Utility that allows us to charge a cash on delivery amount."
+
+#: views/templates/template_order.php:368
+msgid "Valor a cobrar por el m&eacute;todo contrareembolso."
+msgstr "Value to be charged for the cash on delivery method."
+
+#: views/templates/template_order.php:369
+msgid ""
+"Si el pedido est&aacute; asegurado, aqu&iacute; se introducir&aacute; el "
+"importe del mismo."
+msgstr "If the order is insured, the amount will be entered here."
+
+#: views/templates/template_order.php:370
+msgid ""
+"Campos para establecer el n&uacute;mero de bultos y los kilos del paquete "
+"respectivamente."
+msgstr ""
+"Fields to establish the number of packages and the kilos of the package "
+"respectively."
+
+#: views/templates/template_order.php:371
+msgid ""
+"Seleccionable de los productos activos seleccionados en la "
+"configuraci&oacute;n por usted."
+msgstr ""
+"Selectable of the active products selected in the configuration by you."
+
+#: views/templates/template_order.php:374 views/templates/utilidades.php:431
+#: views/templates/utilidades.php:456
+msgid ""
+"Desplegable mediante el que seleccionaremos el tipo de etiqueta que queramos "
+"obtener."
+msgstr "Drop down by which we select the type of label we want to obtain."
+
+#: views/templates/template_order.php:375 views/templates/utilidades.php:433
+#: views/templates/utilidades.php:458
+msgid ""
+"Desplegable con las posiciones posibles para el tipo de etiqueta "
+"seleccionado."
+msgstr "Drop down with possible positions for the type of label selected."
+
+#: views/templates/template_order.php:378
+msgid ""
+"Solo seleccionar esta opci&oacute;n en caso de necesitar env&iacute;o con "
+"recogida."
+msgstr "Only select this option if you need to send with pickup."
+
+#: views/templates/template_order.php:379
+msgid ""
+"Bot&oacute;n mediante el que grabaremos el env&iacute;o y obtendremos la "
+"etiqueta."
+msgstr "Button by which we will record the shipment and get the label."
+
+#: views/templates/template_order.php:382
+msgid "Tabla en la que podremos consultar el hist&oacute;rico del pedido."
+msgstr "Table in which we can consult the history of the order."
+
+#: views/templates/template_order.php:934
+#: views/templates/template_order.php:940
+msgid "El producto CEX seleccionado no permite entrega los sábados."
+msgstr "The selected CEX product does not allow delivery on Saturdays."
+
+#: views/templates/template_order.php:976
+#: woocommerce/checkout/review-order.php:293
+msgid "Cod Oficina"
+msgstr "Office code"
+
+#: views/templates/template_order.php:997
+#: woocommerce/checkout/review-order.php:314
+msgid "Seleccionar"
+msgstr "Select"
+
+#: views/templates/template_order.php:1095
+msgid ""
+"PARA LA ENTREGA EN OFICINA ES NECESARIO INTRODUCIR EL TEL&Eacute;FONO "
+"M&Oacute;VIL"
+msgstr ""
+"FOR THE DELIVERY IN THE OFFICE IT IS NECESSARY TO ENTER THE MOBILE PHONE"
+
+#: views/templates/template_order.php:1100
+msgid "N&uacute;MERO DE BULTOS NO PERMITIDO"
+msgstr "PACKAGE NUMBER NOT ALLOWED"
+
+#: views/templates/template_order.php:1104
+msgid "DEBE INTRODUCIR UNA REFERENCIA"
+msgstr "YOU MUST ENTER A REFERENCE"
+
+#: views/templates/template_order.php:1153
+msgid "¿Guardar datos de pedido?"
+msgstr "Save order data?"
+
+#: views/templates/template_order.php:1267
+#: views/templates/template_order.php:1303
+msgid "La petici&oacute;n de recogida se ha cursado con &eacute;xito:"
+msgstr "The collection request has been successfully completed:"
+
+#: views/templates/template_order.php:1269
+#: views/templates/template_order.php:1320
+msgid "La petici&oacute;n de envio se ha cursado con &eacute;xito:"
+msgstr "The shipment request has been successfully completed:"
+
+#: views/templates/utilidades.php:39
+msgid "Manual interactivo Grabaci&oacute;n masiva"
+msgstr "Interactive manual massive recording"
+
+#: views/templates/utilidades.php:58
+msgid "Manual interactivo Reimpresi&oacute;n"
+msgstr "Interactive manual reprint"
+
+#: views/templates/utilidades.php:76
+msgid "Manual interactivo Resumen pedidos"
+msgstr "Interactive manual order summary"
+
+#: views/templates/utilidades.php:99 views/templates/utilidades.php:127
+msgid "Grabaci&oacute;n masiva de pedidos"
+msgstr "Massive order recording"
+
+#: views/templates/utilidades.php:106 views/templates/utilidades.php:245
+#: views/templates/utilidades.php:253
+msgid "Reimpresi&oacute;n de etiquetas"
+msgstr "Reprint of labels"
+
+#: views/templates/utilidades.php:112 views/templates/utilidades.php:343
+#: views/templates/utilidades.php:351
+msgid "Generaci&oacute;n de resumen de pedidos"
+msgstr "Generation of order summary"
+
+#: views/templates/utilidades.php:135
+msgid "Buscador de Pedidos"
+msgstr "Order Search"
+
+#: views/templates/utilidades.php:139
+msgid "Desde:"
+msgstr "From:"
+
+#: views/templates/utilidades.php:148
+msgid "Hasta:"
+msgstr "To:"
+
+#: views/templates/utilidades.php:160
+msgid "Buscar Env&iacute;os"
+msgstr "Search your shipping"
+
+#: views/templates/utilidades.php:180 views/templates/utilidades.php:284
+#: views/templates/utilidades.php:388
+msgid "Seleccionar todos"
+msgstr "Select all"
+
+#: views/templates/utilidades.php:185
+msgid ""
+"**Los pedidos que no se pueden seleccionar ya tienen n&uacute;mero de "
+"env&iacute;o, solo se podr&aacute;n reimprimir las etiquetas. (Ya se "
+"encuentran grabados)"
+msgstr ""
+"** Orders that can not be selected already have a shipping number, only the "
+"labels can be reprinted. (They are already recorded)"
+
+#: views/templates/utilidades.php:204
+msgid "Termica"
+msgstr "Thermic"
+
+#: views/templates/utilidades.php:215 views/templates/utilidades.php:316
+msgid "Posici&oacute;n de la etiqueta"
+msgstr "Label position"
+
+#: views/templates/utilidades.php:228
+msgid "Generar Env&iacute;os"
+msgstr "Generate your shipments"
+
+#: views/templates/utilidades.php:256
+msgid "Selecciona la fecha de la que quieres ver los pedidos"
+msgstr "Select the date from witch you want to see the orders"
+
+#: views/templates/utilidades.php:266 views/templates/utilidades.php:366
+msgid "Buscar"
+msgstr "Search"
+
+#: views/templates/utilidades.php:288
+msgid ""
+"(*Los pedidos que no tengan la opci&oacute;n de reimprimir la etiqueta ya "
+"han pasado el peri&oacute;do de validez de 7 d&iacute;as desde su "
+"grabaci&oacute;n.)"
+msgstr ""
+"(*Orders that don't have the option to reprint the label have alrady passed "
+"the 7-day validity period since their recording)"
+
+#: views/templates/utilidades.php:328
+msgid "Imprimir Etiquetas"
+msgstr "Print your labels"
+
+#: views/templates/utilidades.php:355
+msgid "Selecciona la fecha de la que quieres imprimir el resumen de pedidos"
+msgstr "Select the date witch you want to print the order summary"
+
+#: views/templates/utilidades.php:370
+msgid ""
+"(* La fecha seleccionada ser&aacute; la fecha para la que se grabaron los "
+"pedidos)"
+msgstr ""
+"(*The selected date will be the date for witch the orders were recorded)"
+
+#: views/templates/utilidades.php:393
+msgid "Imprimir resumen"
+msgstr "Print summary"
+
+#: views/templates/utilidades.php:420
+msgid "Utilidad mediante la que grabaremos nuestros pedidos de forma masiva."
+msgstr "Utility through which we will record our orders in bulk."
+
+#: views/templates/utilidades.php:422
+msgid ""
+"Desplegable con las tiendas disponibles, deberemos seleccionar la tienda "
+"sobre la que queremos trabajar."
+msgstr ""
+"Drop down with the available stores, we must select the store we want to "
+"work on."
+
+#: views/templates/utilidades.php:424
+msgid "Filtro mediante el que realizar la b&uacute;squeda de nuestros pedidos."
+msgstr "Filter through which to search for our orders."
+
+#: views/templates/utilidades.php:425 views/templates/utilidades.php:427
+#: views/templates/utilidades.php:452 views/templates/utilidades.php:468
+msgid "Detalle del resultado de la b&uacute;squeda de pedidos."
+msgstr "Detail of the result of the search of orders."
+
+#: views/templates/utilidades.php:429 views/templates/utilidades.php:454
+#: views/templates/utilidades.php:469
+msgid "Seleccionaremos todos los pedidos de la tabla."
+msgstr "We will select all the orders in the table."
+
+#: views/templates/utilidades.php:435
+msgid "Bot&oacute;n para grabar todas las ordenes seleccionadas."
+msgstr "Button to record all the selected orders."
+
+#: views/templates/utilidades.php:439 views/templates/utilidades.php:887
+#: views/templates/utilidades.php:901
+msgid "REFERENCIA"
+msgstr "REFERENCE"
+
+#: views/templates/utilidades.php:440 views/templates/utilidades.php:888
+#: views/templates/utilidades.php:902
+msgid "ESTADO"
+msgstr "STATUS"
+
+#: views/templates/utilidades.php:441 views/templates/utilidades.php:889
+#: views/templates/utilidades.php:903
+msgid "CLIENTE"
+msgstr "CLIENT"
+
+#: views/templates/utilidades.php:442 views/templates/utilidades.php:891
+#: views/templates/utilidades.php:905
+msgid "FECHA"
+msgstr "DATE"
+
+#: views/templates/utilidades.php:443 views/templates/utilidades.php:892
+#: views/templates/utilidades.php:906
+msgid "N. ENV&Iacute;O"
+msgstr "DELIVERY NUMBER"
+
+#: views/templates/utilidades.php:444 views/templates/utilidades.php:893
+#: views/templates/utilidades.php:907
+msgid "COD. OFICINA"
+msgstr "OFFICE CODE"
+
+#: views/templates/utilidades.php:445 views/templates/utilidades.php:896
+#: views/templates/utilidades.php:910
+msgid "BULTOS"
+msgstr "PACKAGE"
+
+#: views/templates/utilidades.php:449
+msgid ""
+"Utilidad mediante la que reimprimiremos cualquier etiqueta generada "
+"previamente."
+msgstr "Utility through which we will reprint any previously generated label."
+
+#: views/templates/utilidades.php:450 views/templates/utilidades.php:466
+msgid "Fecha sobre la que realizaremos la b&uacute;squeda de pedidos."
+msgstr "Date on which we will perform the search for orders."
+
+#: views/templates/utilidades.php:460
+msgid "Bot&oacute;n para imprimir todas las etiquetas seleccionadas."
+msgstr "Button to print all the selected labels."
+
+#: views/templates/utilidades.php:464
+msgid "Utilidad mediante la que imprimiremos el resumen de nuestros pedidos."
+msgstr "Utility through which we print the summary of our orders."
+
+#: views/templates/utilidades.php:471
+msgid "Bot&oacute;n para imprimir el resumen todas los pedidos seleccionados."
+msgstr "Button to print the summary of all selected orders."
+
+#: views/templates/utilidades.php:475 views/templates/utilidades.php:1272
+#: views/templates/utilidades.php:1280 views/templates/utilidades.php:1328
+#: views/templates/utilidades.php:1336
+msgid "REF ENV&Iacute;O"
+msgstr "SHIPPING REF"
+
+#: views/templates/utilidades.php:476 views/templates/utilidades.php:1273
+#: views/templates/utilidades.php:1281 views/templates/utilidades.php:1329
+#: views/templates/utilidades.php:1337
+msgid "C&Oacute;DIGO ENV&Iacute;O"
+msgstr "SHIPPING CODE"
+
+#: views/templates/utilidades.php:477 views/templates/utilidades.php:1274
+#: views/templates/utilidades.php:1282 views/templates/utilidades.php:1330
+#: views/templates/utilidades.php:1338
+msgid "NOMBRE DESTINATARIO"
+msgstr "RECEIVER NAME"
+
+#: views/templates/utilidades.php:478 views/templates/utilidades.php:1275
+#: views/templates/utilidades.php:1283 views/templates/utilidades.php:1331
+#: views/templates/utilidades.php:1339
+msgid "DIRECCI&Oacute;N DESTINATARIO"
+msgstr "RECEIVER ADDRESS"
+
+#: views/templates/utilidades.php:479 views/templates/utilidades.php:1276
+#: views/templates/utilidades.php:1284 views/templates/utilidades.php:1332
+#: views/templates/utilidades.php:1340
+msgid "FECHA CREACI&Oacute;N"
+msgstr "DATE CREATED"
+
+#: views/templates/utilidades.php:894 views/templates/utilidades.php:908
+msgid "PRODUCTO SELECCIONADO"
+msgstr "SELECTED PRODUCT"
+
+#: views/templates/utilidades.php:895 views/templates/utilidades.php:909
+msgid "PRODUCTO CEX"
+msgstr "CEX PRODUCT"
+
+#: views/templates/utilidades.php:924
+msgid "Click para seleccionar"
+msgstr "Click to select"
+
+#: views/templates/utilidades.php:928
+msgid "Pedido GRABADO"
+msgstr "Order RECORDED"
+
+#: views/templates/utilidades.php:1080
+msgid "No se ha indicado el n&uacute;mero de bultos de la orden "
+msgstr "The number of packages of the order has not been indicated "
+
+#: views/templates/utilidades.php:1084
+msgid "se ha encontrado un error en los datos"
+msgstr "an error has been found in the data"
+
+#: views/templates/utilidades.php:1290 views/templates/utilidades.php:1346
+msgid "No hay resultados para la b&uacute;squeda"
+msgstr "Detail of the result of the search of orders"
+
+#: views/templates/utilidades.php:1377
+msgid "Gestiona los errores de tu pedido"
+msgstr "Manage the errors of your order"
+
+#: views/templates/utilidades.php:1381 views/templates/utilidades.php:1409
+msgid "ID ORDEN"
+msgstr "ORDER ID"
+
+#: views/templates/utilidades.php:1382 views/templates/utilidades.php:1410
+msgid "MENSAJE"
+msgstr "MESSAGE"
+
+#: views/templates/utilidades.php:1383 views/templates/utilidades.php:1411
+msgid "ENLACE"
+msgstr "LINK"
+
+#: views/templates/utilidades.php:1393 views/templates/utilidades.php:1396
+msgid "EDITAR"
+msgstr "EDIT"
+
+#: woocommerce/checkout/review-order.php:31
+msgid "Product"
+msgstr "Product"
+
+#: woocommerce/checkout/review-order.php:32
+#: woocommerce/checkout/review-order.php:111
+msgid "Total"
+msgstr "Total"
+
+#: woocommerce/checkout/review-order.php:64
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: woocommerce/checkout/review-order.php:146
+msgid "* No has seleccionado ninguna oficina"
+msgstr "*You have not selected any office"
+
+#: woocommerce/checkout/review-order.php:149
+msgid "Necesitas seleccionar una oficina para completar el pedido"
+msgstr "You need to select an office to complete your order"
+
+#: woocommerce/checkout/review-order.php:229
+msgid "Oficina para la entrega"
+msgstr "Delivery office"
+
+#: woocommerce/checkout/review-order.php:230
+msgid "Buscar oficina"
+msgstr "Find Office"
+
+#: woocommerce/checkout/review-order.php:231
+msgid "Oficina seleccionada"
+msgstr "Slected Office"
+
+#: woocommerce/checkout/review-order.php:236
+msgid "Buscador de Oficinas"
+msgstr "Office Finder"
+
+#~ msgid "Descarga de informes para la grabación del envió y/o recogida:"
+#~ msgstr ""
+#~ "Downloading reports for the recording of the shipment and / or collection:"
+
+#~ msgid "Últimas peticiones"
+#~ msgstr "Latest requests"
+
+#~ msgid "HORA DE RECOGIDA ANTERIOR A LA ACTUAL"
+#~ msgstr "TIME OF PICKUP PRIOR TO CURRENT TIME"
+
+#~ msgid "Cambio de modalidad"
+#~ msgstr "Method change"
+
+#~ msgid ""
+#~ "Los env&iacute;os a Portugal solo est&aacute;n disponibles si se utiliza "
+#~ "el PAQ 24 ¿Quieres cambiar la modalidad de env&iacute;o a PAQ 24?"
+#~ msgstr ""
+#~ "Shipments to Portugal are only available if PAQ 24 is used. Do you want "
+#~ "to change the shipping method to PAQ 24?"
+
+#~ msgid "Automatica"
+#~ msgstr "Automatic"
+
+#~ msgid ""
+#~ "Credencial facilitada por Correos Express. En caso de no disponer de "
+#~ "&eacute;l, pongase en contacto con Correos Express."
+#~ msgstr ""
+#~ "Credential provided by Correos Express. If you don't have it, contact "
+#~ "Correos Express."
+
+#~ msgid "Desde(h:m)"
+#~ msgstr "From(h:m)"
+
+#~ msgid "Para poder realizar el pedido es necesario seleccionar una oficina"
+#~ msgstr "You need to select an office in order to complete the order"
+
+#~ msgid " Validar credenciales "
+#~ msgstr "Validate Credentials"
+
+#~ msgid "Credenciales inválidas, Consulte con su Comercial"
+#~ msgstr "Invalid credentials, check with your commercial"
+
+#~ msgid "URL Web Service (env&iacute;o)"
+#~ msgstr "Web service URL (send)"
+
+#~ msgid "URL Web Service (recogida)"
+#~ msgstr "Web service URL (pickup)"
+
+#~ msgid "URL Web Service (seguimiento)"
+#~ msgstr "Web service URL (tracking)"
+
+#~ msgid "aqu&iacute;"
+#~ msgstr "here;"
+
+#~ msgid "Espa&ntilde;a"
+#~ msgstr "Spain"
+
+#~ msgid "KG por defecto"
+#~ msgstr "Default KG"
+
+#~ msgid "Tel&eacute;fono fijo"
+#~ msgstr "Phone"
+
+#~ msgid "Tfn. Fijo"
+#~ msgstr "Phone"
+
+#~ msgid "M&oacute;vil"
+#~ msgstr "Mobile phone"
+
+#~ msgid "Tfn. M&oacute;vil"
+#~ msgstr "Ph. Mobile"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Kilos"
+#~ msgstr "Kg"
+
+#~ msgid "No tienes productos para enviar los s&aacute;bados."
+#~ msgstr "You don't have products for delivey on saturdays."
+
+#~ msgid ""
+#~ "La entrega en s&aacute;bados solo est&aacute; disponible si se utiliza el "
+#~ "PAQ 14 ¿Quieres cambiar la modalidad de env&iacute;o a PAQ 14?"
+#~ msgstr ""
+#~ "Delivery on Saturdays is only available if PAQ 14 is used. Do you want to "
+#~ "change the shipping method to PAQ 14?"
+
+#~ msgid "Modalidad cambiada a PAQ 14"
+#~ msgstr "Shipping method change to PAQ 14"
+
+#~ msgid "Estados:"
+#~ msgstr "Status:"
+
+#~ msgid "Transportistas"
+#~ msgstr "Carriers"
+
+#~ msgid "Necesitas seleccionar una oficina para completar &eacute;l pedido"
+#~ msgstr "You need to select an office in order to complete the order"
+
+#~ msgid "M&ecute;todo de pago contrareembolso"
+#~ msgstr "Payment method for cash on delivery"
+
+#~ msgid "Servicio Especializados en tus compradores Online"
+#~ msgstr "Specialized Services in your online shoppers"
+
+#~ msgid "SERVICIO GRATUITO INCLUIDO EN EL PAQ 24H"
+#~ msgstr "FREE SERVICE INCLUDED IN THE PAQ 24H"
+
+#~ msgid "AH&Oacute;RRALES ESPERAS"
+#~ msgstr "SAVING ON WAITING TIMES"
+
+#, fuzzy
+#~| msgid "Localizaci&oacute;n inmediata del destinatario, en caso de ausencia"
+#~ msgid "Localizaci&oacute;n inmediata del destinatario, en caso de ausencia."
+#~ msgstr "Immediate location of the consignee in case of absence"
+
+#~ msgid "HAZLES LA VIDA F&Aacute;CIL."
+#~ msgstr "MAKE THEIR LIFE EASIER."
+
+#~ msgid "¿Eres cliente?"
+#~ msgstr "Already a customer?"
+
+#, fuzzy
+#~| msgid "Configura tu m&oacute;dulo"
+#~ msgid "Configura t&uacute; m&oacute;dulo"
+#~ msgstr "Configure your module"
+
+#~ msgid "A&uacute;n no eres cliente"
+#~ msgstr "Not a customer yet"
+
+#~ msgid "Las zonas se listan por "
+#~ msgstr "The zones are listed by "
+
+#~ msgid "orden de preferencia de uso."
+#~ msgstr "use preference order."
+
+#~ msgid ""
+#~ "Configuraci&oacute;n de usuario, &uacute;nica para todas las tiendas."
+#~ msgstr "User configuration, unique for all shops."
+
+#~ msgid "6123456789"
+#~ msgstr "6123456789"
+
+#~ msgid "Selecciona la oficina para entrega"
+#~ msgstr "Select delivery office"
+
+#~ msgid "Facturac&oacute;n"
+#~ msgstr "Billing"
+
+#~ msgid "Codigo de referencia del env&iacute;o."
+#~ msgstr "Reference code of the shipment."
+
+#~ msgid "Localización inmediata del destinatario, en caso de ausencia."
+#~ msgstr "Immediate location of the consignee in case of absence."

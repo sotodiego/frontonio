@@ -1,0 +1,25 @@
+20-03-2024 09:04:56 - array (
+  'action' => 'correosOficialDispacher',
+  '_nonce' => '04a7e43a91',
+  'dispatcher' => 
+  array (
+    'controller' => 'AdminCorreosOficialUserConfigurationProcess',
+    'action' => 'UserConfigurationDataForm',
+    'DefaultPackages' => '1',
+    'DefaultLabel' => '2',
+    'BankAccNumberAndIBAN' => '',
+    'GoogleMapsApi' => 'AIzaSyDEyR62LGQ02T9ua2FUjqr2Ewq37MmTo7I',
+    'LabelAlternativeText' => '',
+    'WeightByDefault' => '1',
+    'ActivateAutomaticTracking' => 'on',
+    'ShowShippingStatusProcess' => 'on',
+    'ShipmentPreregistered' => '900',
+    'ShipmentCanceled' => '901',
+    'ShipmentReturned' => '902',
+    'ShipmentDelivered' => '903',
+    'ShipmentInProgress' => '904',
+    'CronInterval' => '5',
+    'NifFieldPersonalizedValue' => '',
+    'UserConfigurationSaveButton' => 'GUARDAR DATOS USUARIO',
+  ),
+)

@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://www.correos.es/iris6/services/preregistroetiquetas">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <SolicitudEtiqueta>
+            <fechaOperacion>21-05-2021 13:00:33</fechaOperacion>
+             <CodEtiquetador>43B4</CodEtiquetador>
+             <CodEnvio>PY43B40720207850128042X</CodEnvio>
+            <Care>000000</Care>
+            <ModDevEtiqueta>2</ModDevEtiqueta>
+        </SolicitudEtiqueta>
+    </soapenv:Body>
+</soapenv:Envelope> 

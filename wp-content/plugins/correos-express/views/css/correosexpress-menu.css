@@ -1,0 +1,64 @@
+/**
+* Correos Express Plugin 2.0.13
+*/
+#adminmenu > li[id*="correosexpress"] > a {
+    background: #002e6d;
+    color: #d2dce5;
+  }
+  #adminmenu > li[id*="correosexpress"] > a img {
+    -webkit-filter: none;
+    filter: none;
+    opacity: 1;
+  }
+  #adminmenu li[id*="correosexpress"].menu-top:hover,
+  #adminmenu li[id*="correosexpress"].opensub>a.menu-top,
+  #adminmenu li[id*="correosexpress"]>a.menu-top:focus {
+    background: #d2dce5;
+    color: #00457d;
+  }
+  #adminmenu li[id*="correosexpress"].menu-top:hover img,
+  #adminmenu li[id*="correosexpress"].opensub>a.menu-top img,
+  #adminmenu li[id*="correosexpress"]>a.menu-top:focus img {
+    -webkit-filter: none;
+    filter: none;
+  }
+  ul#adminmenu li[id*="correosexpress"] a.wp-has-current-submenu:after,
+  ul#adminmenu>li[id*="correosexpress"].current>a.current:after {
+    border-right-color: #ffcd00;
+  }
+  #adminmenu li[id*="correosexpress"].wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
+    border-right-color: #ffcd00;
+  }
+  #adminmenu li[id*="correosexpress"].wp-has-current-submenu a.wp-has-current-submenu {
+    background: #002e6d;
+    color: #d2dce5;
+  }
+  /* #adminmenu li[id*="correosexpress"].wp-has-current-submenu a.wp-has-current-submenu img {
+    -webkit-filter: none;
+    filter: none;
+    width: 85% !important;
+    top: -6px !important;
+    position: relative;
+  } */
+  #adminmenu li[id*="correosexpress"] a.wp-has-submenu:focus+.wp-submenu,
+  #adminmenu li[id*="correosexpress"] a.wp-has-submenu+.wp-submenu,
+  #adminmenu li[id*="correosexpress"] a.wp-has-submenu+.wp-submenu.sub-open {
+    background: #d2dce5;
+  }
+  #adminmenu > li[id*="correosexpress"] .wp-submenu a {
+    color: #00457d;
+  }
+  #adminmenu > li[id*="correosexpress"] .wp-submenu a:hover,
+  #adminmenu > li[id*="correosexpress"] .wp-submenu a:focus {
+    color: #002e6d;
+    font-weight: bold;
+  }
+  #adminmenu li[id*="correosexpress"] .opensub .wp-submenu li.current a,
+  #adminmenu li[id*="correosexpress"] .wp-submenu li.current,
+  #adminmenu li[id*="correosexpress"] .wp-submenu li.current a,
+  #adminmenu li[id*="correosexpress"] .wp-submenu li.current a:focus,
+  #adminmenu li[id*="correosexpress"] .wp-submenu li.current a:hover,
+  #adminmenu li[id*="correosexpress"] a.wp-has-current-submenu:focus+.wp-submenu li.current a {
+    color: #002e6d;
+    font-weight: bold;
+  }

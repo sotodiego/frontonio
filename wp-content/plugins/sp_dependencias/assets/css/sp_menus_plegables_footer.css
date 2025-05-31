@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+    .menu_trigger_movil{
+      cursor: pointer;
+      position: relative;
+      width: 100%;
+    }
+
+    .menu_trigger_movil:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 16px;
+        height: 16px;
+        border-top: 4px solid #fff;
+        border-left: 4px solid #fff;
+        transform: rotate(-135deg);
+        transition: transform 0.3s;
+    }
+
+    .menu_trigger_movil.trigger_activo:before{
+        transform: translateY(10px) rotate(45deg);
+    }
+}
+
+
+@media (min-width: 768px) {
+    .menu_plegable_movil {
+        display: flex!important;
+    }
+}
+
+
+
+

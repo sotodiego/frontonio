@@ -1,0 +1,2 @@
+<?php
+return ['x-generator'=>'GlotPress/4.0.1','translation-revision-date'=>'2023-02-24 13:28:14+0000','plural-forms'=>'nplurals=2; plural=n != 1;','project-id-version'=>'Plugins - Ajax add to cart for WooCommerce - Stable (latest release)','language'=>'es','messages'=>['Ajax add to cart for WooCommerce products'=>'Añade Ajax al carrito para los productos de WooCommerce','Ajax add to cart for WooCommerce'=>'Añade Ajax al carrito para WooCommerce','Premium'=>'Premiun','Install'=>'Instalar','QuadLayers'=>'QuadLayers','https://quadlayers.com'=>'https://quadlayers.com']];

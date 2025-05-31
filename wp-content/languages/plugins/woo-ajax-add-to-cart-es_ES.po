@@ -1,0 +1,42 @@
+# Translation of Plugins - Ajax add to cart for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Ajax add to cart for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-02-24 13:28:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Ajax add to cart for WooCommerce - Stable (latest release)\n"
+
+#. Description of the plugin
+#: woo-ajax-add-to-cart.php
+msgid "Ajax add to cart for WooCommerce products"
+msgstr "Añade Ajax al carrito para los productos de WooCommerce"
+
+#. Plugin Name of the plugin
+#: woo-ajax-add-to-cart.php
+msgid "Ajax add to cart for WooCommerce"
+msgstr "Añade Ajax al carrito para WooCommerce"
+
+#: vendor_packages/wp-plugin-table-links.php:15
+msgid "Premium"
+msgstr "Premiun"
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Traits/PluginActions.php:43
+msgid "Install"
+msgstr "Instalar"
+
+#. Author of the plugin
+#: woo-ajax-add-to-cart.php
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:82
+msgid "QuadLayers"
+msgstr "QuadLayers"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: woo-ajax-add-to-cart.php
+msgid "https://quadlayers.com"
+msgstr "https://quadlayers.com"

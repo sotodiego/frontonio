@@ -1,0 +1,89 @@
+.btn,.btn-flat,.btn-large,.btn-small {
+    line-height: 36px;
+    display: inline-block;
+    height: 36px;
+    padding: 0 2rem;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px
+}
+
+.btn-flat.disabled,.btn-flat:disabled,.btn-flat[disabled],.btn-floating.disabled,.btn-floating:disabled,.btn-floating[disabled],.btn-large.disabled,.btn-large:disabled,.btn-large[disabled],.btn-small.disabled,.btn-small:disabled,.btn-small[disabled],.btn.disabled,.btn:disabled,.btn[disabled],.disabled.btn-large,.disabled.btn-small {
+    cursor: default;
+    pointer-events: none;
+    color: #9f9f9f!important;
+    background-color: #dfdfdf!important;
+    box-shadow: none
+}
+
+.btn-flat.disabled:hover,.btn-flat:disabled:hover,.btn-flat[disabled]:hover,.btn-floating.disabled:hover,.btn-floating:disabled:hover,.btn-floating[disabled]:hover,.btn-large.disabled:hover,.btn-large:disabled:hover,.btn-large[disabled]:hover,.btn-small.disabled:hover,.btn-small:disabled:hover,.btn-small[disabled]:hover,.btn.disabled:hover,.btn:disabled:hover,.btn[disabled]:hover,.disabled.btn-large:hover,.disabled.btn-small:hover {
+    color: #9f9f9f!important;
+    background-color: #dfdfdf!important
+}
+
+.btn,.btn-flat,.btn-floating,.btn-large,.btn-small {
+    font-size: 1rem;
+    outline: 0
+}
+
+.btn i,.btn-flat i,.btn-floating i,.btn-large i,.btn-small i {
+    font-size: 1.3rem;
+    line-height: inherit
+}
+
+.btn-floating:focus,.btn-large:focus,.btn-small:focus,.btn:focus {
+    background-color: #cc7400
+}
+
+.btn,.btn-large,.btn-small {
+    cursor: pointer;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .5px;
+    color: #fff;
+    background-color: #ff9100
+}
+
+.btn-large:hover,.btn-small:hover,.btn:hover {
+    background-color: #ff9c1a
+}
+
+
+.head-config div {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.head-config h1 {
+    font-size: 35px;
+    font-weight: 800;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.head-config p {
+    margin: 5px 0;
+}
+
+.head-config span {
+    background-color: #222222;
+    display: inline-flex;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.head-config {
+    max-width: 730px;
+    padding: 20px;
+    margin-left: 0;
+    position: relative;
+    display: flex;
+}
+
+.head-config img {
+    display: inline;
+}

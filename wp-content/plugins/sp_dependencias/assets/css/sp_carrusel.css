@@ -1,0 +1,99 @@
+
+.sp_carrusel_elementor{
+    width: calc(100% - 56px) !important;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.sp_carrusel_elementor .sp_diapositiva{
+    width: 100%!important;
+    height: 100%;
+}
+
+.sp_carrusel_elementor .sp_diapositiva *{
+    height: 100%;
+}
+
+.sp_carrusel_elementor .sp_diapositiva a .elementor-button-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 1024px) {
+    .sp_carrusel_elementor{
+        width: calc(100%) !important;
+    }
+
+    .sp_carrusel_elementor > .splide__arrows{
+        display:none !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    .sp_carrusel_elementor > .splide__track:before,
+    .sp_carrusel_elementor > .splide__track:after{
+        content: "";
+        position: absolute;
+        top: -2px;
+        width: 20px;
+        height: calc(100% + 4px);
+        z-index: 100;
+    }
+    
+    .sp_carrusel_elementor > .splide__track:before{
+        left: -2px;
+        background: linear-gradient(to right, #fff, #fff0);;
+    }
+    
+    .sp_carrusel_elementor > .splide__track:after{
+        right: -2px;
+        background: linear-gradient(to left, #fff, #fff0);;
+    }
+    
+    .sp_carrusel_elementor > .splide__arrows .splide__arrow.splide__arrow--next,
+    .sp_carrusel_elementor > .splide__arrows .splide__arrow.splide__arrow--prev{
+        background-color: transparent;
+        padding: 12px;
+        display: flex;
+        border-radius: 3px;
+        align-items: center;
+        justify-content: center;
+        border: 0px;
+    }
+    
+    .sp_carrusel_elementor > .splide__arrows .splide__arrow.splide__arrow--prev {
+        left: -48px;
+    }
+    .sp_carrusel_elementor > .splide__arrows .splide__arrow.splide__arrow--next {
+        right: -48px;
+    }
+    
+    .sp_carrusel_elementor .splide__arrow svg {
+        fill: #cbbba0;
+        height: 34px;
+        width: 34px;
+    }
+    
+    .sp_carrusel_elementor .splide__arrow [type=button]:focus,
+    .sp_carrusel_elementor .splide__arrow [type=submit]:focus,
+    .sp_carrusel_elementor .splide__arrow button:focus {
+        outline: none!important;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .sp_carrusel_elementor{
+        width: calc(100% - 84px) !important;
+    }
+    .sp_carrusel_elementor > .splide__arrows .splide__arrow.splide__arrow--next{
+        right: -52px;
+    }
+    .sp_carrusel_elementor > .splide__arrows .splide__arrow.splide__arrow--prev{
+        left: -52px;
+    }
+}

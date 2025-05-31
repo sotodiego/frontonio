@@ -1,0 +1,56 @@
+services:
+  frontonio_db:
+    image: mysql:8.0
+    container_name: frontonio_db
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: frontonio
+      MYSQL_USER: frontonio
+      MYSQL_PASSWORD: frontonio
+    volumes:
+      - db_frontonio_data:/var/lib/mysql
+    networks:
+      - frontonio_net
+
+  frontonio:
+    image: frontonio:latest
+    container_name: frontonio_app
+    depends_on:
+      - frontonio_db
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      WORDPRESS_DB_HOST: frontonio_db
+      WORDPRESS_DB_USER: frontonio
+      WORDPRESS_DB_PASSWORD: frontonio
+      WORDPRESS_DB_NAME: frontonio
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - "8011:80"
+    networks:
+      - frontonio_net
+
+  webserver:
+    image: nginx:1.15.12-alpine
+    container_name: frontonio_nginx
+    depends_on:
+      - frontonio
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+      - ./nginx-conf:/etc/nginx/conf.d
+    networks:
+      - frontonio_net
+
+
+volumes:
+  db_frontonio_data:
+  frontonio_data:
+
+networks:
+  frontonio_net:

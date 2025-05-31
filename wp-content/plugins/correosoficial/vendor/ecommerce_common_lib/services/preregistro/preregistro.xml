@@ -1,0 +1,63 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:q0="http://www.correos.es/iris6/services/preregistroetiquetas" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <soapenv:Body>
+ <q0:PreregistroCodExpedicion>
+      <q0:FechaOperacion>11/11/2016</q0:FechaOperacion>
+      <q0:CodEtiquetador>43B4</q0:CodEtiquetador>
+      <q0:NumContrato>54000734</q0:NumContrato>
+      <q0:NumCliente>60018466</q0:NumCliente>
+      <q0:Care  />
+      <q0:TotalBultos>2</q0:TotalBultos>
+      <q0:ModDevEtiqueta>1</q0:ModDevEtiqueta>
+    <q0:Remitente>
+        <q0:Identificacion>
+              <q0:Nombre>Jose</q0:Nombre>
+              <q0:Apellido1>Gonzalez</q0:Apellido1>
+              <q0:Nif>12767536Y</q0:Nif>
+              </q0:Identificacion>
+        <q0:DatosDireccion>
+              <q0:Direccion>San Juan</q0:Direccion>
+              <q0:Numero>12</q0:Numero>
+              <q0:Localidad>Boecillo</q0:Localidad>
+              <q0:Provincia>Valladolid</q0:Provincia>
+        </q0:DatosDireccion>
+        <q0:CP>47151</q0:CP>
+    </q0:Remitente>
+    <q0:Destinatario>
+      <q0:Identificacion>
+          <q0:Nombre>Rosa</q0:Nombre>
+          <q0:Apellido1>Cano</q0:Apellido1>
+          <q0:Nif>12767535M</q0:Nif>
+      </q0:Identificacion>
+     <q0:DatosDireccion>
+          <q0:Direccion>Antonio Teran</q0:Direccion>
+          <q0:Numero>2</q0:Numero>
+          <q0:Localidad>Palencia</q0:Localidad>
+          <q0:Provincia>Palencia</q0:Provincia>
+      </q0:DatosDireccion>
+     <q0:DatosDireccion2>
+          <q0:Direccion  />
+          <q0:Localidad  />
+      </q0:DatosDireccion2>
+      <q0:CP>34005</q0:CP>
+      <q0:Pais>ES</q0:Pais>
+    </q0:Destinatario>
+    <q0:Envio>
+          <q0:NumBulto>1</q0:NumBulto>
+          <q0:CodProducto>S0132</q0:CodProducto>
+          <q0:TipoFranqueo>FP</q0:TipoFranqueo>
+          <q0:ModalidadEntrega>ST</q0:ModalidadEntrega>
+        <q0:Pesos>
+          <q0:Peso>
+              <q0:TipoPeso>R</q0:TipoPeso>
+              <q0:Valor>44</q0:Valor>
+          </q0:Peso>
+        </q0:Pesos>
+          <q0:Largo>44</q0:Largo>
+          <q0:Alto>44</q0:Alto>
+          <q0:Ancho>44</q0:Ancho>
+          <q0:CodEnvio>PQ10011000000060138080T</q0:CodEnvio>
+    </q0:Envio>
+    <q0:CodExpedicion>PQ1001100000006N</q0:CodExpedicion>
+</q0:PreregistroCodExpedicion>
+</soapenv:Body>
+</soapenv:Envelope>

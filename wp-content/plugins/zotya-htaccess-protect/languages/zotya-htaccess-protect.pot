@@ -1,0 +1,180 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: htaccess protect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-02 11:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.1"
+
+#: settings-page.php:34
+msgid ""
+"The following files need to be writable by WordPress for this plugin to work:"
+msgstr ""
+
+#: settings-page.php:35 settings-page.php:36 settings-page.php:37
+msgid "writable"
+msgstr ""
+
+#: settings-page.php:35 settings-page.php:36 settings-page.php:37
+msgid "not writable"
+msgstr ""
+
+#: settings-page.php:50
+msgid "Enable/disable protection"
+msgstr ""
+
+#: settings-page.php:55
+msgid "You have to have at least one user to enable the protection"
+msgstr ""
+
+#: settings-page.php:60
+msgid "Protection for wp-admin"
+msgstr ""
+
+#: settings-page.php:63 settings-page.php:75 settings-page.php:87
+#: settings-page.php:99
+msgid "Enabled"
+msgstr ""
+
+#: settings-page.php:66 settings-page.php:78 settings-page.php:90
+#: settings-page.php:102
+msgid "Disabled"
+msgstr ""
+
+#: settings-page.php:68
+msgid ""
+"By enabling this setting, you will probably be asked for the password as "
+"soon as you save this option (or go to any other admin page) - so be careful."
+msgstr ""
+
+#: settings-page.php:72
+msgid "Protection for wp-login.php"
+msgstr ""
+
+#: settings-page.php:80
+msgid ""
+"By enabling this setting, you will be asked for this password before you can "
+"access the login page again. This is in addition to and separate from the "
+"WordPress login."
+msgstr ""
+
+#: settings-page.php:84
+msgid "Protection for the whole site"
+msgstr ""
+
+#: settings-page.php:92
+msgid ""
+"By enabling this setting, you will be asked for this password before you can "
+"access ANY PAGE again. Only the people with username/password will be able "
+"to see any page of the site - be careful!"
+msgstr ""
+
+#: settings-page.php:96
+msgid "Authorization fix"
+msgstr ""
+
+#: settings-page.php:104
+#, php-format
+msgid "Enable this fix if you have notice Loopback issues on %1$s."
+msgstr ""
+
+#: settings-page.php:109
+msgid "Save"
+msgstr ""
+
+#: settings-page.php:115
+msgid "Modify users"
+msgstr ""
+
+#: settings-page.php:118 settings-page.php:150
+msgid "Username"
+msgstr ""
+
+#: settings-page.php:119
+msgid "Modify password"
+msgstr ""
+
+#: settings-page.php:120
+msgid "Remove user"
+msgstr ""
+
+#: settings-page.php:131
+msgid "New password"
+msgstr ""
+
+#: settings-page.php:132
+msgid "Change password"
+msgstr ""
+
+#: settings-page.php:136
+msgid "Remove User"
+msgstr ""
+
+#: settings-page.php:145
+msgid "Add new user"
+msgstr ""
+
+#: settings-page.php:155
+msgid "Password"
+msgstr ""
+
+#: settings-page.php:162
+msgid "Add user"
+msgstr ""
+
+#: settings-page.php:173
+msgid "Settings"
+msgstr ""
+
+#: class.htaccess.php:39
+msgid "New user added"
+msgstr ""
+
+#: class.htaccess.php:44 class.htaccess.php:79 class.htaccess.php:106
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: class.htaccess.php:63
+msgid "User removed."
+msgstr ""
+
+#: class.htaccess.php:73
+msgid "User removed. The locks were disabled: there are no users left."
+msgstr ""
+
+#: class.htaccess.php:102
+msgid "User password changed."
+msgstr ""
+
+#: class.htaccess.php:276
+msgid "Settings saved."
+msgstr ""
+
+#. Name of the plugin
+msgid "htaccess protect"
+msgstr ""
+
+#. Description of the plugin
+msgid "Protect your login or admin pages with password."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/zoltanlaczko/wp-htaccess-protect/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Zoltan Laczko"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/zoltanlaczko"
+msgstr ""

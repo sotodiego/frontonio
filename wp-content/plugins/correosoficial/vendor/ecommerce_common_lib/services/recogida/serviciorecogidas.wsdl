@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<wsdl:definitions name="PuertaAPuertaBackOfficeDefinitions" targetNamespace="http://www.correos.es/ServicioPuertaAPuertaBackOffice" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://www.correos.es/ServicioPuertaAPuertaBackOffice" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+
+	<xsd:schema 
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+		xmlns:tns2="http://www.correos.es/ServicioPuertaAPuerta"
+		targetNamespace="http://www.correos.es/ServicioPuertaAPuerta">
+
+		<xsd:element name="Recogida" type="tns2:RecogidaType"/>
+
+		<xsd:complexType name="RecogidaType">
+			<xsd:annotation>
+				<xsd:documentation>
+					Objeto de orden de recogida
+				</xsd:documentation>
+			</xsd:annotation>
+			<xsd:sequence>
+				<xsd:element name="ReferenciaRecogida" type="xsd:string" maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Código asociado a la agrupacion de envios
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="FecRecogida" type="xsd:string" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Fecha de recogida. Formato DD/MM/YYYY
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="HoraRecogida" type="xsd:string" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Hora de recogida. Formato HH:MM
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="CodAnexo" type="xsd:string" maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Código del anexo (dato numérico)
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="NomNombreViaRec" type="xsd:string" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Dirección Recogida
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="NomLocalidadRec" type="xsd:string" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Población Recogida
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="CodigoPostalRecogida" type="xsd:string" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							C.P. Recogida
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+
+				<xsd:element name="DesPersonaContactoRec" type="xsd:string" maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Persona de contacto de la recogida
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="DesTelefContactoRec" type="xsd:string" maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Teléfono de la persona de contacto de la
+							recogida
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="DesEmailContactoRec" type="xsd:string" maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Email de la persona de contacto de la recogida
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="DesObservacionRec" type="xsd:string" maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Observaciones de la recogida
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="NumEnvios" type="xsd:int" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Número de bultos a recoger (dato numérico)
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="NumPeso" type="xsd:int" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Peso lote en gramos
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="TipoPesoVol" type="xsd:string" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Código del peso volumétrico (dato numérico). Los
+							valores posibles son:
+							10 Sobres
+							20 Pequeño (caja zapatos)
+							30 Mediano
+							(caja con paquetes folios)
+							40 Grande (caja 80x80x80 cm)
+							50 Muy
+							grande (mayor que caja 80x80x80 cm)
+							60 Palet
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="IndImprimirEtiquetas" type="xsd:string" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Indicador de impresión de etiquetas. Los valores
+							posibles son:
+							S El repartidor tiene que llevarse impresas las
+							etiquetas de los bultos que va a recoger.
+							N El repartidor no tiene
+							que llevarse impresas las etiquetas de los bultos que va a
+							recoger.
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+
+				<xsd:element name="IndDevolverCodSolicitud" type="xsd:string" 
+					maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Indica si se debe devolver el codigo de la solicitud de recogida generada. 
+							Los valores posibles son:
+							S Devolver codigo de la solicitud generada.
+							Cualquier otro valor No se devuelve el codigo de solicitud.
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+
+				<xsd:element ref="tns2:ListaCodEnvios" maxOccurs="unbounded" minOccurs="0"/>
+
+			</xsd:sequence>
+		</xsd:complexType>
+
+		<xsd:element name="ListaCodEnvios" type="tns2:ListaEnviosType" />
+
+		<xsd:complexType name="ListaEnviosType">
+			<xsd:annotation>
+				<xsd:documentation>Envios UPU. </xsd:documentation>
+			</xsd:annotation>
+			<xsd:sequence>
+				<xsd:element name="CodigoEnvio" type="xsd:string" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Código UPU del envío.
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+
+
+
+		<xsd:element name="CodigosEnvios" type="tns2:EnviosUPU" />
+
+		<xsd:complexType name="EnviosUPU">
+			<xsd:annotation>
+				<xsd:documentation>Envios UPU. </xsd:documentation>
+			</xsd:annotation>
+			<xsd:sequence>
+				<xsd:element name="CodigoEnvio" type="xsd:string" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Código UPU del envío.
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+
+
+
+		<xsd:element name="Detalle" type="tns2:DetalleType" />
+
+		<xsd:complexType name="DetalleType">
+			<xsd:annotation>
+				<xsd:documentation>Descripción concepto que se visualizará en la línea de la factura. Para ciertos clientes, por ejemplo RENFE, está descripción se generará de forma automática en función de otros datos de la línea de la factura. </xsd:documentation>
+			</xsd:annotation>
+			<xsd:sequence>
+				<xsd:element name="Cantidad" type="xsd:int" maxOccurs="1"
+					minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation/>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="PVP" type="xsd:decimal" maxOccurs="1"
+					minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Precio final con impuestos
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="Base" type="xsd:decimal" maxOccurs="1"
+					minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Base sobre la que se aplica
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="ImporteImpuesto" type="xsd:decimal"
+					maxOccurs="1" minOccurs="1">
+				</xsd:element>
+				<xsd:element name="PrecioUnitario" type="xsd:decimal"
+					maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Precio por unidad sin impuestos
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="PrecioUnitarioImpuestosIncluidos"
+					type="xsd:decimal" maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Precio por unidad sin impuestos
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="TipoImpuesto" type="xsd:string"
+					maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Porcentaje de impuesto aplicado (10, 20...)
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="PorcentajeImpuesto" type="xsd:int"
+					maxOccurs="1" minOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							Porcentaje de impuesto aplicado (10, 20)
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="Comision" type="xsd:decimal"
+					maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Comisión aplicada por detalle
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="DescConcepto" type="xsd:string"
+					maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Descripción concepto que se visualizará en la
+							línea de la factura. Para ciertos clientes, por
+							ejemplo RENFE, está descripción se generará de
+							forma automática en función de otros datos de la
+							línea de la factura.
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="indTipoMercancia" type="xsd:string"
+					maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Código que forma parte del concepto que determina 
+							el precio del equipaje para RENFE. Los valores posibles son:
+							N -> Normal
+							E -> Especial
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="numOrden" type="xsd:string" maxOccurs="1"
+					minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Código que forma parte del concepto que determina el precio 
+							del equipaje para RENFE. Los valores posibles son:
+							1 -> Orden 1
+							R -> Resto
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element name="NivelPrecio" type="xsd:string" maxOccurs="1" minOccurs="0">
+					<xsd:annotation>
+						<xsd:documentation>
+							Código que forma parte del concepto que determina el 
+							precio del equipaje para RENFE. Los valores posibles son:
+							A -> Bloque I-II
+							B -> Bloque III
+							C -> Internacional-Islas
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+ <xsd:element name="Identificacion" type="tns2:Identificacion"/>
+   <xsd:complexType name="Identificacion">
+      <xsd:sequence>
+         <xsd:element name="NumContrato" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="NumDetallable" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="CodUsuario" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="TipoOperacion" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="ModoOperacion" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:element name="CriterioConsulta" type="tns2:CriterioConsulta"/>
+   <xsd:complexType name="CriterioConsulta">
+      <xsd:sequence>
+         <xsd:element name="CodigoSRE" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="ReferenciaRecogida" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:element name="DatosSolicitudRecogidaEsporadica" type="tns2:DatosSolicitudRecogidaEsporadica"/>
+   <xsd:complexType name="DatosSolicitudRecogidaEsporadica">
+      <xsd:sequence>
+         <xsd:element name="TipoOperacion" type="xsd:string" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+               <xsd:documentation>Tipo de operación. Los valores posibles son:
+					ALTA -> Alta del servicio PaP.
+					ANULACION -> Anulación del servicio PaP</xsd:documentation>
+            </xsd:annotation>
+         </xsd:element>
+         <xsd:element name="FechaOperacion" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+         <xsd:element name="NumContrato" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+         <xsd:element name="NumDetallable" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+         <xsd:element name="CodSistema" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+         <xsd:element name="CodUsuario" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+         <xsd:element ref="tns2:Recogida" maxOccurs="1" minOccurs="0"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:element name="EstadoSolicitudRecogidaEsporadica" type="tns2:EstadoSolicitudRecogidaEsporadica"/>
+   <xsd:complexType name="EstadoSolicitudRecogidaEsporadica">
+      <xsd:sequence>
+         <xsd:element name="fecEstado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="horEstado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="codEstado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="desTextoResumen" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="desTextoAmpliado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="codired" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="unidad" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:element name="TrazaSolicitudRecogidaEsporadica" type="tns2:TrazaSolicitudRecogidaEsporadica"/>
+   <xsd:complexType name="TrazaSolicitudRecogidaEsporadica">
+      <xsd:sequence>
+         <xsd:element name="fecEstado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="horEstado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="codEstado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="desTextoResumen" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="desTextoAmpliado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="codired" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+         <xsd:element name="unidad" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:element name="CodigoSolicitudRecogidaEsporadica" type="tns2:CodigoSolicitudRecogidaEsporadica"/>
+   <xsd:complexType name="CodigoSolicitudRecogidaEsporadica">
+      <xsd:sequence>
+         <xsd:element name="CodigoSolicitudRecogidaEsporadica" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="ReferenciaRecogida" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         <xsd:element name="ReferenciaRelacionPaP" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+      </xsd:sequence>
+   </xsd:complexType>
+
+	</xsd:schema>		
+  
+	<xsd:schema 
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.correos.es/ServicioPuertaAPuertaBackOffice"
+		xmlns:tns2="http://www.correos.es/ServicioPuertaAPuerta"
+		targetNamespace="http://www.correos.es/ServicioPuertaAPuertaBackOffice">
+					
+		<xsd:element name="SolicitudRegistroRecogida">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="ReferenciaRelacionPaP" type="xsd:string"
+						maxOccurs="1" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation>
+								Referencia propia del cliente para identificar el servicio
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>		
+					<xsd:element name="TipoOperacion" type="xsd:string" maxOccurs="1" minOccurs="0" >
+						<xsd:annotation>
+								<xsd:documentation>
+									Tipo de operación. Los valores posibles son: 
+									ALTA -> Alta del servicio PaP.
+									ANULACION -> Anulación del servicio PaP
+								</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					
+					<xsd:element name="FechaOperacion" type="xsd:string"
+						maxOccurs="1" minOccurs="0" />
+
+					<xsd:element name="NumContrato" type="xsd:string"
+						maxOccurs="1" minOccurs="0" />
+					<xsd:element name="NumDetallable" type="xsd:string"
+						maxOccurs="1" minOccurs="0" />
+					<xsd:element name="CodSistema" type="xsd:string"
+						maxOccurs="1" minOccurs="0" />
+					<xsd:element name="CodUsuario" type="xsd:string"
+						maxOccurs="1" minOccurs="0" />				
+					
+					<xsd:element ref="tns2:Recogida" maxOccurs="unbounded" minOccurs="1" 
+					/>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		
+		
+		<xsd:element name="SolicitudRegistroRecogidaResult" >
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element ref="tns:RespuestaSolicitudRegistroRecogida" />
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		
+		<xsd:element name="RespuestaSolicitudRegistroRecogida" >
+			<xsd:complexType >
+				<xsd:sequence>
+					<xsd:element name="CodigoError"       type="xsd:string" >
+						<xsd:annotation>
+							<xsd:documentation>
+								Indicador error en la recogida. Los valores posibles son:
+								"Vacío" -> OK
+								1 -> KO 
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element name="DescripcionError"     type="xsd:string" >
+					
+						<xsd:annotation>
+							<xsd:documentation>
+								Descripción de los errores en la operación que se 
+								realiza de la recogida. En el caso de que existan varios 
+								errores se devolverá la descripción de cada uno de ellos 
+								separados por un punto y coma.
+							</xsd:documentation>
+						</xsd:annotation>				
+					
+					</xsd:element>
+						
+					<xsd:element name="CodSolicitud"     type="xsd:string"  maxOccurs="1" minOccurs="0" >
+					
+						<xsd:annotation>
+							<xsd:documentation>
+								Codigo de la solicitud de recogida generada.
+								Se informa si se solicita mediante el parametro de entrada
+								IndDevolverCodSolicitud con valor S
+							</xsd:documentation>
+						</xsd:annotation>				
+					
+					</xsd:element>
+						
+				</xsd:sequence>
+			</xsd:complexType>
+		
+		</xsd:element>	
+				
+		<xsd:element name="AnulacionRecogidaPaPRequest">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="FechaOperacion" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+					<xsd:element name="NumContrato" type="xsd:string" maxOccurs="1" minOccurs="1" />
+					<xsd:element name="NumDetallable" type="xsd:string" maxOccurs="1" minOccurs="1" />
+					<xsd:element name="CodSistema" type="xsd:string" maxOccurs="1" minOccurs="0" />
+					<xsd:element name="CodUsuario" type="xsd:string" maxOccurs="1" minOccurs="1" />
+					<xsd:element name="CodSolicitud" type="xsd:string" maxOccurs="1" minOccurs="0" />
+					<xsd:element name="ReferenciaRecogida" type="xsd:string" maxOccurs="1" minOccurs="0" />				
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		<xsd:element name="AnulacionRecogidaPaPResponse">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="AnulacionRecogidaPaPResult">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="CodigoSRE" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+								<xsd:element name="ReferenciaSRE" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+								<xsd:element name="FechaOperacion" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+								<xsd:element name="FechaRecogida" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+								<xsd:element name="CodigoResultado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+								<xsd:element name="DetalleResultado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+								<xsd:element name="EstadoSRE" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+								<xsd:element name="FecEstadoSRE" type="xsd:string" maxOccurs="1" minOccurs="1"/>	
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+	<xsd:element name="ConsultaSRERequest">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element ref="tns2:Identificacion" maxOccurs="1" minOccurs="0"/>
+            <xsd:element ref="tns2:CriterioConsulta" maxOccurs="1" minOccurs="0"/>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+   <xsd:element name="SolicitudConsultaRecogidaEsporadicaResult">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element ref="tns:RespuestaSolicitudConsultaRecogidaEsporadica"/>
+            <xsd:element name="CodigoResultado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="DetalleResultado" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+   <xsd:element name="RespuestaSolicitudConsultaRecogidaEsporadica">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="ListaRespuestaCodigoRecogidaEsporadica">
+               <xsd:complexType>
+                  <xsd:sequence>
+                     <xsd:element ref="tns:RespuestaCodigoRecogidaEsporadica" maxOccurs="unbounded" minOccurs="1"/>
+                  </xsd:sequence>
+               </xsd:complexType>
+            </xsd:element>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+   <xsd:element name="RespuestaCodigoRecogidaEsporadica">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element ref="tns2:CodigoSolicitudRecogidaEsporadica" maxOccurs="1" minOccurs="1"/>
+            <xsd:element ref="tns2:DatosSolicitudRecogidaEsporadica" maxOccurs="1" minOccurs="0"/>
+            <xsd:element ref="tns2:EstadoSolicitudRecogidaEsporadica" maxOccurs="unbounded" minOccurs="0"/>
+            <xsd:element name="TrazasSolicitudRecogidaEsporadica">
+               <xsd:complexType>
+                  <xsd:sequence>
+                     <xsd:element ref="tns2:TrazaSolicitudRecogidaEsporadica" maxOccurs="unbounded" minOccurs="1"/>
+                  </xsd:sequence>
+               </xsd:complexType>
+            </xsd:element>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+
+  
+</xsd:schema>		
+	
+	
+  </wsdl:types>
+  <wsdl:message name="anulacionRecogidaPaPResponse">
+    <wsdl:part name="AnulacionRecogidaPaPResponse" element="tns:AnulacionRecogidaPaPResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SolicitudRegistroRecogidaRequest">
+    <wsdl:part name="SolicitudRegistroRecogidaRequest" element="tns:SolicitudRegistroRecogida">
+    </wsdl:part>
+  </wsdl:message>
+  
+  <wsdl:message name="anulacionRecogidaPaPRequest">
+    <wsdl:part name="AnulacionRecogidaPaPRequest" element="tns:AnulacionRecogidaPaPRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SolicitudRegistroRecogidaResponse">
+    <wsdl:part name="SolicitudRegistroRecogidaResponse" element="tns:SolicitudRegistroRecogidaResult">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="consultaSRERequest">
+      <wsdl:part name="ConsultaSRERequest" element="tns:ConsultaSRERequest"/>
+   </wsdl:message>
+
+   <wsdl:message name="SolicitudConsultaRecogidaEsporadicaResult">
+      <wsdl:part name="solicitudConsultaRecogidaEsporadicaResult" element="tns:SolicitudConsultaRecogidaEsporadicaResult"/>
+   </wsdl:message>
+
+  <wsdl:portType name="ServicioPuertaAPuertaBackOfficePort">
+    <wsdl:operation name="SolicitudRegistroRecogida">
+      <wsdl:input name="SolicitudRegistroOrdenesRequest" message="tns:SolicitudRegistroRecogidaRequest">
+    </wsdl:input>
+      <wsdl:output name="SolicitudRegistroOrdenesResponse" message="tns:SolicitudRegistroRecogidaResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnulacionRecogidaPaP">
+      <wsdl:input name="AnulacionRecogidaPaPRequest" message="tns:anulacionRecogidaPaPRequest">
+    </wsdl:input>
+      <wsdl:output name="AnulacionRecogidaPaPResponse" message="tns:anulacionRecogidaPaPResponse">
+    </wsdl:output>
+    </wsdl:operation>
+	  <wsdl:operation name="ConsultaSRE">
+         <wsdl:input name="ConsultaSRERequest" message="tns:consultaSRERequest"/>
+         <wsdl:output name="SolicitudConsultaRecogidaEsporadicaResult" message="tns:solicitudConsultaRecogidaEsporadicaResult"/>
+      </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServicioPuertaAPuertaBackOfficeBinding" type="tns:ServicioPuertaAPuertaBackOfficePort">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="SolicitudRegistroRecogida">
+      <soap:operation soapAction="http://www.correos.es/ServicioPuertaAPuerta/SolicitudRegistroOrdenes"/>
+      <wsdl:input name="SolicitudRegistroOrdenesRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="SolicitudRegistroOrdenesResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AnulacionRecogidaPaP">
+      <soap:operation soapAction="http://www.correos.es/ServicioPuertaAPuerta/AnulacionRecogida"/>
+      <wsdl:input name="AnulacionRecogidaPaPRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="AnulacionRecogidaPaPResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+	  <wsdl:operation name="ConsultaSRE">
+         <soap:operation soapAction="http://www.correos.es/ServicioPuertaAPuerta/ConsultaSRE"/>
+         <wsdl:input name="ConsultaSRERequest">
+            <soap:body use="literal"/>
+         </wsdl:input>
+         <wsdl:output name="SolicitudConsultaRecogidaEsporadicaResult">
+            <soap:body use="literal"/>
+         </wsdl:output>
+      </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioPuertaAPuertaBackOffice">
+    <wsdl:port name="ServicioPuertaAPuertaBackOfficeBinding" binding="tns:ServicioPuertaAPuertaBackOfficeBinding">
+      <soap:address location="https://serviciorecogidas.correos.es/serviciorecogidas"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

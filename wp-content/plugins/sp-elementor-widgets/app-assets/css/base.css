@@ -1,0 +1,183 @@
+/*////////////////////////////////////
+/* -- Alert
+////////////////////////////////////*/
+
+    .spuser_alert {
+        background-color: rgba(0,0,0,.75);
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100%;
+        z-index: 99999;
+        transition: all .5s ease;
+        opacity: 0;
+        box-sizing: content-box;
+    }
+
+    .spuser_alert_cont {
+        max-width: 600px;
+        background-color: #141b1e;
+        position: absolute;
+        width: 90%;
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%, -100%);
+        padding: 20px;
+        box-shadow: 0 0 12px 0 rgba(0,0,0,.5);
+        transition: all .5s;
+        box-sizing: border-box;
+    }
+
+    .spuser_alert_img {
+        display: block;
+        margin-right: 15px;
+        position: absolute;
+        top: 50%;
+        margin-top: -23px;
+        font-size: 40px;
+        color: #fff;
+    }
+
+    .spuser_alert_close {
+        position: absolute;
+        color: #fff !important;
+        background-color: #b0000e;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        right: -10px;
+        top: -10px;
+        display: block;
+        cursor: pointer;
+        transition: all .5s;
+        text-decoration: none;
+    }
+
+    .spuser_alert_close:hover {
+        transform: scale(1.1);
+    }
+
+    p.spuser_alert_text {
+        margin-bottom: 0;
+        font-size: 15px;
+        padding-left: 55px;
+        margin-top: 0;
+        max-height: calc(80vh - 60px);
+        overflow: auto;
+        color: #fff;
+        text-align: center;
+    }
+
+    .spuser_alert.show {
+        opacity: 1;
+    }
+
+    .spuser_alert.show .spuser_alert_cont {
+        transform: translate(-50%, 0%);
+    }
+
+    .spuser_alert_btns {
+        margin-top: 10px;
+        padding-top: 5px;
+        margin-bottom: -10px;
+        margin-left: 55px;
+        border-top: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .spuser_alert_btn {
+        color: #fff;
+        padding: 8px 32px;
+        margin: 5px;
+        border-radius: 5px;
+        transform: scale(1);
+        transition: all .5s;
+        display: inline-block;
+        width: 45px;
+    }
+
+    .spuser_alert_btn.spuser_alert_cancel {
+        background-color: #cf0d52;
+    }
+
+    .spuser_alert_btn.spuser_alert_accept {
+        background-color: #cf0d52;
+    }
+
+    .spuser_alert_multiple {
+        background-color: #cf0d52;
+        width: auto;
+    }
+
+    .spuser_alert_btn:hover {
+        transform: scale(1.1);
+        color: #fff;
+    }
+
+/*////////////////////////////////////
+/* -- Loading
+////////////////////////////////////*/
+
+    .spuser_modal {
+        background-color: rgba(0,0,0,.75);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        display: none;
+    }
+
+    .spuser_modal_load {
+        width: 300px;
+        background-color: #141b1e;
+        box-shadow: 0px 0px 12px #111;
+        border-radius: 2px;
+        left: 50%;
+        top: 40%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .spuser_modal_load_title {
+        font-size: 25px;
+        margin: 0px;
+        color: #fff;
+    }
+
+    .spuser_modal_load_title span:nth-child(2) {
+        animation-duration: 1s;
+        animation-delay: 0.2s;
+        animation-name: ani;
+        animation-iteration-count: infinite;
+    }
+
+    .spuser_modal_load_title span:nth-child(3) {
+        animation-duration: 1s;
+        animation-delay: 0.4s;
+        animation-name: ani;
+        animation-iteration-count: infinite;
+    }
+
+    .spuser_modal_load_title span:nth-child(4) {
+        animation-duration: 1s;
+        animation-delay: 0.6s;
+        animation-name: ani;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes ani {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }

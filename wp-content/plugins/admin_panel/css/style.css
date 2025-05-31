@@ -1,0 +1,658 @@
+/*////////////////////////////////////
+/* -- GLOBALES
+////////////////////////////////////*/
+
+
+	html > * {
+		font-family: var(--fuente_texto)!important;
+		color: var(--color_texto)!important;
+	}
+	
+	.btn-floating, .btn-floating:hover {
+        background-color: var(--color_acento);
+    }
+
+	button,input,optgroup,select,textarea {
+	    font-family: var(--fuente_texto)!important;;
+	}
+
+	.btn,.btn-flat,.btn-large,.btn-small {
+	    text-transform: none;
+	}
+
+	@media only screen and (max-width: 992px){
+		.s0 {
+			display: none;
+		}
+	}
+
+	@media only screen and (min-width: 993px){
+		.l0 {
+			display: none;
+		}
+	}
+
+	.dtb_img {
+	    width: 40px;
+	    height: 40px;
+	    object-fit: contain;
+	}
+
+	.select2_noinp .select2{
+        width: calc(100% - 45px) !important;
+        margin-left: 45px;
+    }
+
+    .tabs {
+    	box-shadow: 0px -2px 2px 0 rgba(0,0,0,.14), 0px 3px 1px -2px rgba(0,0,0,.12), -1px 0px 5px 0 rgba(0,0,0,.2);
+    }
+
+    .tabs .tab a {
+        color: var(--color_acento)  !important;
+    }
+
+    .tabs .tab a.active, .tabs .tab a:hover {
+        text-shadow: 0 0 2px rgb(207 13 82 / 20%);
+    }
+
+    .tabs .indicator {
+        background-color: var(--color_acento) ;
+    }
+
+    .tabs .tab a:focus, .tabs .tab a:focus.active {
+        outline: 0;
+        background-color: rgb(207 13 82 / 20%);
+    }
+
+    .datatables {
+    	width: 100% !important;
+    }
+
+    #registro .input-field.col label {
+    	left: 0;
+    }
+
+    .degradado {
+		background: #352d6e;
+	}
+
+	.degradado2 {
+	    background: var(--color_acento);
+	    background: -moz-linear-gradient(60deg,  0%, var(--color_acento) 80%);
+	    background: -webkit-linear-gradient(60deg, var(--color_acento) 0%, var(--color_principal) 80%);
+	    background: linear-gradient(60deg, var(--color_acento) 0%, var(--color_principal) 80%);
+	}
+
+
+/*////////////////////////////////////
+/---- Login 
+////////////////////////////////////*/
+
+	.login-bg {
+		background-color: #fff;
+	}
+
+	.login-bg .login-card {
+        background-color: rgb(255 255 255 / 0%);
+	    margin-left: 0 !important;
+	    max-width: 450px;
+    }
+
+	.login-bg .login-card .viwer-form a {
+	    color: var(--color_acento);
+	    font-weight: bold;
+	    font-size: 15px;
+	}
+
+    .login-bg .login-card .viwer-form {
+        border-radius: 6px;
+        padding: 10px 30px;  
+        box-shadow: 0 0 0px 0px #ffffff38;
+    }
+
+    .login-bg-pre {
+	    width: 100vw;
+	    height: 100vh;
+	    background-size: cover;
+	    opacity: 0.1;
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    z-index: 0;
+	}
+
+	.login-card .input-field {
+	    padding: 0 !important;
+	}
+
+	#login-page {
+		z-index: 1;
+		position: relative;
+	}
+
+	p.dnc_bienvenida {
+	    text-align: center;
+	    font-size: 12px;
+	    color: var(--color_texto);
+	    background-color: var(--color_acento);
+	    padding: 10px;
+	    border-radius: 10px;
+	    margin-top: -10px;
+	    margin-bottom: 20px;
+	}
+
+	.login-card .showpass {
+	    cursor: pointer;
+		color:var(--color_principal);
+		position: absolute;
+	    right: 5px;
+	    top: 10px;
+	}
+
+	.login-card .showpass:hover {
+	    color:var(--color_acento)
+	}
+
+	.login-card #password {
+	    padding-right: 40px;
+	    box-sizing: border-box;
+	}
+
+/*////////////////////////////////////
+/---- Install 
+////////////////////////////////////*/
+
+
+	#install {
+	    display: none;
+	    position: fixed;
+	    width: 100vw;
+	    height: 100vh;
+	    background-color: rgba(0, 0, 0, 0.5);
+	    top: 0;
+	    left: 0;
+	    z-index: 999;
+	    padding: 10px;
+	}
+
+	.banner-install {
+	    position: absolute;
+	    background-color: #1e1e1e;
+	    width: 90%;
+	    max-width: 400px;
+	    padding: 20px;
+	    height: auto;
+	    text-align: center;
+	    z-index: 999;
+	    box-shadow: 0 0 5px 0px rgb(0 0 0 / 25%);
+	    display: block;
+	    border-radius: 8px;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+
+	.banner-install img {
+	    max-width: 60px;
+	}
+
+	.banner-install p {
+	    font-size: 17px;
+	    margin: 10px auto;
+	    max-width: 1200px;
+	    font-weight: 500;
+	    color: #ffff;
+	}
+
+	.banner-install button {
+	    width: 50%;
+	    background-color: var(--color_acento);
+	    padding: 6px 10px;
+	    max-width: 400px;
+	    display: block;
+	    margin: auto;
+	    color: #fff;
+	    font-size: 15px;
+	    border: none;
+	    border-radius: 8px;
+	    transition: .15s;
+	}
+
+	.banner-install button:hover {
+	    transform: scale(1.05);
+	}
+
+
+	.banner-install a {
+	    margin-top: 10px;
+	    display: inline-block;
+	    opacity: 1;
+	    transition: .15s;
+	}
+
+	.banner-install a:hover {
+	    color: rgba(243, 20, 102, 0.75);
+	}
+
+	.modal-body-form > p {
+	    text-align: center;
+	    font-size: 17px;
+	    font-weight: 600;
+	}
+
+
+	#installIos {
+	    display: none;
+	    position: fixed;
+	    width: 100vw;
+	    height: 100vh;
+	    background-color: rgba(0, 0, 0, 0.5);
+	    top: 0;
+	    left: 0;
+	    z-index: 999;
+	    padding: 10px;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	.banner-installIos {
+	    position: absolute;
+	    background-color: #171717;
+	    width: 90%;
+	    max-width: 400px;
+	    padding: 20px;
+	    height: auto;
+	    text-align: center;
+	    z-index: 999;
+	    box-shadow: 0 0 5px 0px rgb(0 0 0 / 25%);
+	    display: block;
+	    border-radius: 8px;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+
+	.banner-installIos img {
+	    max-width: 60px;
+	}
+
+	.banner-installIos p {
+	    font-size: 17px;
+	    margin: 10px auto;
+	    max-width: 1200px;
+	    font-weight: 500;
+	    color: #fff;
+	}
+
+	.banner-installIos button {
+	    width: 50%;
+	    background-color: var(--color_acento);
+	    padding: 6px 10px;
+	    max-width: 400px;
+	    display: block;
+	    margin: auto;
+	    color: #fff;
+	    font-size: 15px;
+	    border: none;
+	    border-radius: 8px;
+	    transition: .15s;
+	}
+
+	.banner-installIos button:hover {
+	    transform: scale(1.05);
+	}
+
+
+	.banner-installIos a {
+	    margin-top: 10px;
+	    display: inline-block;
+	    opacity: 1;
+	    transition: .15s;
+	}
+
+	.banner-installIos a:hover {
+	    color: rgba(243, 20, 102, 0.75);
+	}
+
+	#installIosSteps {
+	    display: none;
+	    position: fixed;
+	    width: 100vw;
+	    height: 100vh;
+	    background-color: rgba(0, 0, 0, 0.5);
+	    top: 0;
+	    left: 0;
+	    z-index: 999;
+	    padding: 10px;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	.banner-installIosSteps {
+	    position: absolute;
+	    background-color: #272727;
+	    width: 100%;
+	    max-width: 400px;
+	    padding: 20px;
+	    height: auto;
+	    text-align: center;
+	    z-index: 999;
+	    box-shadow: 0 0 5px 0px rgb(0 0 0 / 25%);
+	    display: block;
+	    border-radius: 8px;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+
+	.cntn-stps-mdl {
+	    height: 100%;
+	    display: flex;
+	    flex-direction: column;
+	    padding: 12px;
+	    row-gap: 12px;
+	}
+	
+	
+	.cntn-stps-mdl div {
+	    display: flex;
+	    justify-content: start;
+	    align-items: flex-start;
+	    flex-direction: column;
+	}
+	
+	.cntn-stps-mdl p {
+	    text-align: left;
+	    font-size: 20px;
+	    font-weight: 600;
+	    display: inline-block;
+	    color: var(--color_acento);
+	    margin: auto;
+	}
+	
+	.cntn-stps-mdl span {
+	    text-align: center;
+	    margin: 8px 0 10px;
+	    color: #fff;
+	}
+	
+	img.img_step_1 {
+	    width: 100px;
+	    margin: auto;
+	}
+	
+	.cntn-stps-mdl button {
+	    width: 50%;
+	    background-color: var(--color_acento);
+	    padding: 6px 10px;
+	    max-width: 400px;
+	    display: block;
+	    margin: 24px auto 8px;
+	    color: #fff;
+	    font-size: 15px;
+	    border: none;
+	    border-radius: 8px;
+	    transition: .15s;
+	}
+	
+	img.img_step_2 {
+	    height: 150px;
+	    margin: auto;
+	}
+
+	#x-stps-mdl {
+	    width: 50%;
+	    background-color: var(--color_acento);
+	    padding: 6px 10px;
+	    max-width: 400px;
+	    display: block;
+	    margin: auto;
+	    color: #fff;
+	    font-size: 15px;
+	    border: none;
+	    border-radius: 8px;
+	    transition: .15s;
+	}
+
+	button#send_login,
+	button#send_recovery {
+		width: calc(100% - 28px) !important;
+		margin-left: 14px !important;
+	}
+
+	@media (max-width: 768px){
+		.login-bg .login-card .viwer-form {
+			padding: 10px 10px;
+		}
+	}
+
+.datepicker-date-display {
+    background-color: var(--color_acento);
+}
+
+.datepicker-table td.is-today {
+    color: var(--color_acento);
+}
+
+.confirmation-btns {
+    display: flex;
+    gap: 5px;
+}
+
+.confirmation-btns button {
+    color: #fff;
+}
+
+.datepicker-table td.is-selected {
+    background-color: var(--color_acento);
+}
+
+.datepicker-day-button:focus {
+    background-color: rgb(207 13 82 / 25%);
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: var(--color-acento);
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected], div.tagsinput span.tag {
+    background-color: var(--color-acento);
+}
+
+.adpn_modal_content3 {
+    box-shadow: 0px 0px 5px #0d0d0d;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+    color: var(--color_acento);
+}
+
+.select-wrapper input.select-dropdown:focus {
+    border-bottom: 1px solid var(--color_acento);
+}
+
+.foto_table {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.p_table {
+	display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/*////////////////////////////////////////////*/
+
+
+div#container_edit_profile_user {
+    justify-content: flex-start;
+    margin: 0 auto;
+    height: auto;
+}
+
+form#form_edit_profile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form#form_edit_profile .rows_profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form#form_edit_profile .rows_profiles label {
+    font-size: 15px;
+}
+
+button#save_data_user_ac {
+    background: var(--color_acento);
+    border: 2px solid var(--color_acento);
+    color: #fff;
+    font-size: 15px;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    transition: .25s;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+button#save_data_user_ac:hover {
+    background: #06090b;
+}
+
+label p {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+label[for="img_profile_user"] {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+label[for="img_profile_user"] span {
+    background: #141b1e;
+    display: flex;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+label[for="img_profile_user"] span i {
+    font-size: 3rem;
+    color: rgba(255,255,255, .15);
+}
+
+label[for="img_profile_user"] span img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+input#img_profile_user {
+    display: none;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 8px 18px;
+}
+
+img.img_datatable {
+    width: 40px;
+    max-height: 40px;
+    margin: auto;
+    display: block;
+}
+
+.dataTables_length select {
+    display: inline-block;
+    width: auto;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding-top: 10px;
+}
+
+/*Toggle menu SP */
+
+#menu_toggle_sp {
+    position: absolute;
+    bottom: 20px;
+    z-index: 99999;
+    right: 5px;
+    transform: rotate(60deg) translate(0px, 5px);
+    transition: all .5s;
+    cursor: pointer;
+}
+
+#menu_toggle_sp i {
+    font-size: 40px;
+    color: #fff;
+}
+
+.sidenav-dark.sidenav-main .sidenav li>a {
+	transition: all .5s;
+}
+
+#menu_toggle_sp_logo {
+	opacity: 0;
+	transition: all .5s;
+	position: absolute;
+	height: 100%;
+	width: auto;
+	left: calc(50% - 10px);
+	top: 6px;
+	transform: translate(-50%, 0);
+	display: none;
+}
+
+#menu_toggle_sp_logo_full {
+	opacity: 100;
+	transition: all .5s;
+}
+
+@media only screen and (min-width: 993px) {
+
+	.sp-toogle .sidenav-main {
+	    width: 50px;
+	}
+
+	.sp-toogle .sidenav-dark.sidenav-main .sidenav li>a {
+	    font-size: 0px;
+	    padding-left: 13px !important;
+	}
+
+	.sp-toogle #menu_toggle_sp {
+	    transform: rotate(0deg) translate(0px, 5px);
+	}
+
+    .sp-toogle #main {
+        padding-left: 50px;
+    }
+
+    .sp-toogle #menu_toggle_sp_logo {
+		opacity: 100;
+		left: calc(50% - 15px);
+		top: 17px;
+	}
+
+	.sp-toogle #menu_toggle_sp_logo_full {
+		opacity: 0;
+	}
+
+}

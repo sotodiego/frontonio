@@ -1,0 +1,1198 @@
+# Translation of Plugins - Abandoned Cart Lite for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Abandoned Cart Lite for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-12-11 09:50:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Abandoned Cart Lite for WooCommerce - Stable (latest release)\n"
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:210
+msgid "What feature?"
+msgstr "Qué característica?"
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:247
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:246
+msgid "Submit & Deactivate"
+msgstr "Enviar y desactivar"
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:202
+msgid "I want to upgrade the plugin to the Pro version"
+msgstr "Quiero actualizar el plugin a la versión PRO."
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:196
+msgid "I cannot see abandoned cart reminder emails records"
+msgstr "No puedo ver los registros de correos electrónicos de recordatorio de carritos abandonados"
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:190
+msgid "Emails are not being sent to customers"
+msgstr "Los correos electrónicos no están siendo enviados a los clientes."
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:214
+msgid "I don't like to share my information with you."
+msgstr "No me gusta compartir mi información con vosotros"
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:208
+msgid "The plugin is great, but I need specific feature(s) that is not supported."
+msgstr "El plugin es genial, pero necesito una característica(s) específica que vosotros no ofrecéis"
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:178
+msgid "I found a better plugin."
+msgstr "He encontrado un plugin mejor."
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:184
+msgid "The plugin is not working."
+msgstr "El plugin no está funcionando."
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:234
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Si tienes un momento, por favor haznos saber por qué lo estás desactivando:"
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:172
+msgid "I only needed the plugin for a short period."
+msgstr "Solo necesitaba el plugin por un corto período de tiempo."
+
+#: includes/class-wcal-common.php:343
+msgid "This product no longer exists"
+msgstr "Este producto ya no existe"
+
+#: woocommerce-ac.php:2478
+msgid "Export"
+msgstr "Exportar"
+
+#: woocommerce-ac.php:2477
+msgid "Import"
+msgstr "Importar"
+
+#: includes/component/faq-support/ts-faq-support.php:127
+msgid "Frequently Asked Questions for "
+msgstr "Preguntas frecuentes para "
+
+#: woocommerce-ac.php:3652
+msgid "Shipping Charges"
+msgstr "Gastos de envío"
+
+#: woocommerce-ac.php:1159
+msgid "Automatically Delete Abandoned Orders after X days has to be greater than 0."
+msgstr "Suprimir automáticamente los pedidos abandonados después de X días debe ser mayor de 0."
+
+#: woocommerce-ac.php:844
+msgid "Automatically delete abandoned cart orders after X days."
+msgstr "Suprimir automáticamente los pedidos de carritos abandonados después de X días."
+
+#: woocommerce-ac.php:840
+msgid "Automatically Delete Abandoned Orders after X days"
+msgstr "Suprimir automáticamente los pedidos abandonados después de X días"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:603
+msgid "Unsubscribed"
+msgstr "Suscripción cancelada"
+
+#: includes/admin/class-wcal-personal-data-eraser.php:99
+msgid "No personal data found for any abandoned carts."
+msgstr "No se han encontrado datos personales para ningún carrito abandonado."
+
+#: woocommerce-ac.php:896
+msgid "<br>In compliance with GDPR, add a message on the Shop & Product pages to inform Registered users of how their data is being used.<br><i>For example: Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>En cumplimiento con el RGPD, añade un mensaje a las páginas de Tienda y Producto para informar a los usuarios registrados de cómo se utilizan sus datos.<br><i>Por ejemplo: Por favor revisa nuestra política de privacidad para ver cómo utilizamos tus datos personales.</i>"
+
+#: woocommerce-ac.php:892
+msgid "Message to be displayed for registered users when tracking their carts."
+msgstr "Mensaje que se mostrará a los usuarios registrados cuando realizen el seguimiento de sus carritos."
+
+#: woocommerce-ac.php:887
+msgid "<br>In compliance with GDPR, add a message on the Checkout page to inform Guest users of how their data is being used.<br><i>For example: Your email address will help us support your shopping experience throughout the site. Please check our Privacy Policy to see how we use your personal data.</i>"
+msgstr "<br>En cumplimiento con el RGPD, añade un mensaje a la página de pago para informar a los usuarios visitantes de cómo se utilizan sus datos.<br><i>Por ejemplo: Tu correo electrónico nos ayudará a dar soporte a tu experiencia de compra en todo el sitio web. Por favor revisa nuestra política de privacidad para ver cómo utilizamos tus datos personales.</i>"
+
+#: woocommerce-ac.php:883
+msgid "Message to be displayed for Guest users when tracking their carts"
+msgstr "Mensaje que se mostrará a los usuarios visitantes cuando realizen el seguimiento de sus carritos."
+
+#: includes/component/faq-support/ts-faq-support.php:175
+msgid "FAQ & Support"
+msgstr "FAQ y soporte"
+
+#: includes/component/faq-support/ts-faq-support.php:126
+msgid "Frequently Asked Questions for %s"
+msgstr "FAQ para %s"
+
+#: includes/admin/class-wcal-personal-data-export.php:242
+msgid "Abandoned but new cart created"
+msgstr "Abandonado, pero se ha creado un nuevo carrito"
+
+#: includes/admin/class-wcal-personal-data-export.php:239
+#: includes/admin/class-wcal-personal-data-export.php:242
+msgid "Cart Recovered - Order #"
+msgstr "Carrito recuperado - Pedido #"
+
+#: includes/admin/class-wcal-personal-data-export.php:192
+#: includes/admin/class-wcal-personal-data-export.php:207
+msgid "Billing Address"
+msgstr "Dirección de facturación"
+
+#: includes/admin/class-wcal-personal-data-export.php:191
+msgid "Session ID"
+msgstr "ID de sesión"
+
+#: includes/admin/class-wcal-personal-data-export.php:190
+#: includes/admin/class-wcal-personal-data-export.php:206
+msgid "Items Present"
+msgstr "Artículos presentes"
+
+#: includes/admin/class-wcal-personal-data-export.php:189
+#: includes/admin/class-wcal-personal-data-export.php:205
+msgid "Cart Total"
+msgstr "Total del carrito"
+
+#: includes/admin/class-wcal-personal-data-export.php:188
+#: includes/admin/class-wcal-personal-data-export.php:204
+msgid "Abandoned Cart Status"
+msgstr "Estado del carrito abandonado"
+
+#: includes/admin/class-wcal-personal-data-export.php:186
+#: includes/admin/class-wcal-personal-data-export.php:202
+msgid "Abandoned Cart ID"
+msgstr "ID del carrito abandonado"
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/class-wcal-personal-data-eraser.php:137
+msgid "Personal data within cart %s has been retained."
+msgstr "Los datos personales del carrito %s han sido retenidos."
+
+#. Translators: %s Abandoned Cart ID.
+#: includes/admin/class-wcal-personal-data-eraser.php:133
+msgid "Removed personal data from cart %s."
+msgstr "Los datos personales del carrito %s han sido eliminados."
+
+#: includes/admin/class-wcal-personal-data-eraser.php:46
+#: includes/admin/class-wcal-personal-data-export.php:45
+msgid "Abandoned & Recovered Carts"
+msgstr "Carritos abandonados y recuperados"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:527
+msgid "User Deleted"
+msgstr "Usuario eliminado"
+
+#: includes/admin/class-wcal-personal-data-eraser.php:222
+msgid "ANONYMIZED"
+msgstr "ANONIMIZADO"
+
+#: includes/class-wcal-common.php:183
+msgid "Database Update Failed. Please try again after sometime"
+msgstr "La actualitzación de la base de datos ha fallado. Por favor vuelve a intentarlo en unos instantes."
+
+#: includes/class-wcal-common.php:168
+msgid "Database Updated Successfully"
+msgstr "Base de datos actualizada con éxito"
+
+#. Author URI of the plugin
+#: woocommerce-ac.php
+msgid "http://www.tychesoftwares.com/"
+msgstr "http://www.tychesoftwares.com/"
+
+#. Author of the plugin
+#: woocommerce-ac.php
+msgid "Tyche Softwares"
+msgstr "Tyche Softwares"
+
+#. Plugin URI of the plugin
+#: woocommerce-ac.php
+msgid "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+msgstr "http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro"
+
+#. Plugin Name of the plugin
+#: woocommerce-ac.php
+msgid "Abandoned Cart Lite for WooCommerce"
+msgstr "Abandoned Cart Lite for WooCommerce"
+
+#: woocommerce-ac.php:3913
+msgid "Enter the email id to which the test email needs to be sent."
+msgstr "Escribe la dirección de correo electrónico donde el correo de prueba debe ser enviado."
+
+#: woocommerce-ac.php:3904
+msgid "Send a test email to:"
+msgstr "Enviar un correo electrónico de prueba a:"
+
+#: woocommerce-ac.php:3897
+msgid "after cart is abandoned."
+msgstr "después que el carrito sea abandonado."
+
+#: woocommerce-ac.php:3855
+msgid "Send this email:"
+msgstr "Enviar este correo electrónico:"
+
+#: woocommerce-ac.php:3741
+msgid "Subject:"
+msgstr "Asunto:"
+
+#: woocommerce-ac.php:3757
+msgid "Email Body:"
+msgstr "Cuerpo del mensaje:"
+
+#: woocommerce-ac.php:3811
+msgid "Use WooCommerce Template Style:"
+msgstr "Usar la plantilla de estilo de Woocomerce:"
+
+#: woocommerce-ac.php:3784
+msgid "Message to be sent in the reminder email."
+msgstr "Mensaje que se enviará en el correo electrónico de recordatorio."
+
+#: woocommerce-ac.php:3725
+msgid "Template Name:"
+msgstr "Nombre de la plantilla:"
+
+#: woocommerce-ac.php:3624
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#: woocommerce-ac.php:3620
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#: woocommerce-ac.php:3609 woocommerce-ac.php:3630
+msgid "Address:"
+msgstr "Dirección:"
+
+#: woocommerce-ac.php:3606
+msgid "Name:"
+msgstr "Nombre:"
+
+#: includes/classes/class-wcal-dashboard-report.php:320 woocommerce-ac.php:3325
+msgid "Go"
+msgstr "Ir"
+
+#: woocommerce-ac.php:3323
+msgid "End Date:"
+msgstr "Fecha de finalización:"
+
+#: woocommerce-ac.php:3321
+msgid "Start Date:"
+msgstr "Fecha de inicio:"
+
+#: woocommerce-ac.php:3270
+msgid "The Report below shows how many Abandoned Carts we were able to recover for you by sending automatic emails to encourage shoppers."
+msgstr "El siguiente informe muestra cuántos carritos abandonados hemos podido recuperar para ti enviando correos electrónicos automáticos para animar a los compradores. "
+
+#: woocommerce-ac.php:3849
+msgid "Enter the header which will appear in the abandoned WooCommerce email sent. This is only applicable when only used when \"Use WooCommerce Template Style:\" is checked."
+msgstr ""
+"Escribe el texto de cabecera que se mostrará en el correo electrónico enviado cuando se abandone un carrito de Woocomerce.\n"
+"Esto solo es aplicable cuando \"Usar estilo de plantilla de Woocomerce\" esté marcado."
+
+#: woocommerce-ac.php:3834
+msgid "Email Template Header Text: "
+msgstr "Texto de cabecera de la plantilla de correo electrónico:"
+
+#: woocommerce-ac.php:3827
+msgid "Use WooCommerce default style template for abandoned cart reminder emails."
+msgstr "Usar la plantilla de estilo por defecto de Woocomerce para los correos electrónicos de recordatorio de carrito abandonado."
+
+#: woocommerce-ac.php:3198
+msgid "Add New Template"
+msgstr "Añadir nueva plantilla"
+
+#: woocommerce-ac.php:3179
+msgid "The Email Template has been successfully updated."
+msgstr "La plantilla de correo electrónico ha sido actualizada con éxito."
+
+#: woocommerce-ac.php:3001
+msgid "Add email templates at different intervals to maximize the possibility of recovering your abandoned carts."
+msgstr "Añade plantillas de correo electrónico a intervalos diferentes para maximizar la posibilidad de recuperar tus carritos abandonados."
+
+#: woocommerce-ac.php:2980
+msgid "Carts without Customer Details"
+msgstr "Carritos sin datos del cliente"
+
+#. translators: Users.
+#: woocommerce-ac.php:2974
+msgid "Guest %s"
+msgstr "Invitado %s"
+
+#. translators: Users.
+#: woocommerce-ac.php:2968
+msgid "Registered %s"
+msgstr "Registrado %s"
+
+#: woocommerce-ac.php:2963
+msgid "All "
+msgstr "Todo"
+
+#: woocommerce-ac.php:2864
+msgid "Email Sending Settings"
+msgstr "Ajustes de envío de correos electrónicos"
+
+#: woocommerce-ac.php:2861
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: woocommerce-ac.php:2817
+msgid "The Template has been successfully deleted."
+msgstr "La plantilla ha sido eliminada con éxito."
+
+#: woocommerce-ac.php:2798
+msgid "The Abandoned cart has been successfully deleted."
+msgstr "El carrito abandonado ha sido eliminado con éxito."
+
+#: woocommerce-ac.php:2726
+msgid "WooCommerce - Abandon Cart Lite"
+msgstr "WooCommerce - Abandoned Cart Lite"
+
+#: woocommerce-ac.php:2722
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes permisos suficientes para acceder a esta página."
+
+#: woocommerce-ac.php:2418
+msgid "Product Report"
+msgstr "Informe de producto"
+
+#: woocommerce-ac.php:2411
+msgid "Recovered Orders"
+msgstr "Pedidos recuperados"
+
+#: includes/classes/class-wcal-dashboard-report.php:162 woocommerce-ac.php:2390
+msgid "Abandoned Orders"
+msgstr "Pedidos abandonados"
+
+#: includes/admin/class-wcal-personal-data-export.php:137
+#: woocommerce-ac.php:1443 woocommerce-ac.php:1449
+msgid "Abandoned Carts"
+msgstr "Carritos abandonados"
+
+#: includes/frontend/class-wcal-checkout-process.php:330
+#: includes/frontend/class-wcal-checkout-process.php:332
+msgid "New Customer Order - Recovered"
+msgstr "Pedido de cliente nuevo - Recuperado"
+
+#: woocommerce-ac.php:1141
+msgid "Abandoned cart cut off time should be numeric and has to be greater than 0."
+msgstr "El tiempo límite de carrito abandonado debería ser númerico y mayor de 0."
+
+#: woocommerce-ac.php:970
+msgid "Send Reply Emails to"
+msgstr "Enviar los correos electrónicos de respuesta a"
+
+#: woocommerce-ac.php:961
+msgid "\"From\" Address"
+msgstr "Dirección \"Desde\""
+
+#: woocommerce-ac.php:952
+msgid "\"From\" Name"
+msgstr "Nombre \"Desde\""
+
+#: woocommerce-ac.php:945
+msgid "Settings for abandoned cart recovery emails"
+msgstr "Ajustes de los correos electrónicos de recuperación de carritos abandonados"
+
+#: woocommerce-ac.php:853
+msgid "Sends email to Admin if an Abandoned Cart Order is recovered."
+msgstr "Envía un correo electrónico al Admin si el pedido de un carrito abandonado es recuperado."
+
+#: woocommerce-ac.php:2884 woocommerce-ac.php:2894
+msgid "Change settings for sending email notifications to Customers, to Admin etc."
+msgstr "Canviar ajustes de envío de notificaciones por correo electrónico a clientes, al Admin, etc."
+
+#: woocommerce-ac.php:849
+msgid "Email admin On Order Recovery"
+msgstr "Enviar correo electrónico al Admin cuando se recupere un pedido"
+
+#: woocommerce-ac.php:835
+msgid "Consider cart abandoned after X minutes of item being added to cart & order not placed."
+msgstr "Considerar un carrito abandonado a los X minutos después de que un producto haya sido añadido al carrito y el pedido no se haya confirmado."
+
+#: woocommerce-ac.php:831
+msgid "Cart abandoned cut-off time"
+msgstr "Tiempo límite de carrito abandonado"
+
+#: woocommerce-ac.php:364 woocommerce-ac.php:2404
+msgid "Settings"
+msgstr "Ajustes"
+
+#: woocommerce-ac.php:493
+msgid "Abandoned cart Email Template"
+msgstr "Plantilla de correo electrónico de carrito abandonado"
+
+#: includes/component/plugin-tracking/class-tyche-plugin-tracking.php:121
+msgid "Once in a Week"
+msgstr "Una vez a la semana"
+
+#: woocommerce-ac.php:4618
+msgid "Once Every Fifteen Minutes"
+msgstr "Una vez cada quince minutos"
+
+#: includes/component/plugin-tracking/class-tyche-plugin-tracking.php:264
+msgid "No thanks"
+msgstr "No, gracias"
+
+#: includes/component/plugin-tracking/class-tyche-plugin-tracking.php:263
+msgid "Allow"
+msgstr "Permitir"
+
+#: includes/classes/class-wcal-templates-table.php:165
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/classes/class-wcal-templates-table.php:101
+msgid "Sent After Set Time"
+msgstr "Enviado después del tiempo establecido"
+
+#: includes/classes/class-wcal-templates-table.php:100
+msgid "Name Of Template"
+msgstr "Nombre de la plantilla"
+
+#: includes/classes/class-wcal-templates-table.php:99
+msgid "Sr"
+msgstr "Sr"
+
+#: includes/classes/class-wcal-dashboard-report.php:118
+#: includes/classes/class-wcal-dashboard-report.php:167
+#: includes/classes/class-wcal-dashboard-report.php:202
+#: includes/classes/class-wcal-dashboard-report.php:237
+#: includes/classes/class-wcal-recover-orders-table.php:170
+msgid "View Details"
+msgstr "Ver detalles"
+
+#: includes/classes/class-wcal-recover-orders-table.php:134
+msgid "Cart Abandoned Date"
+msgstr "Fecha de abandono del carrito"
+
+#: includes/classes/class-wcal-recover-orders-table.php:135
+msgid "Cart Recovered Date"
+msgstr "Fecha de recuperación del carrito"
+
+#: includes/classes/class-wcal-recover-orders-table.php:132
+msgid "Customer Name"
+msgstr "Nombre del cliente"
+
+#: includes/classes/class-wcal-product-report-table.php:100
+msgid "Number of Times Recovered"
+msgstr "Número de veces que se ha recuperado"
+
+#: includes/classes/class-wcal-product-report-table.php:99
+msgid "Number of Times Abandoned"
+msgstr "Número de veces que se ha abandonado"
+
+#: includes/classes/class-wcal-product-report-table.php:98
+msgid "Product Name"
+msgstr "Nombre del producto"
+
+#: includes/admin/class-wcal-personal-data-export.php:239
+#: includes/classes/class-wcal-abandoned-orders-table.php:605
+msgid "Abandoned"
+msgstr "Abandonado"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:395
+#: includes/classes/class-wcal-abandoned-orders-table.php:597
+msgid "items"
+msgstr "artículos"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:395
+#: includes/classes/class-wcal-abandoned-orders-table.php:599
+msgid "item"
+msgstr "artículo"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:174
+#: includes/classes/class-wcal-abandoned-orders-table.php:748
+msgid "View order"
+msgstr "Ver pedido"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:184
+#: includes/classes/class-wcal-abandoned-orders-table.php:788
+#: includes/classes/class-wcal-templates-table.php:175
+#: includes/classes/class-wcal-templates-table.php:365 woocommerce-ac.php:4487
+msgid "Delete"
+msgstr "Eliminar"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:112
+msgid "Status of Cart"
+msgstr "Estado del carrito"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:477
+#: includes/admin/class-wcal-personal-data-export.php:187
+#: includes/admin/class-wcal-personal-data-export.php:203
+#: includes/classes/class-wcal-abandoned-orders-table.php:111
+msgid "Abandoned Date"
+msgstr "Fecha de abandono"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:476
+#: includes/classes/class-wcal-abandoned-orders-table.php:110
+#: includes/classes/class-wcal-recover-orders-table.php:136
+msgid "Order Total"
+msgstr "Total del pedido"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:109
+msgid "Customer"
+msgstr "Cliente"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:474
+#: includes/admin/class-wcal-personal-data-export.php:193
+#: includes/admin/class-wcal-personal-data-export.php:208
+#: includes/classes/class-wcal-abandoned-orders-table.php:108
+#: includes/classes/class-wcal-recover-orders-table.php:133
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:107
+msgid "Id"
+msgstr "Id"
+
+#: includes/frontend/class-wcal-checkout-process.php:219
+msgid "This order was abandoned & subsequently recovered."
+msgstr "Este pedido fue abandonado y posteriormente recuperado."
+
+#: cron/class-wcal-cron.php:454 woocommerce-ac.php:4231 woocommerce-ac.php:4266
+msgid "Cart Total:"
+msgstr "Total del carrito:"
+
+#: cron/class-wcal-cron.php:292 woocommerce-ac.php:4210 woocommerce-ac.php:4245
+msgid "Price"
+msgstr "Precio"
+
+#: cron/class-wcal-cron.php:291 woocommerce-ac.php:3374 woocommerce-ac.php:4209
+#: woocommerce-ac.php:4244
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: cron/class-wcal-cron.php:290 woocommerce-ac.php:3373 woocommerce-ac.php:4208
+#: woocommerce-ac.php:4243
+msgid "Name"
+msgstr "Nombre"
+
+#: cron/class-wcal-cron.php:289 woocommerce-ac.php:3372 woocommerce-ac.php:4207
+#: woocommerce-ac.php:4242
+msgid "Item"
+msgstr "Artículo"
+
+#: cron/class-wcal-cron.php:300 cron/class-wcal-cron.php:311
+#: woocommerce-ac.php:4205 woocommerce-ac.php:4239
+msgid "Your Shopping Cart"
+msgstr "Tu carrito de la compra"
+
+#: cron/class-wcal-cron.php:98
+msgid "Abandoned cart reminder"
+msgstr "Recordatorio de carrito abandonado"
+
+#: woocommerce-ac.php:2397
+msgid "Email Templates"
+msgstr "Plantillas de correo electrónico"
+
+#: woocommerce-ac.php:862
+msgid "Enable tracking of abandoned products & carts even if customer does not visit the checkout page or does not enter any details on the checkout page like Name or Email. Tracking will begin as soon as a visitor adds a product to their cart and visits the cart page."
+msgstr "Activar el seguimiento de productos y carritos abandonados aunque el cliente no visite la página de finalizar compra o no introduzca sus datos, como nombre o correo electrónico. El seguimiento empezará en cuanto el visitante añada un producto a su carrito y visite la página del carrito de compra."
+
+#: woocommerce-ac.php:858
+msgid "Start tracking from Cart Page"
+msgstr "Empezar el seguimiento desde la página del carrito de compra."
+
+#: woocommerce-ac.php:3751
+msgid "Enter the subject that should appear in the email sent"
+msgstr "Indica el asunto que se debería mostrar en el mensaje enviado"
+
+#: woocommerce-ac.php:3735
+msgid "Enter a template name for reference"
+msgstr "Indica un nombre de plantilla como referencia"
+
+#: woocommerce-ac.php:3629
+msgid "Shipping Details"
+msgstr "Datos de envío"
+
+#: woocommerce-ac.php:3605
+msgid "Billing Details"
+msgstr "Datos de facturación"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:475
+#: woocommerce-ac.php:3601
+msgid "Customer Details"
+msgstr "Datos del cliente"
+
+#. translators: Abandoned Order ID.
+#: woocommerce-ac.php:3368
+msgid "Abandoned Order #%s Details"
+msgstr "Datos del pedido #%s abandonado"
+
+#: woocommerce-ac.php:3189
+msgid "There was a problem updating the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Ha ocurrido un problema al actualizar la plantilla de correo electrónico. Por favor contacta con el autor del plugin a través de <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+
+#: woocommerce-ac.php:3167
+msgid "There was a problem adding the email template. Please contact the plugin author via <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+msgstr "Ha ocurrido un problema al añadir la plantilla de correo electrónico. Por favor contacta con el autor del plugin a través de <a href= \"https://wordpress.org/support/plugin/woocommerce-abandoned-cart\">support forum</a>."
+
+#: woocommerce-ac.php:2921
+msgid "The list below shows all Abandoned Carts which have remained in cart for a time higher than the \"Cart abandoned cut-off time\" setting."
+msgstr "La siguiente lista muestra todos los carritos abandonados que han permanecido en el carrito de compra por un tiempo superior al que está configurado como \"Tiempo límite de carrito abandonado\"."
+
+#: includes/classes/class-wcal-templates-table.php:58
+msgid "template_ids"
+msgstr "template_ids"
+
+#: includes/classes/class-wcal-templates-table.php:57
+msgid "template_id"
+msgstr "template_id"
+
+#: includes/classes/class-wcal-recover-orders-table.php:91
+msgid "rec_abandoned_ids"
+msgstr "rec_abandoned_ids"
+
+#: includes/classes/class-wcal-recover-orders-table.php:90
+msgid "rec_abandoned_id"
+msgstr "rec_abandoned_id"
+
+#: includes/classes/class-wcal-product-report-table.php:62
+msgid "product_ids"
+msgstr "product_ids"
+
+#: includes/classes/class-wcal-product-report-table.php:61
+msgid "product_id"
+msgstr "product_id"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:60
+msgid "abandoned_order_ids"
+msgstr "abandoned_order_ids"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:59
+msgid "abandoned_order_id"
+msgstr "abandoned_order_id"
+
+#: includes/classes/class-wcal-templates-table.php:102
+msgid "Active ?"
+msgstr "¿Activo?"
+
+#: woocommerce-ac.php:4222 woocommerce-ac.php:4257
+msgid "Woman's Hand Bags"
+msgstr "Bolsos de mujer"
+
+#: woocommerce-ac.php:4215 woocommerce-ac.php:4250
+msgid "Men's Formal Shoes"
+msgstr "Zapatos de vestir de hombre"
+
+#: woocommerce-ac.php:3376
+msgid "Line Total"
+msgstr "Línea del total"
+
+#: cron/class-wcal-cron.php:293 woocommerce-ac.php:3375 woocommerce-ac.php:4211
+#: woocommerce-ac.php:4246
+msgid "Line Subtotal"
+msgstr "Línea del subtotal"
+
+#: woocommerce-ac.php:3953
+msgid "If you love <strong>Abandoned Cart Lite for WooCommerce</strong>, then please leave us a <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Thanks :)\">★★★★★</a> rating. Thank you in advance. :)"
+msgstr "Si te gusta <strong>Abandoned Cart Lite for WooCommerce</strong>, por favor, danos una valoración de <a href=\"https://wordpress.org/support/plugin/woocommerce-abandoned-cart/reviews/?rate=5#new-post\" target=\"_blank\" class=\"ac-rating-link\" data-rated=\"Gracias :)\">★★★★★</a>. Gracias por adelantado. :)"
+
+#: woocommerce-ac.php:2513
+msgid "Please enter a valid email."
+msgstr "Por favor, introduce un correo electrónico válido."
+
+#: woocommerce-ac.php:2514
+msgid "Abandoned Cart Reminder"
+msgstr "Recordatorio de carrito abandonado"
+
+#: woocommerce-ac.php:2515
+msgid "Test email is not sent as the email body is empty."
+msgstr "El correo electrónico de prueba no se envía porque el cuerpo del correo electrónico está vacío."
+
+#: woocommerce-ac.php:2517
+msgid "Email has been sent successfully."
+msgstr "El correo electrónico se ha enviado correctamente."
+
+#: woocommerce-ac.php:2383
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: woocommerce-ac.php:992
+msgid "Should users registered on the site be auto logged in when they click a link in the reminder emails?"
+msgstr "¿Los usuarios registrados en el sitio deberían acceder automáticamente cuando hacen clic en un enlace en los correos electrónicos de recordatorio?"
+
+#: woocommerce-ac.php:988
+msgid "Auto login WordPress users coming to the site using reminder email links"
+msgstr "Acceso automático para usuarios de WordPress que acceden al sitio mediante enlaces de correo electrónico de recordatorio"
+
+#: woocommerce-ac.php:983
+msgid "UTM parameters that should be added to all the links in reminder emails."
+msgstr "Parámetros UTM que deben añadirse a todos los enlaces en los correos electrónicos de recordatorio."
+
+#: woocommerce-ac.php:979
+msgid "UTM parameters to be added to all the links in reminder emails"
+msgstr "Parámetros UTM que se añadirán a todos los enlaces en los correos electrónicos de recordatorio"
+
+#: woocommerce-ac.php:932
+msgid "Delete Coupons Manually"
+msgstr "Borrar los cupones manualmente"
+
+#: woocommerce-ac.php:936
+msgid "If you want to completely remove the expired and used coupon code now then click on \"Delete\" button."
+msgstr "Si deseas borrar ahora por completo el código de cupón usado y caducado, haz clic en el botón «Borrar»."
+
+#: woocommerce-ac.php:928
+msgid "Enable this setting if you want to completely remove the expired and used coupon code automatically every 15 days."
+msgstr "Activa estos ajustes si deseas borrar por completo el código del cupón usado y caducado automáticamente cada 15 días."
+
+#: woocommerce-ac.php:924
+msgid "Delete Coupons Automatically"
+msgstr "Borrar los cupones automáticamente"
+
+#: woocommerce-ac.php:918
+msgid "Coupon Settings"
+msgstr "Ajustes del cupón"
+
+#: woocommerce-ac.php:914
+msgid "<br>Message to be displayed when the user chooses to opt out of cart tracking.</i>"
+msgstr "<br>Mensaje que se mostrará cuando el usuario opte por no participar en el seguimiento del carrito.</i>"
+
+#: woocommerce-ac.php:910
+msgid "Message to be displayed when the user chooses to opt out of cart tracking."
+msgstr "Mensaje que se mostrará cuando el usuario opte por no participar en el seguimiento del carrito."
+
+#: woocommerce-ac.php:905
+msgid "<br>In compliance with GDPR, allow the site visitor (guests & registered users) to opt out from cart tracking. This message will be displayed in conjunction with the GDPR message above.</i>"
+msgstr "<br>De conformidad con el RGPD, permite que los visitantes del sitio (invitados y usuarios registrados) opten por no participar en el seguimiento del carrito de compras. Este mensaje se mostrará junto con el mensaje del RGPD anterior.</i>"
+
+#: woocommerce-ac.php:901
+msgid "Allow the visitor to opt out of cart tracking."
+msgstr "Permitir que el visitante opte por no realizar el seguimiento del carrito."
+
+#: woocommerce-ac.php:878
+msgid "Enable this setting to display a notice informing customers that their email and cart data are saved to send abandonment reminders."
+msgstr "Activar estos ajustes para mostrar un aviso que informe a los clientes que su correo electrónico y datos del carrito están guardados, para enviar recordatorios de abandono."
+
+#: views/wcal-email-coupon.php:85
+msgid "Coupon amount:"
+msgstr "Importe del cupón:"
+
+#: views/wcal-email-coupon.php:78
+msgid "Fixed cart discount"
+msgstr "Descuento fijo en el carrito"
+
+#: views/wcal-email-coupon.php:77
+msgid "Percentage discount"
+msgstr "Porcentaje de descuento"
+
+#: views/wcal-email-coupon.php:77 views/wcal-email-coupon.php:78
+msgid "selected"
+msgstr "seleccionado"
+
+#: views/wcal-email-coupon.php:46
+msgid "Replace this coupon with unique coupon codes for each customer"
+msgstr "Reemplaza este cupón con códigos de cupón únicos para cada cliente"
+
+#: views/wcal-email-coupon.php:24
+msgid "Generate unique coupon codes:"
+msgstr "Generar códigos de cupón únicos:"
+
+#: includes/component/plugin-deactivation/class-tyche-plugin-deactivation.php:260
+msgid "Please select a reason for deactivation!"
+msgstr "¡Por favor seleccione un motivo para la desactivación!"
+
+#: includes/classes/class-wcal-templates-table.php:215
+msgid "After Abandonment"
+msgstr "Después del abandono"
+
+#: includes/classes/class-wcal-dashboard-report.php:300
+msgid "Select date range:"
+msgstr "Seleccionar rango de fechas:"
+
+#: includes/classes/class-wcal-dashboard-report.php:284
+msgid "Last Year"
+msgstr "Año anterior"
+
+#: includes/classes/class-wcal-dashboard-report.php:283
+msgid "This Year"
+msgstr "Este año"
+
+#: includes/classes/class-wcal-dashboard-report.php:113
+msgid "Recovered Amount"
+msgstr "Importe recuperado"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:792
+msgid "Delete All Carts"
+msgstr "Borrar todos los carritos"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:791
+msgid "Delete All Visitor Carts"
+msgstr "Borrar todos los carritos de visitas"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:790
+msgid "Delete All Guest User Carts"
+msgstr "Borrar todos los carritos de usuarios invitados"
+
+#: includes/classes/class-wcal-abandoned-orders-table.php:789
+msgid "Delete All Registered User Carts"
+msgstr "Borrar todos los carritos de usuarios registrados"
+
+#: woocommerce-ac.php:2876
+msgid "Connectors"
+msgstr "Conectores"
+
+#: includes/class-wcal-webhooks.php:51
+msgid "Abandoned Order Recovered"
+msgstr "Pedido abandonado recuperado"
+
+#: includes/class-wcal-webhooks.php:49
+msgid "Cart Abandoned after cut-off time"
+msgstr "Carrito abandonado después de la hora límite"
+
+#: includes/class-wcal-common.php:763 includes/class-wcal-common.php:779
+#: includes/class-wcal-common.php:803
+msgid "Discount code applied successfully."
+msgstr "Código de descuento aplicado correctamente."
+
+#: views/wcal-email-coupon.php:61
+msgid "Discount Type:"
+msgstr "Tipo de descuento:"
+
+#: views/wcal-email-coupon.php:242 views/wcal-email-coupon.php:255
+msgid "Search for a Coupon&hellip;"
+msgstr "Buscar un cupón...;"
+
+#: woocommerce-ac.php:3931
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: includes/admin/class-wcal-personal-data-export.php:245
+msgid "Abandoned - Unpaid Order #"
+msgstr "Abandonado - Pedido sin pagar #"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:773
+msgid "Product has been deleted"
+msgstr "El producto ha sido borrado"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:746
+msgid "Tax: "
+msgstr "Impuesto: "
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:513
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:494
+msgid "Item Quantity"
+msgstr "Cantidad de artículos"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:493
+msgid "Item Cost"
+msgstr "Coste del artículo"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:492
+msgid "Item Name"
+msgstr "Nombre del artículo"
+
+#. translators: Recovered Order Link, Order ID, Recovered Date.
+#: includes/admin/class-wcal-abandoned-cart-details.php:458
+msgid "Recovered on %s"
+msgstr "Recuperado el %s"
+
+#. translators: Recovered Order Link, Order ID, Recovered Date.
+#: includes/admin/class-wcal-abandoned-cart-details.php:458
+msgid "Order"
+msgstr "Pedido"
+
+#. translators: Cart ID.
+#: includes/admin/class-wcal-abandoned-cart-details.php:437
+msgid "Cart #%s"
+msgstr "Carrito #%s"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:318
+msgid "Shipping Charges:"
+msgstr "Gastos de envío:"
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:290
+msgid "Shipping Address:"
+msgstr "Dirección de envío:"
+
+#: woocommerce-ac.php:4623
+msgid "Once Every Fifteen Days"
+msgstr "Una vez cada quince días"
+
+#. translators: %1$s: Coupons Deleted, %2$s: Deleted coupons count'.
+#: woocommerce-ac.php:4477
+msgid "%1$s: %2$d"
+msgstr "%1$s: %2$d"
+
+#: woocommerce-ac.php:3927
+msgid "Update Changes"
+msgstr "Actualizar los cambios"
+
+#: woocommerce-ac.php:3639
+msgid "Shipping Address same as Billing Address"
+msgstr "La dirección de envío es la misma que la de facturación"
+
+#. translators: Abandoned & recovered numbers and order totals.
+#: woocommerce-ac.php:3343
+msgid "During the selected range <strong>%1$d</strong> carts totaling <strong>%2$s</strong> were abandoned. We were able to recover <strong>%3$d</strong> of them, which led to an extra <strong>%4$s</strong>"
+msgstr "Durante el intervalo seleccionado, se abandonaron <strong>%1$d</strong> carritos por un total de <strong>%2$s</strong>. Pudimos recuperar <strong>%3$d</strong> de ellos, lo que generó un total de <strong>%4$s</strong> adicionales."
+
+#: woocommerce-ac.php:3157
+msgid "The Email Template has been successfully added. In order to start sending this email to your customers, please activate it."
+msgstr "La plantilla de correo electrónico se ha añadido correctamente. Para comenzar a enviar este correo electrónico a tus clientes, actívala."
+
+#: woocommerce-ac.php:2873
+msgid "SMS"
+msgstr "SMS"
+
+#: woocommerce-ac.php:2870
+msgid "Facebook Messenger"
+msgstr "Facebook Messenger"
+
+#: woocommerce-ac.php:2867
+msgid "Add To Cart Popup Editor"
+msgstr "Editor de ventanas emergentes para añadir al carrito"
+
+#: woocommerce-ac.php:2806
+msgid "All Registered carts have been deleted."
+msgstr "Todos los carritos registrados han sido borrados."
+
+#: woocommerce-ac.php:2804
+msgid "All Guest carts have been successfully deleted."
+msgstr "Todos los carritos de invitados se han borrado correctamente."
+
+#: woocommerce-ac.php:2802
+msgid "All Visitor carts have been successfully deleted."
+msgstr "Todos los carritos de visitantes se han borrado correctamente."
+
+#: woocommerce-ac.php:2800
+msgid "All Abandoned Carts have been successfully deleted."
+msgstr "Todos los carritos abandonados se han borrado correctamente."
+
+#: woocommerce-ac.php:2601
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "Buscando…"
+
+#: woocommerce-ac.php:2600
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "Cargando más resultados…"
+
+#: woocommerce-ac.php:867
+msgid "GDPR Settings"
+msgstr "Ajustes de RGPD"
+
+#: woocommerce-ac.php:826
+msgid "Yes, enable the abandoned cart emails."
+msgstr "Sí, activa los correos electrónicos de carritos abandonados."
+
+#: woocommerce-ac.php:822
+msgid "Enable abandoned cart emails"
+msgstr "Activar correos electrónicos de carritos abandonados"
+
+#: woocommerce-ac.php:815
+msgid "Cart Abandonment Settings"
+msgstr "Ajustes de carrito abandonado"
+
+#: views/wcal-email-coupon.php:261
+msgid "Search & select one coupon code that customers should use to get a discount.  Generated coupon code which will be sent in email reminder will have the settings of coupon selected in this option."
+msgstr "Busca y selecciona un código de cupón que los clientes deberían usar para obtener un descuento. El código de cupón generado que se enviará en un recordatorio por correo electrónico tendrá los ajustes del cupón seleccionado en esta opción."
+
+#: views/wcal-email-coupon.php:205
+msgid "Enter a coupon code to add into email:"
+msgstr "Introduce un código de cupón para añadirlo al correo electrónico:"
+
+#: views/wcal-email-coupon.php:201
+msgid "OR"
+msgstr "OR"
+
+#: views/wcal-email-coupon.php:197
+msgid "Check this box if the coupon cannot be used in conjunction with other coupons."
+msgstr "Marca esta casilla si el cupón no se puede utilizar junto con otros cupones."
+
+#: views/wcal-email-coupon.php:177
+msgid "Individual use only:"
+msgstr "Sólo para uso individual:"
+
+#: views/wcal-email-coupon.php:170
+msgid "The coupon code which will be sent in the reminder emails will be expired based the validity set here. E.g if the coupon code sent in the reminder email should be expired after 7 days then set 7 Day(s) for this option."
+msgstr "El código de cupón que se enviará en los correos electrónicos de recordatorio caducará según la validez establecida aquí. Por ejemplo, si el código de cupón enviado en el correo electrónico de recordatorio debe caducar después de 7 días, entonces establece 7 día(s) para esta opción."
+
+#: views/wcal-email-coupon.php:134
+msgid "Coupon validity:"
+msgstr "Validez del cupón:"
+
+#: views/wcal-email-coupon.php:126
+msgid "Check this box if the coupon grants free shipping. A free shipping method must be enabled in your shipping zone and be set to require \"a valid free shipping coupon\" (see the \"Free Shipping Requires\" setting)."
+msgstr "Marca esta casilla si el cupón concede envío gratuito. Debes activar un método de envío gratuito en su zona de envío y configurarse para que requiera «un cupón de envío gratuito válido» (consulta el ajuste «Requiere envío gratuito»)."
+
+#: views/wcal-email-coupon.php:108
+msgid "Allow free shipping:"
+msgstr "Permitir el envío gratis:"
+
+#: views/wcal-email-coupon.php:101
+msgid "Value of the coupon."
+msgstr "Valor del cupón."
+
+#. translators: Percent of sales.
+#: includes/classes/class-wcal-dashboard-report.php:143
+msgid "<strong>%s%%</strong> of Total Revenue"
+msgstr "<strong>%s%%</strong> de los ingresos totales"
+
+#. translators: recovered percent of carts.
+#: includes/classes/class-wcal-dashboard-report.php:136
+msgid "<strong>%s%%</strong> of Abandoned Carts Recovered"
+msgstr "<strong>%s%%</strong> de carros abandonados recuperados"
+
+#. translators: Count of carts recovered.
+#: includes/classes/class-wcal-dashboard-report.php:129
+msgid "<strong>%s</strong> Recovered Orders"
+msgstr "<strong>%s</strong> pedidos recuperados"
+
+#: includes/class-wcal-admin-notice.php:72
+msgid "Update"
+msgstr "Actualizar"
+
+#: includes/class-wcal-admin-notice.php:69
+msgid "We need to update your email template database for some improvements. Please take a backup of your databases for your piece of mind."
+msgstr "Necesitamos actualizar la base de datos de plantillas de correo electrónico para realizar algunas mejoras. Realiza una copia de seguridad de tus bases de datos para tu tranquilidad."
+
+#: cron/class-wcal-cron.php:338 cron/class-wcal-cron.php:389
+msgid "SKU: "
+msgstr "SKU: "
+
+#: woocommerce-ac.php:2599
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "Solo puedes seleccionar %qty% artículos"
+
+#: woocommerce-ac.php:2598
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "Solo puedes seleccionar 1 artículo"
+
+#: woocommerce-ac.php:2597
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "Por favor, borra %qty% caracteres"
+
+#: woocommerce-ac.php:2596
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "Por favor, borra 1 caracter"
+
+#: woocommerce-ac.php:2595
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "Por favor, introduce %qty% o más caracteres"
+
+#: woocommerce-ac.php:2594
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "Por favor, introduce 1 o más caracteres"
+
+#: woocommerce-ac.php:2593
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "Error al cargar"
+
+#: woocommerce-ac.php:2592
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "No se han encontrado coincidencias"
+
+#: woocommerce-ac.php:2591
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr "%qty% resultados disponibles, usa las flechas de arriba y abajo para navegar."
+
+#: woocommerce-ac.php:2590
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr "Hay un resultado disponible, presiona enter para seleccionarlo."
+
+#: woocommerce-ac.php:2580
+msgid "Are you sure you want delete the expired and used coupons created by Abandonment Cart Lite for WooCommerce Plugin?"
+msgstr "¿Está seguro de que deseas borrar los cupones caducados y usados ​​creados por Abandonment Cart Lite para el plugin WooCommerce?"
+
+#: woocommerce-ac.php:2473
+msgid "Please enter in a value less than the regular price."
+msgstr "Por favor, introduce un valor inferior al precio normal."
+
+#: woocommerce-ac.php:2472
+msgid "Please enter in country code with two capital letters."
+msgstr "Por favor, escribe el código del país con dos letras mayúsculas."
+
+#. translators: %s: price decimal separator.
+#: woocommerce-ac.php:2471
+msgid "Please enter in monetary decimal (%s) format without thousand separators and currency symbols."
+msgstr "Por favor, escribe en formato monetario decimal (%s) sin separador de miles ni símbolos de moneda."
+
+#. translators: %s: decimal.
+#: woocommerce-ac.php:2469
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr "Por favor, escribe en formato decimal (%s) sin separadores de miles."
+
+#. Translators: Plugin Name and URL.
+#: includes/class-wcal-admin-notice.php:99
+msgid "Enabling this setting will allow users registered on the website to access it via reminder email links without needing to login, which may be a security vulnerability."
+msgstr "Activar este ajuste permitirá a los usuarios registrados en el sitio web acceder a él a través de enlaces de correo electrónico de recordatorio sin necesidad de acceder, lo que puede representar una vulnerabilidad de seguridad."
+
+#: includes/blocks/class-wcal-gdpr-emails-blocks-integration.php:103
+#: includes/class-wcal-guest-ac.php:73 includes/class-wcal-tracking-msg.php:72
+msgid "Saving your email and cart details helps us keep you up to date with this order."
+msgstr "Guardar tu correo electrónico y los detalles del carrito nos ayuda a mantenerte actualizado con este pedido."
+
+#: includes/admin/class-wcal-abandoned-cart-details.php:274
+msgid "Billing Address:"
+msgstr "Dirección de facturación:"
+
+#: cron/class-wcal-cron.php:467
+msgid "Product no longer exists"
+msgstr "El producto ya no existe"
+
+#: cron/class-wcal-cron.php:451
+#: includes/admin/class-wcal-abandoned-cart-details.php:752
+msgid "includes Tax: "
+msgstr "impuestos incluidos: "
+
+#: cron/class-wcal-cron.php:443
+msgid "Tax:"
+msgstr "Impuestos:"
+
+#: includes/classes/class-wcal-dashboard-report.php:285
+msgid "Custom"
+msgstr "Personalizar"
+
+#: includes/classes/class-wcal-dashboard-report.php:282
+msgid "Last Quarter"
+msgstr "Trimestre anterior"
+
+#: includes/classes/class-wcal-dashboard-report.php:281
+msgid "This Quarter"
+msgstr "Este trimestre"
+
+#: includes/classes/class-wcal-dashboard-report.php:280
+msgid "Last Month"
+msgstr "El mes pasado"
+
+#: includes/classes/class-wcal-dashboard-report.php:279
+msgid "This Month"
+msgstr "Este mes"
+
+#. translators: Number of guest emails captured.
+#: includes/classes/class-wcal-dashboard-report.php:248
+msgid "%s Guest emails captured."
+msgstr "%s correos electrónicos de invitados capturados."
+
+#: includes/classes/class-wcal-dashboard-report.php:232
+msgid "Emails Captured"
+msgstr "Correos electrónicos capturados"
+
+#: includes/classes/class-wcal-dashboard-report.php:197
+msgid "Number of Emails Sent"
+msgstr "Número de correos electrónicos enviados"
+
+#. translators: Abandoned Orders amount.
+#: includes/classes/class-wcal-dashboard-report.php:178
+msgid "%s amount of Abandoned Orders"
+msgstr "%s cantidad de pedidos abandonados"
+
+#: class-wcal-update.php:504
+msgid "There was an error creating the guest cart table for Abandoned Cart Lite for WooCommerce. Please contact the plugin author via <a href=\"mailto:support@tychesoftwares.com\">email</a>"
+msgstr "Se produjo un error al crear la tabla de carrito de invitados para Abandoned Cart Lite para WooCommerce. Comunícate con el autor del plugin a través del <a href=\"mailto:support@tychesoftwares.com\">correo electrónico</a>"
+
+#: woocommerce-ac.php:874
+msgid "Enable GDPR Notice"
+msgstr "Activar el aviso del RGPD"

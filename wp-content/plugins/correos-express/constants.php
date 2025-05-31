@@ -1,0 +1,3 @@
+<?php
+define( 'CORREOSEXPRESS_VERSION', '3.1.0' );
+define( 'CORREOSEXPRESS_VERSION_SOLICITANTE', '310');

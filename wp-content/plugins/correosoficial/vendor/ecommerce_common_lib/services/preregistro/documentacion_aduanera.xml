@@ -1,0 +1,24 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:prer="http://www.correos.es/iris6/services/preregistroetiquetas">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <prer:SolicitudDocumentacionAduanera>
+         <!--You may enter the following 12 items in any order-->
+         <prer:TipoESAD>DCAF</prer:TipoESAD>
+         <prer:NumContrato></prer:NumContrato>
+         <prer:NumCliente></prer:NumCliente>
+         <prer:CodEtiquetador>296M</prer:CodEtiquetador>
+         <prer:Provincia>40</prer:Provincia>
+         <prer:PaisDestino>ES</prer:PaisDestino>
+         <prer:NombreDestinatario>Nombre Destinatario</prer:NombreDestinatario>
+         <prer:NumeroEnvios>12</prer:NumeroEnvios>
+         <!--Optional:-->
+         <prer:LocalidadFirma>Madrid</prer:LocalidadFirma>
+         <!--Optional:-->
+         <prer:FechaFirma>?</prer:FechaFirma>
+         <!--Optional:-->
+         <prer:NifFirma>11111111H</prer:NifFirma>
+         <!--Optional:-->
+         <prer:NombreFirma>Nombre Firma</prer:NombreFirma>
+      </prer:SolicitudDocumentacionAduanera>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,1132 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Email Template Customizer Premium\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-18 07:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:566
+msgid "/ month"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:17
+msgid "1 Column"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:18
+msgid "2 Columns"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:19
+msgid "3 Columns"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:20
+msgid "4 Columns"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:651
+msgid "Add Email Subject"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:118
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:160
+msgid "Add New"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:59
+msgid "Add new"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:159
+msgid "Add New Block"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:117
+msgid "Add New Email Template"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-type.php:39
+msgid "Admin"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:89
+msgid "All category"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:116
+msgid "All Emails"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:60
+msgid "Allow free shipping"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:49
+msgid "Apply to billing countries"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:63
+msgid "Apply to categories"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:37
+msgid "Apply to languages"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:95
+msgid "Apply to Payments methods"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:79
+msgid "Apply to products"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:109
+msgid "Auto add to cart in product URL"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:501
+msgid "AUTO UPDATE PLUGIN"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:111
+msgid "Background"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-samples.php:58
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:12
+msgid "Basic"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:81
+msgid "Best rated"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:80
+msgid "Best seller"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:31
+msgid "Billing address"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:52
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:60
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:68
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:76
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:88
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:101
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:123
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:136
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:149
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:162
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:175
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:188
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:201
+msgid "Black"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:95
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:108
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:130
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:143
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:156
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:169
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:182
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:195
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:208
+msgid "Black - White"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:92
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:105
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:127
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:140
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:153
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:166
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:179
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:192
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:205
+msgid "Black border"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:55
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:63
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:71
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:79
+msgid "Black/Border"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:56
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:64
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:72
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:80
+msgid "Black/White"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:156
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:158
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:169
+msgid "Blocks"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:23
+msgid "Button"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:55
+msgid "Categories"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:75
+msgid "Category"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:85
+msgid "Charracter limit"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:116
+msgid "Choose price type apply to min/max price order( Default: Total)"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:119
+msgid "Choose rule price type"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:280
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:317
+msgid "Clear"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:90
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:103
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:125
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:138
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:151
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:164
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:177
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:190
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:203
+msgid "Color"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:94
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:107
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:129
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:142
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:155
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:168
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:181
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:194
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:207
+msgid "Color - White"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:93
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:106
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:128
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:141
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:154
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:167
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:180
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:193
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:206
+msgid "Color border"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:84
+msgid "Column"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:100
+msgid "Column ratio"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:14
+msgid "Components"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:36
+msgid "Contact"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:15
+msgid "Content"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:65
+msgid "Copy to draft"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:34
+msgid "Coupon"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:47
+msgid "Coupon amount"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:41
+msgid "Coupon type"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:79
+msgid "Cross sell"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:16
+msgid "Custom CSS"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:556
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-type.php:42
+msgid "Customer"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:104
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:215
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:761
+msgid "Customer note"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:538
+msgid "Date"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:65
+msgid "Default"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:198
+msgid "Default template"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-testing.php:63
+msgid "Desktop & mobile (width >414px)"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-type.php:49
+msgid "Direction"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:684
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:87
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:100
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:122
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:135
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:148
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:161
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:174
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:187
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:200
+msgid "Disable"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:106
+msgid "Discount"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:45
+msgid "Discount prefix"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:46
+msgid "Discount type"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:624
+msgid "Discount:"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:39
+msgid "Divider"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:95
+msgid "Do you want to change email template?"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:220
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:759
+msgid "Doe"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:588
+msgid "Duplicate"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:72
+msgid "Edit"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:161
+msgid "Edit Block"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:166
+msgid "Edit column"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:119
+msgid "Edit Email Templates"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:676
+msgid "Edit with WC Email Template Customizer"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:679
+msgid "Edit with WC Email Template Customizer - Default template"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:15
+msgid "Editor"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:533
+msgid "Email subject"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:703
+msgid "Email Template Customize"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:115
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:127
+msgid "Email Templates"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:464
+msgid "Email was sent successfully"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:683
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:110
+msgid "Enable"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-render.php:1641
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:547
+msgid "End date"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:13
+msgid ""
+"Enter the priority for the template rules. The template whose this value is "
+"higher will be given priority"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:56
+msgid "Exclude categories"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:91
+msgid "Exclude posts"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:54
+msgid "Exclude products"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:62
+msgid "Exclude sale items"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:43
+msgid "Existing coupon"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:50
+msgid "Exit to DashBoard"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:51
+msgid "Expire after x days"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:77
+msgid "Featured"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:626
+msgid "Filter by type"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:49
+msgid "Fixed cart discount"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:50
+msgid "Fixed product discount"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:239
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:778
+msgid "Flat rate"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:112
+msgid "Font size(px)"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:113
+msgid "Font weight"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:625
+msgid "Free shipping"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:190
+msgid "full"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:44
+msgid "Generate coupon"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:513
+msgid "Get Key"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:525
+msgid "guide"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:102
+msgid "Horizontal"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:67
+msgid "Horizontal text"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://villatheme.com"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://villatheme.com/extensions/woocommerce-email-template-customizer/"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:22
+msgid "Image"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:90
+msgid "Include posts"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:61
+msgid "Individual use only"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:218
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:758
+msgid "John"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:214
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:757
+msgid "John Doe"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:71
+msgid "Last column width"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:14
+msgid "Layout"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-type.php:54
+msgid "Left to right"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:58
+msgid "Limit usage to X items"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:459
+msgid "Mailing Error Found:"
+msgstr ""
+
+#. Description of the plugin
+msgid "Make your WooCommerce emails become professional."
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:8
+msgid "Max"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:133
+msgid "Max price order"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:83
+msgid "Max row"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:53
+msgid "Maximum spend"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:37
+msgid "Menu bar"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:7
+msgid "Min"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:126
+msgid "Min price order"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:52
+msgid "Minimum spend"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:82
+msgid "Newest"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-render.php:1679
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:566
+msgid "Next payment:"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:122
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:164
+msgid "Not Found"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:123
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:165
+msgid "Not found in Trash"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:536
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:786
+msgid "Note"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:76
+msgid "On sale"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:114
+msgid "Options"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:24
+msgid "Order detail"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:97
+msgid "Order items"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:225
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:766
+msgid "Order note"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:121
+msgid "Order Subtotal"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:25
+msgid "Order subtotal"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-rules.php:120
+msgid "Order Total"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:26
+msgid "Order total"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/view-product.php:99
+msgid "Ordered"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/view-product.php:135
+msgid "Ordered & clicked from suggestion product in email"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:192
+msgid "paid"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:157
+msgid "Parent Email"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:189
+msgid "partial"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:163
+msgid "Paste"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-render.php:751
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:30
+msgid "Payment method"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:627
+msgid "Payment method:"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:234
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:776
+msgid "Paypal"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/utils.php:191
+msgid "pending"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:48
+msgid "Percentage discount"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:521
+msgid "Please fill your key what you get from"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:35
+msgid "Post"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:93
+msgid "Post content"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:94
+msgid "Post distance"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:92
+msgid "Post title"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:154
+msgctxt "Post Type General Name"
+msgid "Blocks"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:113
+msgctxt "Post Type General Name"
+msgid "Email Templates"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:155
+msgctxt "Post Type Singular Name"
+msgid "Block"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:114
+msgctxt "Post Type Singular Name"
+msgid "Email Templates"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-testing.php:29
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-testing.php:59
+msgid "Preview"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-testing.php:36
+msgid "Preview width device screen width < 414px"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-testing.php:32
+msgid "Preview width device screen width > 414px"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:70
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:107
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:594
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/order-items/pre-style-1.php:11
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/order-items/style-1.php:10
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/order-items/subscriptions-switched-items.php:10
+msgid "Price"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:64
+msgid ""
+"Priority Rule Note: The plugin checks rules from top to bottom of Email "
+"template list to find a matching template. When filter email by type, "
+"templates with higher priority rules will be arranged to the higher position "
+"and are applied first. Go to each email template editing page to add "
+"priority for each one."
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:69
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:592
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/order-items/pre-style-1.php:9
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/order-items/style-1.php:8
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/order-items/subscriptions-switched-items.php:8
+msgid "Product"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:88
+msgid "Product distance"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:87
+msgid "Product name"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:86
+msgid "Product type"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:33
+msgid "Products"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:68
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:108
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:593
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/order-items/pre-style-1.php:10
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/order-items/style-1.php:9
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/order-items/subscriptions-switched-items.php:9
+msgid "Quantity"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:535
+msgid "Recipient"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-render.php:1642
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:548
+msgid "Recurring total"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:98
+msgid "Refunded fully"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:99
+msgid "Refunded partial"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:74
+msgid "Related"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:115
+msgid "Remove product link"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/view-product.php:60
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/view-product.php:61
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/view-product.php:120
+msgid "Report"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-type.php:55
+msgid "Right to left"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:537
+msgid "Rules"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:13
+msgid "Sample"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:529
+msgid "Save Key"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:163
+msgid "Search"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:22
+msgid "Search element"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:121
+msgid "Search Email Templates"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:96
+msgid "Select"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:42
+msgid "Select coupon"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:16
+msgid "Select email type"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:119
+msgid "Select layout"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-testing.php:8
+msgid "Select order"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-testing.php:47
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-testing.php:71
+msgid "Send test email"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-testing.php:43
+msgid "Send to"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/woocommerce-email-template-customizer.php:177
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:539
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:540
+msgid "Settings"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:27
+msgid "Shipping"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:32
+msgid "Shipping address"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-render.php:730
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:29
+msgid "Shipping method"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:625
+msgid "Shipping:"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:111
+msgid "Show SKU"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:38
+msgid "Social"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:103
+msgid "Socials"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:40
+msgid "Spacer"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-render.php:1640
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:546
+msgid "Start date"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:73
+msgid "Style"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:584
+msgid "Subscription #"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:608
+msgid "Subscription product"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:105
+msgid "Subtotal"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:623
+msgid "Subtotal:"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:63
+msgid "Template"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:21
+msgid "Text"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-render.php:1554
+msgid "Thank you for your order"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-samples.php:28
+msgid ""
+"This template will be used in the case of none detected template and the "
+"subject will be get from original email"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:787
+msgid ""
+"To display the content of the 3rd plugins (Checkout Field Editor, Flexible "
+"Checkout Fields,...), drag and drop the WC Hook element to the position "
+"which you want to display it in email template."
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:55
+msgid "Toggle admin menu"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-render.php:684
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:28
+msgid "Total"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:630
+msgid "Total:"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:64
+msgid "Translate text"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:534
+msgid "Type"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/functions.php:93
+msgid "Unlock this feature"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:78
+msgid "Up sell"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:162
+msgid "Update"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:120
+msgid "Update Email Templates"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:57
+msgid "Usage limit per coupon"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:59
+msgid "Usage limit per user"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:101
+msgid "Vertical"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/i18n.php:66
+msgid "Vertical text"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:628
+msgid "Via Manual Renewal"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/view-product.php:128
+msgid "View"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:789
+msgid "View detail in document."
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-testing.php:67
+msgid "View mobile version (width < 414px)"
+msgstr ""
+
+#. Author of the plugin
+msgid "VillaTheme"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/templates/email-editor.php:565
+msgid "When cancelled"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:53
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:61
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:69
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:77
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:89
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:102
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:124
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:137
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:150
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:163
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:176
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:189
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:202
+msgid "White"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:96
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:109
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:131
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:144
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:157
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:170
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:183
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:196
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:209
+msgid "White - Color"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:91
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:104
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:126
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:139
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:152
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:165
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:178
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:191
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:204
+msgid "White border"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:57
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:65
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:73
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:81
+msgid "White/Black"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:54
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:62
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:70
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:78
+msgid "White/Border"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/email-builder.php:444
+msgid "WooCommerce Email Customizer test email template"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Email Template Customizer Premium"
+msgstr ""
+
+#: D:/git/woocommerce-email-template-customizer/woocommerce-email-template-customizer/includes/init.php:523
+msgid "You can automatically update this plugin. See"
+msgstr ""

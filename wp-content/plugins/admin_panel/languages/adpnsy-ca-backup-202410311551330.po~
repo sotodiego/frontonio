@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Panel System\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-31 15:50+0000\n"
+"PO-Revision-Date: 2024-10-31 15:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: adpnsy"
+
+#: admin_license.php:462
+msgid "Actualización exitosa"
+msgstr ""
+
+#. Name of the plugin
+msgid "Admin Panel System"
+msgstr ""
+
+#. Author of the plugin
+msgid "Agencia SP S.L."
+msgstr ""
+
+#: admin_license.php:244
+msgid "Comproveu usuari o contrasenya"
+msgstr ""
+
+#: admin_license.php:271
+msgid "Compte Activat"
+msgstr ""
+
+#: admin_license.php:249
+msgid ""
+"Compte no actiu, es va enviar un correu electrònic amb un enllaç d'activació,"
+" si no el va rebre intenteu recuperar la contrasenya. Reviseu SPAM"
+msgstr ""
+
+#: admin_license.php:254
+msgid ""
+"Compte no actiu, si us plau contacteu al vostre administrador per a més "
+"informació."
+msgstr ""
+
+#: admin_license.php:496
+msgid "Correo no enviado"
+msgstr ""
+
+#: admin_license.php:708
+msgid "Datos guardados satisfactoriamente."
+msgstr ""
+
+#: admin_license.php:544
+msgid "Datos insuficientes por favor rellene el formulario"
+msgstr ""
+
+#: admin_license.php:894
+msgid "Demo instalado."
+msgstr ""
+
+#: admin_license.php:274
+msgid "Enllaç invàlid"
+msgstr ""
+
+#: admin_license.php:465
+msgid "Error al actualizar los datos intente mas tarde"
+msgstr ""
+
+#: admin_license.php:896
+msgid "Error al instalar Demo."
+msgstr ""
+
+#: admin_license.php:711 admin_license.php:899
+msgid "Error al procesar los datos."
+msgstr ""
+
+#: admin_license.php:491
+msgid ""
+"Hemos procedido a enviarle un correo electrónico con las instrucciones. "
+"Revise SPAM"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.agenciasp.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Intranet SP"
+msgstr ""
+
+#: admin_license.php:502
+msgid "Key no generada"
+msgstr ""
+
+#: admin_license.php:55
+msgid "No esta autorizado para ingresar a este enlace"
+msgstr ""
+
+#: admin_license.php:470
+msgid "No hemos localizado la informacion del usuario"
+msgstr ""
+
+#: admin_license.php:533
+msgid "Nueva contraseña establecida"
+msgstr ""
+
+#: admin_license.php:489
+msgid "Recuperación de contraseña"
+msgstr ""
+
+#: admin_license.php:159
+msgid "SP Admin desconectar"
+msgstr ""
+
+#: admin_license.php:156
+msgid "SP Admin login"
+msgstr ""
+
+#: admin_license.php:155
+msgid "SP Admin perfil de usuario"
+msgstr ""
+
+#: admin_license.php:154
+msgid "SP Admin páginas"
+msgstr ""
+
+#: admin_license.php:157
+msgid "SP Admin recuperar contraseña"
+msgstr ""
+
+#: admin_license.php:158
+msgid "SP Admin registrar nuevo usuario"
+msgstr ""
+
+#: admin_license.php:508
+msgid "Usuario no encontrado"
+msgstr ""

@@ -1,0 +1,74 @@
+/**
+ * This program is free software: you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software Foundation,
+ * either version 3 of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with this program.
+ * If not, see https://www.gnu.org/licenses/.
+ */
+/* Sobreescribimos propiedades css específicas para Woordpress */
+.correos-oficial .detail-order-container {
+    max-width: 100%;
+}
+
+.correos-oficial .card {
+    max-width: 100%;
+}
+
+.correos-oficial .input-group { 
+    flex-wrap: nowrap !important;
+}
+
+.correos-oficial #added_values .input-group-checkbox-custom {
+    padding: 4.5px 10px;
+}
+
+.correos-oficial .card-custom .card-header .select-bulto-principal {
+    max-width: 50px;
+}
+
+.correos-oficial .card {
+    padding: 0em;
+}
+
+.correos-oficial .card-body {
+    padding: 0.6em;
+}
+
+.correos-oficial input[type='checkbox'], .correos-oficial input[type='radio'] {
+    margin: 4px 6px 2px 5px !important;
+}
+
+.correos-oficial #container_sender .co_primary_link {
+    margin-top: 10px;
+}
+/* 
+.customs-correos-container .input-group-custom-bottom {
+    margin-top: 15px;
+}
+*/
+
+.correos-oficial .form-check-input:checked {
+    background-color: transparent;
+}
+
+.correos-oficial .detail-order-container button.close {
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#correos-options-pickup-container .input-group:first-child {
+    margin-bottom: 20px;
+}

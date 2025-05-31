@@ -1,0 +1,201 @@
+@import url('../fonts/font.css');
+
+:root {
+    --co_blue: #002e6d;
+    --co_blue_dark: #0a0a49;
+    --co_blue_hover: #002453;
+    --co_brandeis_blue: #0d6efd;
+    --co_cyan: #25b9d7;
+    --co_cyan_hover: #1e94ab;
+    --co_bluish_grey: #c7d6db;
+    --co_very_pallid_blue: #cce5ff;
+    --co_pallid_blue: #b8daff;
+    --co_greyish_blue: #acb3b6;
+    --co_very_light_greyish_blue: #f3f6f8;
+    --co_light_greyish_blue: #ced4da;
+    --co_yellow: #ffcd00;
+    --co_yellow_hover: #b38f00;
+    --co_very_pallid_yellow: #fff3cd;
+    --co_pallid_yellow: #ffeeba;
+    --co_white: #ffffff;
+    --co_gray: #cbcbcb;
+    --co_platinum: #e2e3e5;
+    --co_soft_grey_bliss: #f8f8f8;
+    --co_gray_dark: #777;
+    --co_red: #e4082c;
+    --co_red_light: #e08f95;
+    --co_red_hover: #d5676f;
+    --co_very_dark_red: #721c24;
+    --co_very_pallid_red: #f8d7da;
+    --co_pallid_red: #f5c6cb;
+    --co_green: #155724;
+    --co_very_pallid_green: #cbf2d4;
+    --co_pallid_green: #70b580;
+    --co_dark_orange: #856404;
+
+    /* Messages */
+    --co_red_error: #e6615c;
+    --co_pallid_red: #fbc6c3;
+    --co_yellow_notice: #fff3cd;
+}
+
+/* General Styles */
+#correos_oficial {
+    font-family: CarteroLight;
+}
+
+#correos_oficial h2, #correos_oficial h3 {
+    font-family: CarteroBold;
+}
+
+#correos_oficial .co_small {
+    font-family: CarteroLight;
+    font-size: 0.7em;
+    font-weight: normal;
+}
+
+/* HEADER */
+.header-logo img{
+    width: 400px;
+}
+
+/* Generic Primary Buttom */
+.co_primary_button {
+    color: var(--co_white) !important;
+    background-color: var(--co_blue) !important;
+    border: 1px solid var(--co_blue) !important;
+    border-radius: 3px !important;
+    padding: 10px 10px !important;
+    font-family: CarteroBold !important;
+    text-decoration: none !important;
+}
+
+.co_primary_button:hover,
+.co_button:hover {
+    background-color: var(--co_blue_hover) !important;
+    color: var(--co_yellow) !important;
+}
+
+.co_primary_button:disabled {
+    border: 1px solid #c7d6db !important;
+    color: #acb3b6 !important;
+    cursor: not-allowed;
+    background-color: #eaebec !important;
+}
+
+
+.co_button {
+    color: var(--co_white) !important;
+    background-color: var(--co_blue) !important;
+    border: 1px solid var(--co_blue) !important;
+    border-radius: 3px !important;
+    padding: 5px 5px !important;
+    font-family: CarteroBold !important;
+    text-decoration: none !important;
+}
+
+.co_primary_link {
+    margin-top: 1.5%;
+}
+
+.co_primary_link a {
+    color: var(--co_white) !important;
+    background-color: var(--co_blue) !important;
+    border: 1px solid var(--co_blue) !important;
+    border-radius: 3px !important;
+    padding: 5px 5px !important;
+    font-family: CarteroBold !important;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.co_primary_link a:hover {
+    background-color: var(--co_blue_hover) !important;
+    color: var(--co_yellow) !important;
+}
+
+.co_primary_link a:disabled {
+    border: 1px solid #c7d6db !important;
+    color: #acb3b6 !important;
+    cursor: not-allowed;
+    background-color: #eaebec !important;
+}
+
+/* Generic change paq Buttom */
+.co_change_paq_button {
+    color: var(--co_white);
+    background-color: var(--co_blue);
+    border: 1px solid var(--co_blue);
+    border-radius: 3px;
+    padding: 0.2em, 0.5em;
+    float: right;
+    margin-left: 5px;
+}
+
+.co_change_paq_button a,
+.co_change_paq_button a:hover {
+    color: var(--co_blue);
+    text-decoration: none;
+}
+
+.co_change_paq_button:hover {
+    background-color: var(--co_blue);
+}
+
+/* Error validations */
+.error {
+    border-color: var(--co_red_error) !important;
+    color: var(--co_red_error) !important;
+}
+
+label[id$='-error'] {
+    font-size: 10px;
+    margin: 0 !important;
+    position: absolute;
+    display: flex;
+    z-index: 11;
+}
+
+/* SUCCESS, ERROR AND WARNING MESSAGES */
+
+.correos-oficial .alert {
+    border-radius: 5px !important;
+}
+
+.correos-oficial .alert > * {
+    display: inline-block !important;
+}
+
+.correos-oficial .alert-danger .close {
+    color: var(--co_red_error);
+}
+
+.alert-warning {
+    color: #d2a63c !important;
+    background-color: #fff3d7 !important;
+    border-width: 3px !important;
+    border-color: #d2a63c !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-right: none !important;
+}
+
+.alert-warning:before {
+    color: #d2a63c !important;
+    background-color: #fff3d7 !important;
+}
+
+.alert-success {
+    color: var(--co_pallid_green) !important;
+    background-color: var(--co_very_pallid_green) !important;
+    border-width: 3px !important;
+    border-color: var(--co_pallid_green) !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-right: none !important;
+}
+
+.alert-success:before {
+    color: var(--co_pallid_green) !important;
+    background-color: var(--co_very_pallid_green) !important;
+}

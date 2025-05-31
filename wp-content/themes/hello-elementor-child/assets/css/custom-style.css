@@ -1,0 +1,11 @@
+body{
+    background-color: var(--e-global-color-secondary);
+}
+
+.carrusel_sombra_items .swiper-slide.e-loop-item{
+    padding: 8px 32px 28px 0px;
+}
+
+.carrusel_sombra_items .swiper-slide.e-loop-item > a{
+    box-shadow: 12px 8px 18px 0px #00000014;
+}

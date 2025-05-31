@@ -1,0 +1,229 @@
+.menu_movil {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 99999;
+    visibility: hidden;
+
+    transition: transform 0.3s, visibility 0.3s;
+}
+
+.menu_movil .hamburger-container {
+    width: 100%;
+    max-width: 500px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #fff;
+    color: #000;
+    font-family: Poppins;
+    overflow: hidden;
+    z-index: 999;
+    padding: 20px;
+    transform: translateX(100%);
+    visibility: hidden;
+    transition: transform 0.3s, visibility 0.3s;
+}
+
+.menu_movil.open .hamburger-container {
+    visibility: visible;
+    transform: translateX(0);
+    overflow-y: auto;
+}
+
+.hamburger-toggle{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+}
+
+.hamburger-toggle span{
+    display: none;
+}
+
+
+@media (max-width: 767px) {
+    .hamburger-toggle{
+        flex-direction: column;
+        gap: 8px!important;
+    }
+
+    /* .hamburger-toggle span{
+        font-size: 10px;
+        display: block;
+    } */
+}
+
+
+.hamburger-toggle .user_icon_header{
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/menu_icon.svg);
+    background-position: center;
+    background-size: contain;
+    display: block;
+}
+
+.hamburger-toggle:hover .user_icon_header{
+    background-image: url(../img/menu_icon_hover.svg);
+}
+
+.menu_movil .sp-hamburger-menu, .sp-hamburger-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu_movil .sp-hamburger-menu li {
+    padding: 10px;
+    position: relative;
+}
+
+.menu_movil .sp-hamburger-menu li ul.sub-menu {
+    display: none;
+}
+
+.menu_movil .sp-hamburger-menu li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+
+.menu_movil .submenu-indicator {
+    float: right;
+    margin-top: -4px;
+}
+
+.menu_movil .back-arrow,
+.menu_movil .menu-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    gap: 8px;
+    align-items: center;
+    transition: color 0.2s;
+}
+
+.menu_movil .back-arrow {
+    left: 4px;
+    right: unset;
+}
+
+.menu_movil .back-arrow span.icono_cerrar,
+.menu_movil .menu-close span.icono_cerrar{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+.menu_movil .back-arrow span.txt_cerrar,
+.menu_movil .menu-close span.txt_cerrar{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.menu_movil .back-arrow:hover,
+.menu_movil .menu-close:hover {
+    color: var(--sp_color_naranja);
+}
+
+.menu_movil .menu-header {
+    display: flex;
+    align-items: center;
+    padding: 12px 0px;
+    margin: 12px 0px;
+    margin-top: 24px;
+    border-bottom: 1px solid var(--sp_color_gris_medio);
+}
+
+.menu_movil .menu-title {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 20px;
+}
+
+/* Estilos para las animaciones */
+.menu_movil .menu-content {
+    position: relative;
+    /* overflow: hidden; */
+    width: 100%;
+    /* height: calc(100vh - 100px);  */
+}
+
+.menu_movil .sp-hamburger-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.menu_movil .slide-in-from-right {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.menu_movil .slide-in-from-left {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.menu_movil .slide-out-to-left {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.menu_movil .slide-out-to-right {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.menu_movil .current-menu {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+
+.menu_movil.open .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu_movil .overlay {
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0.5s;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0003;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

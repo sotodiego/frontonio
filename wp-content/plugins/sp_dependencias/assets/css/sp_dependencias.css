@@ -1,0 +1,156 @@
+
+/* COLUMNAS MIXTAS */
+/* Crea un contenedor de Elementor y añade dos sub-contenedores dentro a modo de columnas.
+Añade la clase "seccion_columnas_mixtas" al principal y "columna_auto" o "columna_full" a las hijas.
+
+No es necesario utilizar el selector "columna_full" mediante CSS.
+*/
+
+@media (min-width: 1024px) {
+    .seccion_columnas_mixtas > .e-con-inner {
+        max-width: 100%!important;
+    }
+    
+    .seccion_columnas_mixtas > .e-con-inner .columna_auto:nth-child(1){
+        padding-left: calc( ( 100vw - var(--content-width) ) / 2)!important;
+    }
+    
+    .seccion_columnas_mixtas > .e-con-inner .columna_auto:nth-child(2){
+        padding-right: calc( ( 100vw - var(--content-width) ) / 2)!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* GALERIA HOVER */
+
+.galeria_cuadricula > .galeria_item{
+    width: 100%!important;
+    background-color: white!important;
+    border-radius: 21px!important;
+    min-height: 200px!important;
+    height: 200px!important;
+    max-height: 200px!important;
+    box-shadow: -6px 5px 12.5px 0px #00000040!important;
+    overflow: hidden!important;
+    position: relative!important;
+}
+
+.galeria_cuadricula > .galeria_item > .item_texto{
+    width: 100%!important;
+    height: 100%;
+    background-color: #B41F2FBB!important;
+    padding: 20px!important;
+    overflow: hidden!important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    opacity: 0!important;
+    z-index: 1!important;
+    transition: opacity 0.5s!important;
+
+
+}
+
+.galeria_cuadricula > .galeria_item > .item_texto p{
+    font-family: 'Poppins'!important;
+    font-style: normal!important;
+    font-weight: 800!important;
+    font-size: 16px!important;
+    line-height: 24px!important;
+    text-align: center!important;
+    text-transform: uppercase!important;
+    color: #FFFFFF!important;
+    letter-spacing: 0.5px !important;
+}
+
+.galeria_cuadricula > .galeria_item > .item_imagen{
+    padding: 20px!important;
+    overflow: hidden!important;
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+}
+
+.galeria_cuadricula > .galeria_item > .item_imagen .elementor-widget-container,
+.galeria_cuadricula > .galeria_item > .item_texto .elementor-widget-container{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+
+.galeria_cuadricula > .galeria_item:hover > .item_texto{
+    opacity: 1!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+
+header{
+    position: fixed!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    z-index: 10!important;
+    background: linear-gradient(180deg, #000A 0%, #0000 50%)!important;
+    background-size: auto 200%!important;
+
+    /* SOLO DESAPARECE LA SOMBRA EN LA HOME */
+    /* background-position: 0 100%!important; */
+    background-position: 0 0!important;
+    
+    transition: background-position 0.5s!important;
+    min-height: 130px!important;
+}
+
+body.home header{
+    background-position: 0 100%!important;
+}
+
+body.home header.header_degradado,
+header.header_degradado{
+    background-position: 0 0!important;
+}
+
+body.admin-bar header{
+    top: 32px!important;
+}
+
+
+
+header .shortcode_menu_movil{
+    display: none!important;
+}
+
+@media (max-width: 1480px) {
+    header .menu_header{
+        display: none!important;
+    }
+
+    header .shortcode_menu_movil{
+        display: block!important;
+    }
+
+    header .elementor-widget-theme-site-logo{
+        margin-right: auto!important;
+    }
+}
+

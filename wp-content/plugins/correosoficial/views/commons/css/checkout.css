@@ -1,0 +1,92 @@
+/* Checkout Styles */
+.correos_oficial {
+    color: var(--co_blue);
+}
+
+.correos_oficial .extra-container {
+    margin-bottom: 15px;
+    text-align: center;
+    width: auto;
+}
+
+.correos_oficial .extra-container .customs-advice-doc {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.correos_oficial .frontOptionSelector {
+    padding: 7px;
+    color: var(--co_blue);
+    max-width: fit-content;
+}
+
+.correos_oficial .schedule-and-map h3 {
+    background: var(--co_yellow);
+}
+
+.correos_oficial .schedule-and-map .input-group {
+    margin-bottom: 10px;
+}
+
+.correos_oficial .co_hidden_map {
+    display: none;
+}
+
+.correos_oficial .search-paq-section {
+    display: grid;
+    grid-template-columns: 90px 150px auto;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(70px, auto);
+    justify-items: start;
+    align-items: center;
+}
+
+/* Necesario para mostrar el mapa */
+.correos_oficial .map {
+    width: 100%;
+    height: 20em;
+}
+
+.co_primary_button {
+    font-size: 0.9em;
+}
+
+.correos_oficial .col-sm-6 {
+    float: left;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .correos_oficial .search-paq-section {
+        grid-template-columns: 90px 150px auto;
+    }
+    .correos_oficial .section-frontOptionSelector {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        max-width: 5px;
+        margin-bottom: 20px !important;
+    }
+}
+
+.search-paq-section {
+    display: grid;
+    grid-template-columns: 90px 150px auto ;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(30px, auto);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .search-paq-section {
+        grid-template-columns: 90px 150px auto ;
+    }
+    .section-frontOptionSelector {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        max-width: 5px;
+    }
+    .section-SearchCityPaqByCPInput, .section-SearchOfficeByCPInput {
+        display: grid;
+        grid-template-columns: 90px 150px auto ;
+    }
+}

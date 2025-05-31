@@ -1,0 +1,5 @@
+CorreosOficial: LOG del CRON
+Comenzamos ejecucion Cron -> 08-05-2025 11:33:24
+Modificado valor de control CronLastExecutionTime => 2025-05-08 11:33:24
+Finalizando cron, número de ordenes ejecutadas => 0
+Tiempo transcurrido en ejecución => 0 horas 0 minutos 0 segundos
